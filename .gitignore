@@ -1,0 +1,9 @@
+*~
+*.swp
+*.swo
+*.DS_Store
+*.dmg
+*.pkg
+*.zip
+*.tar.gz
+pkgs/*
