@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-07-29T22:00:32Z</date>
+		<date>2015-08-03T19:13:38Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
@@ -20,43 +20,45 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Management</string>
+	<string>Printers</string>
 	<key>description</key>
-	<string>SGS MunkiReport</string>
+	<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
 	<key>developer</key>
-	<string>GitHub</string>
+	<string>SGS</string>
 	<key>display_name</key>
-	<string>SGS MunkiReport</string>
-	<key>installed_size</key>
-	<integer>53</integer>
+	<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
 	<key>installer_item_hash</key>
-	<string>fbed07ae1165fe5045f6ec6c5150ec6f9ebc5945dc9c6c5f05a5fb4d033f4349</string>
+	<string>8602aa9e0428e343170bd0d012042ef9e721e3fce8a1fae42ebf6e06f6bea64a</string>
 	<key>installer_item_location</key>
-	<string>utilities/munkireport-2.4.3.pkg</string>
+	<string>printers/SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS-2015.08.03.12.12.pkg</string>
 	<key>installer_item_size</key>
-	<integer>16</integer>
+	<integer>4</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>SGS MunkiReport</string>
+	<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>53</integer>
+			<integer>0</integer>
 			<key>packageid</key>
-			<string>com.github.munkireport</string>
+			<string>org.seattlegirlsschool.SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
 			<key>version</key>
-			<string>2.4.3</string>
+			<string>2015.08.03.12.12</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
+	<key>requires</key>
+	<array>
+		<string>Xerox Phaser 6180 Print Driver</string>
+	</array>
 	<key>unattended_install</key>
 	<true/>
 	<key>version</key>
-	<string>2.4.3</string>
+	<string>2015.08.03.12.12</string>
 </dict>
 </plist>

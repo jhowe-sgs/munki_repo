@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>included_manifests</key>
+	<array>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>Microsoft Office for Mac 2011</string>
+		<string>Office 2011 Update</string>
+		<string>Google Chrome</string>
+		<string>Firefox</string>
+		<string>Adobe Flash Player</string>
+		<string>Silverlight</string>
+		<string>Final Cut Pro</string>
+		<string>iMovie</string>
+		<string>iPhoto</string>
+		<string>Keynote</string>
+		<string>Numbers</string>
+		<string>Pages</string>
+		<string>Pixelmator</string>
+		<string>VLC media player</string>
+		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array>
+	</array>
+</dict>
+</plist>

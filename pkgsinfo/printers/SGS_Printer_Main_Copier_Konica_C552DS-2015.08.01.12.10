@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>serveradmin</string>
+		<key>creation_date</key>
+		<date>2015-08-02T19:11:47Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.4</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>category</key>
+	<string>Printers</string>
+	<key>description</key>
+	<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
+	<key>developer</key>
+	<string>SGS</string>
+	<key>display_name</key>
+	<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
+	<key>installer_item_hash</key>
+	<string>1ef6a5d75c0952eac1cac09020655657d2f01adfa1fe5b55d97b59ea078b8880</string>
+	<key>installer_item_location</key>
+	<string>printers/SGS_Printer_Main_Copier_Konica_C552DS-2015.08.01.12.10.pkg</string>
+	<key>installer_item_size</key>
+	<integer>4</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>org.seattlegirlsschool.SGS_Printer_Main_Copier_Konica_C552DS</string>
+			<key>version</key>
+			<string>2015.08.01.12.10</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>requires</key>
+	<array>
+		<string>bizhub_C552DS</string>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>version</key>
+	<string>2015.08.01.12.10</string>
+</dict>
+</plist>
