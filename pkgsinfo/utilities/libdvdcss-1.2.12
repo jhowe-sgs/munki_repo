@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-08-03T18:31:04Z</date>
+		<date>2015-08-08T00:57:52Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
@@ -20,43 +20,41 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Printers</string>
+	<string>Media Apps</string>
 	<key>description</key>
-	<string>Xerox Phaser 6180 Print Driver</string>
+	<string>libdvdcss</string>
 	<key>developer</key>
-	<string>Xerox</string>
+	<string>VideoLan</string>
 	<key>display_name</key>
-	<string>Xerox Phaser 6180 Print Driver</string>
+	<string>libdvdcss</string>
 	<key>installed_size</key>
-	<integer>5388</integer>
+	<integer>88</integer>
 	<key>installer_item_hash</key>
-	<string>a5232d1e58787b38c63bc11005fd1286747784dfb25641f7aa70490f51e0bc9b</string>
+	<string>182f272a84e04c200b6b17531b5c4ac2de759bde16e17e1097093f0374353b06</string>
 	<key>installer_item_location</key>
-	<string>printers/6180 Print Installer-3.1.pkg</string>
+	<string>utilities/libdvdcss-1.2.12.pkg</string>
 	<key>installer_item_size</key>
-	<integer>8457</integer>
+	<integer>35</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>Xerox Phaser 6180 Print Driver</string>
+	<string>libdvdcss</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>5388</integer>
+			<integer>88</integer>
 			<key>packageid</key>
-			<string>com.xerox.print.phaser6180.print.ps.m107.installer</string>
+			<string>org.videolan.vlc.libdvdcss.2.pkg</string>
 			<key>version</key>
-			<string>1</string>
+			<string>1.0</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>unattended_install</key>
-	<true/>
 	<key>version</key>
-	<string>3.1</string>
+	<string>1.2.12</string>
 </dict>
 </plist>

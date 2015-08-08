@@ -2032,6 +2032,12 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<string>10.6.0</string>
 		<key>name</key>
 		<string>VLC media player</string>
+		<key>requires</key>
+		<array>
+			<string>libdvdcss</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>remove_copied_items</string>
 		<key>uninstallable</key>
@@ -2222,12 +2228,59 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 				<string>1</string>
 			</dict>
 		</array>
+		<key>unattended_install</key>
+		<true/>
 		<key>uninstall_method</key>
 		<string>removepackages</string>
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
 		<string>3.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Media Apps</string>
+		<key>description</key>
+		<string>libdvdcss</string>
+		<key>developer</key>
+		<string>VideoLan</string>
+		<key>display_name</key>
+		<string>libdvdcss</string>
+		<key>installed_size</key>
+		<integer>88</integer>
+		<key>installer_item_hash</key>
+		<string>182f272a84e04c200b6b17531b5c4ac2de759bde16e17e1097093f0374353b06</string>
+		<key>installer_item_location</key>
+		<string>utilities/libdvdcss-1.2.12.pkg</string>
+		<key>installer_item_size</key>
+		<integer>35</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>libdvdcss</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>88</integer>
+				<key>packageid</key>
+				<string>org.videolan.vlc.libdvdcss.2.pkg</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.2.12</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
