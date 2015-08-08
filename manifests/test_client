@@ -25,6 +25,7 @@
 		<string>Pages</string>
 		<string>Pixelmator</string>
 		<string>VLC media player</string>
+		<string>HandBrake</string>
 		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
 	</array>
 	<key>managed_uninstalls</key>

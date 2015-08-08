@@ -11,7 +11,7 @@
 	</array>
 	<key>managed_installs</key>
 	<array>
-		<string>SGS MunkiReport</string>
+		<string>MunkiReport</string>
 		<string>Microsoft Office for Mac 2011</string>
 		<string>Office 2011 Update</string>
 		<string>Google Chrome</string>
@@ -26,6 +26,7 @@
 		<string>Pages</string>
 		<string>Pixelmator</string>
 		<string>VLC media player</string>
+		<string>HandBrake</string>
 		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
 	</array>
 	<key>managed_uninstalls</key>
