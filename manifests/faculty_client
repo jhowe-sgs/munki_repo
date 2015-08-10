@@ -11,7 +11,7 @@
 	</array>
 	<key>managed_installs</key>
 	<array>
-		<string>MunkiReport</string>
+		<string>munkireport</string>
 		<string>Microsoft Office for Mac 2011</string>
 		<string>Office 2011 Update</string>
 		<string>Google Chrome</string>
@@ -28,6 +28,7 @@
 		<string>VLC media player</string>
 		<string>HandBrake</string>
 		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
+		<string>Apple HP Printer Drivers</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

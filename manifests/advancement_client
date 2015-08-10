@@ -11,7 +11,7 @@
 	</array>
 	<key>managed_installs</key>
 	<array>
-		<string>MunkiReport</string>
+		<string>munkireport</string>
 		<string>Google Chrome</string>
 		<string>Firefox</string>
 		<string>Adobe Flash Player</string>
@@ -29,6 +29,7 @@
 		<string>HandBrake</string>
 		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
 		<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
+		<string>Apple HP Printer Drivers</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
