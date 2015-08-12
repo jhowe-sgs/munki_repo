@@ -27,9 +27,11 @@
 		<string>Pixelmator</string>
 		<string>VLC media player</string>
 		<string>HandBrake</string>
+		<string>Caffeine</string>
+		<string>Flux</string>
 		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
 		<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
-		<string>Apple HP Printer Drivers</string>
+		<string>SGS_Printer_Building_Two_Canon_Image_Runner_1740iF</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

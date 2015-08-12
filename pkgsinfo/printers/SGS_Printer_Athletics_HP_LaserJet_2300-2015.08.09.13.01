@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>serveradmin</string>
+		<key>creation_date</key>
+		<date>2015-08-10T20:04:30Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.4</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>category</key>
+	<string>Printers</string>
+	<key>description</key>
+	<string>SGS_Printer_Athletics_HP_LaserJet_2300</string>
+	<key>developer</key>
+	<string>SGS</string>
+	<key>display_name</key>
+	<string>SGS_Printer_Athletics_HP_LaserJet_2300</string>
+	<key>installer_item_hash</key>
+	<string>c4365af3e450eaf940c6c340dd556ca390aa507c5f01c5d7f05b0f68b965f3fd</string>
+	<key>installer_item_location</key>
+	<string>printers/SGS_Printer_Athletics_HP_LaserJet_2300-2015.08.09.13.01.pkg</string>
+	<key>installer_item_size</key>
+	<integer>4</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>SGS_Printer_Athletics_HP_LaserJet_2300</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>org.seattlegirlsschool.SGS_Printer_Athletics_HP_LaserJet_2300</string>
+			<key>version</key>
+			<string>2015.08.09.13.01</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>requires</key>
+	<array>
+		<string>Apple HP Printer Drivers</string>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>version</key>
+	<string>2015.08.09.13.01</string>
+</dict>
+</plist>
