@@ -7,11 +7,11 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-08-02T20:32:56Z</date>
+		<date>2015-08-18T20:39:51Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
-		<string>10.10.4</string>
+		<string>10.10.5</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
@@ -20,43 +20,45 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Browsers</string>
+	<string>Printers</string>
 	<key>description</key>
-	<string>Adobe Flash Player</string>
+	<string>SGS_Printer_Art_Room_HP_LaserJet_4300</string>
 	<key>developer</key>
-	<string>Adobe</string>
+	<string>SGS</string>
 	<key>display_name</key>
-	<string>Adobe Flash Player</string>
-	<key>installed_size</key>
-	<integer>16816</integer>
+	<string>SGS_Printer_Art_Room_HP_LaserJet_4300</string>
 	<key>installer_item_hash</key>
-	<string>67b9d3ec4b29f62cc1b54324855da6c9498d798f01629dd336a84ee5702c91d0</string>
+	<string>00c590b1911eb79430cee4fb38b429babf349a1a080be3fcc1d3603efe4b761d</string>
 	<key>installer_item_location</key>
-	<string>apps/adobe/install_flash_player_18_osx_pkg-18.0.0.209.dmg</string>
+	<string>printers/SGS_Printer_Art_Room_HP_LaserJet_4300-2015.08.18.13.37.pkg</string>
 	<key>installer_item_size</key>
-	<integer>15702</integer>
+	<integer>4</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>Adobe Flash Player</string>
+	<string>SGS_Printer_Art_Room_HP_LaserJet_4300</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>16816</integer>
+			<integer>0</integer>
 			<key>packageid</key>
-			<string>com.adobe.pkg.FlashPlayer</string>
+			<string>org.seattlegirlsschool.SGS_Printer_Art_Room_HP_LaserJet_4300</string>
 			<key>version</key>
-			<string>18.0.0.209</string>
+			<string>2015.08.18.13.37</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>RestartAction</key>
-	<string>RequireLogout</string>
+	<key>requires</key>
+	<array>
+		<string>Apple HP Printer Drivers</string>
+	</array>
+	<key>unattended_install</key>
+	<true/>
 	<key>version</key>
-	<string>18.0.0.209</string>
+	<string>2015.08.18.13.37</string>
 </dict>
 </plist>

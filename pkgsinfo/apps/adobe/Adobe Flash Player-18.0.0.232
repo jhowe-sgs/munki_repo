@@ -7,11 +7,11 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-08-09T18:49:18Z</date>
+		<date>2015-08-17T04:54:31Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
-		<string>10.10.4</string>
+		<string>10.10.5</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
@@ -20,51 +20,45 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Printers</string>
+	<string>Browsers</string>
 	<key>description</key>
-	<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
+	<string>Adobe Flash Player</string>
 	<key>developer</key>
-	<string>SGS</string>
+	<string>Adobe</string>
 	<key>display_name</key>
-	<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
+	<string>Adobe Flash Player</string>
+	<key>icon_hash</key>
+	<string>8f353356435e69588803b436216dd6b29f819a1956b7019833e3a5e08877ed94</string>
+	<key>installed_size</key>
+	<integer>17086</integer>
 	<key>installer_item_hash</key>
-	<string>e85b91bdc63912e6de8db6c5a675fe110bc9ff06dc0347d1f25374885799aa01</string>
+	<string>98cd746709b1a714e7edf432f0f4cc477e2a9757235a9f48516ac64150e3874a</string>
 	<key>installer_item_location</key>
-	<string>printers/SGS_Printer_Main_Copier_Konica_C552DS-2015.08.09.11.46.pkg</string>
+	<string>apps/adobe/Install Adobe Flash Player-18.0.0.232.pkg</string>
 	<key>installer_item_size</key>
-	<integer>4</integer>
+	<integer>15781</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
+	<string>Adobe Flash Player</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>0</integer>
+			<integer>17086</integer>
 			<key>packageid</key>
-			<string>org.seattlegirlsschool.SGS_Printer_Main_Copier_Konica_C552DS</string>
+			<string>com.adobe.pkg.FlashPlayer</string>
 			<key>version</key>
-			<string>2015.08.09.11.46</string>
+			<string>18.0.0.232</string>
 		</dict>
 	</array>
-	<key>requires</key>
-	<array>
-		<string>bizhub_C552DS</string>
-	</array>
-	<key>unattended_install</key>
-	<true/>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>requires</key>
-	<array>
-		<string>bizhub_C552DS</string>
-	</array>
-	<key>unattended_install</key>
-	<true/>
+	<key>RestartAction</key>
+	<string>RequireLogout</string>
 	<key>version</key>
-	<string>2015.08.09.11.46</string>
+	<string>18.0.0.232</string>
 </dict>
 </plist>

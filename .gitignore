@@ -6,4 +6,5 @@
 *.pkg
 *.zip
 *.tar.gz
+*.png
 pkgs/*

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.mdm.yemoja.seattlegirlsschool.org.75501210-2812-0133-c3cf-406c8f4cc965.alacarte</string>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>serveradmin</string>
+		<key>creation_date</key>
+		<date>2015-08-18T20:12:50Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>category</key>
+	<string></string>
+	<key>description</key>
+	<string>SGS_Software_Update_Server</string>
+	<key>developer</key>
+	<string></string>
+	<key>display_name</key>
+	<string>SGS_Software_Update_Server</string>
+	<key>installer_item_hash</key>
+	<string>8af027db14cd280ac3aeb06542b778b62cfaebae068ef184872a2954ac468f01</string>
+	<key>installer_item_location</key>
+	<string>profiles/Settings_for_SGS_Software_Update_Server-1.0.mobileconfig</string>
+	<key>installer_item_size</key>
+	<integer>4</integer>
+	<key>installer_type</key>
+	<string>profile</string>
+	<key>minimum_munki_version</key>
+	<string>2.2</string>
+	<key>minimum_os_version</key>
+	<string>10.7</string>
+	<key>name</key>
+	<string>SGS_Software_Update_Server</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>unattended_uninstall</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_profile</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>

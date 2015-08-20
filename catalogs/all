@@ -19,14 +19,16 @@
 		<string>Adobe</string>
 		<key>display_name</key>
 		<string>Adobe Flash Player</string>
+		<key>icon_hash</key>
+		<string>8f353356435e69588803b436216dd6b29f819a1956b7019833e3a5e08877ed94</string>
 		<key>installed_size</key>
-		<integer>16816</integer>
+		<integer>17086</integer>
 		<key>installer_item_hash</key>
-		<string>67b9d3ec4b29f62cc1b54324855da6c9498d798f01629dd336a84ee5702c91d0</string>
+		<string>98cd746709b1a714e7edf432f0f4cc477e2a9757235a9f48516ac64150e3874a</string>
 		<key>installer_item_location</key>
-		<string>apps/adobe/install_flash_player_18_osx_pkg-18.0.0.209.dmg</string>
+		<string>apps/adobe/Install Adobe Flash Player-18.0.0.232.pkg</string>
 		<key>installer_item_size</key>
-		<integer>15702</integer>
+		<integer>15781</integer>
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>
@@ -35,11 +37,11 @@
 		<array>
 			<dict>
 				<key>installed_size</key>
-				<integer>16816</integer>
+				<integer>17086</integer>
 				<key>packageid</key>
 				<string>com.adobe.pkg.FlashPlayer</string>
 				<key>version</key>
-				<string>18.0.0.209</string>
+				<string>18.0.0.232</string>
 			</dict>
 		</array>
 		<key>uninstall_method</key>
@@ -47,7 +49,1490 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>18.0.0.209</string>
+		<string>18.0.0.232</string>
+	</dict>
+	<dict>
+		<key>AdobeSetupType</key>
+		<string>ProductInstall</string>
+		<key>adobe_install_info</key>
+		<dict>
+			<key>media_signature</key>
+			<string>{D8C642B6-A719-4234-8039-2654ED436D2A}</string>
+			<key>payload_count</key>
+			<integer>140</integer>
+			<key>uninstallxml</key>
+			<string>&lt;Deployment&gt;
+                &lt;Properties&gt;
+                    &lt;Property name="edtWorkflow"&gt;1&lt;/Property&gt;
+                    &lt;Property name="mediaSignature"&gt;{D8C642B6-A719-4234-8039-2654ED436D2A}&lt;/Property&gt;
+                    &lt;Property name="uninstall"&gt;1&lt;/Property&gt;
+                &lt;/Properties&gt;
+                &lt;Payloads&gt;
+                    &lt;!-- Adobe InDesign CS6 --&gt;
+                    &lt;Payload adobeCode="{327492D4-78EB-11E1-8ABE-84C55623D190}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Photoshop CS6 --&gt;
+                    &lt;Payload adobeCode="{9124DF4E-617D-486B-A970-8FA632244F24}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- AdobeHelp --&gt;
+                    &lt;Payload adobeCode="{AA0D312F-1570-4E7E-9A7D-E191E0090FEC}"&gt;
+                        &lt;Action&gt;configdbonly&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                    &lt;!-- Adobe Illustrator CS6 --&gt;
+                    &lt;Payload adobeCode="{AAF0D225-F129-40F2-916E-12E28DBD19ED}"&gt;
+                        &lt;Action&gt;remove&lt;/Action&gt;
+                    &lt;/Payload&gt;
+                &lt;/Payloads&gt;
+            &lt;/Deployment&gt;</string>
+		</dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Design Apps</string>
+		<key>description</key>
+		<string>CS6 Design and Web Premium</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>CS6 Design and Web Premium</string>
+		<key>installed_size</key>
+		<integer>4017549</integer>
+		<key>installer_item_hash</key>
+		<string>035d7cc87ed861dc33a95240e7673abf282d4393f290a23b8be3316772e86d92</string>
+		<key>installer_item_location</key>
+		<string>apps/adobe/SGS-CS6_Install-6.0.0.2015.08.16.21.45.dmg</string>
+		<key>installer_item_size</key>
+		<integer>2479862</integer>
+		<key>installer_type</key>
+		<string>AdobeCS5AAMEEPackage</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>path</key>
+				<string>/Library/Application Support/Adobe/Uninstall/{D8C642B6-A719-4234-8039-2654ED436D2A}.db</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>CS6 Design and Web Premium</string>
+		<key>payloads</key>
+		<array>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{E9C77AF1-5C15-4C59-BA6F-88CB319EE9C8}</string>
+				<key>display_name</key>
+				<string>Adobe CSXS Infrastructure CS6</string>
+				<key>installed_size</key>
+				<integer>116</integer>
+				<key>version</key>
+				<string>3.0.2</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{7062C6F6-0AC0-4B55-9A62-215710AE2308}</string>
+				<key>display_name</key>
+				<string>Adobe Dynamic Link Media Server</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>1.0.1</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{BF667E23-0186-41F1-ACAE-5786D4B34F56}</string>
+				<key>display_name</key>
+				<string>Adobe Extension Manager CS6</string>
+				<key>installed_size</key>
+				<integer>21115</integer>
+				<key>version</key>
+				<string>6.0.8</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{101F331A-355F-4CE4-B2B9-2E787EDF2C65}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6</string>
+				<key>installed_size</key>
+				<integer>468845</integer>
+				<key>version</key>
+				<string>16.0.4</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{6EFE3961-43F5-4564-B124-25539038DCC3}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (cs_CZ)</string>
+				<key>installed_size</key>
+				<integer>5632</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{C65F5762-6887-455F-AE43-85CDAE9FC9E5}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (da_DK)</string>
+				<key>installed_size</key>
+				<integer>5711</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{897BEABB-B1C8-4B3C-ACDE-A3B32055F942}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (de_DE)</string>
+				<key>installed_size</key>
+				<integer>6152</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{15B9ED58-83C6-43FC-9C88-4D4560B29610}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (en_AE)</string>
+				<key>installed_size</key>
+				<integer>5468</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{03857558-D073-4441-8087-D23F41A6C365}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (en_GB)</string>
+				<key>installed_size</key>
+				<integer>5468</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{C3DE41A0-6B11-4390-8054-906530857719}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (en_IL)</string>
+				<key>installed_size</key>
+				<integer>5468</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{8F02D14F-3A91-469D-BFBB-480C4529F6C3}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (es_ES)</string>
+				<key>installed_size</key>
+				<integer>5959</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{A4EA541C-2828-4489-9646-0962268FEC85}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (es_MX)</string>
+				<key>installed_size</key>
+				<integer>5959</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{1C77542D-0868-41C1-BFFD-F0F451BE1A2B}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (fi_FI)</string>
+				<key>installed_size</key>
+				<integer>5456</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{CF3301F8-A60A-45CC-BE32-6BDB7F42BF30}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (fr_CA)</string>
+				<key>installed_size</key>
+				<integer>6033</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{2E3271FA-2778-41C0-A661-6960E17CFBB8}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (fr_FR)</string>
+				<key>installed_size</key>
+				<integer>6033</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{5B4B29A2-FF6E-4C85-800E-3F5C50E4C702}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (fr_MA)</string>
+				<key>installed_size</key>
+				<integer>6033</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{C03C79F9-0373-4CB9-97DD-9F26DFC18B2A}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (hu_HU)</string>
+				<key>installed_size</key>
+				<integer>5838</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{01B28172-9762-4081-B989-9EC12711D222}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (it_IT)</string>
+				<key>installed_size</key>
+				<integer>5937</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{C9090F4B-EE70-44C5-AA19-A559D2BB5A55}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (ja_JP)</string>
+				<key>installed_size</key>
+				<integer>4739</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{54B0832C-A440-49A3-ADDD-D7B80FAA54A9}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (ko_KR)</string>
+				<key>installed_size</key>
+				<integer>4676</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{CB6C00C6-AA00-436B-9B86-59D2876970B8}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (nl_NL)</string>
+				<key>installed_size</key>
+				<integer>5915</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{BB1CF6FB-9227-4B85-B79E-FF587A834898}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (pl_PL)</string>
+				<key>installed_size</key>
+				<integer>5818</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{DD3C4D0B-F415-42FC-AE04-7574E86FC538}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (pt_BR)</string>
+				<key>installed_size</key>
+				<integer>5900</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{F64C00DE-E734-4694-810D-BD3A392BACE4}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (ru_RU)</string>
+				<key>installed_size</key>
+				<integer>5947</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{EC878F2E-0C17-48D7-BB7D-9735ED157759}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (sv_SE)</string>
+				<key>installed_size</key>
+				<integer>5657</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{4ADE0E5A-EE37-4316-9E4E-D139B31088FC}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (tr_TR)</string>
+				<key>installed_size</key>
+				<integer>5664</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{0C854632-12B3-479F-AFBE-67DC8E5542F2}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (uk_UA)</string>
+				<key>installed_size</key>
+				<integer>5860</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{412EBE1D-A277-47B0-9FD1-1A4ECB63F8F8}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (zh_CN)</string>
+				<key>installed_size</key>
+				<integer>4322</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{D12BF815-D8A8-4C55-B4B8-9BBEA831C272}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (zh_TW)</string>
+				<key>installed_size</key>
+				<integer>4345</integer>
+				<key>version</key>
+				<string>16.0.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{50D8C6F2-8A70-11E4-B872-6BD5D7E4B8D1}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6</string>
+				<key>installed_size</key>
+				<integer>219041</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{7C05D1F0-89F1-11E4-95E4-C2145902AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Base Files2</string>
+				<key>installed_size</key>
+				<integer>25282</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{A808CAEE-89E9-11E4-9639-55495802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (cs_CZ)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{E74A461A-89E9-11E4-B396-644E5802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (da_DK)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{1F6495D2-89EA-11E4-AA69-76535802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (de_DE)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{590A2554-89EA-11E4-966D-8E585802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (en_AE)</string>
+				<key>installed_size</key>
+				<integer>311</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{235E4C90-89EB-11E4-A571-D0675802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (en_GB)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{931A3108-89EA-11E4-B769-935D5802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (en_IL)</string>
+				<key>installed_size</key>
+				<integer>311</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{5E322D0A-89EB-11E4-A940-EE6C5802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (en_US)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{9A65B74C-89EB-11E4-A192-0D725802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (es_ES)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{DA8217D0-89EB-11E4-A202-13775802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (es_MX)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{15A56E52-89EC-11E4-B708-2B7C5802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (fi_FI)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{59CAD0A4-89EC-11E4-A3FB-49815802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (fr_CA)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{92125180-89EC-11E4-B6E3-4F865802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (fr_FR)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{CCCC0C5A-89EA-11E4-BB76-B2625802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (fr_MA)</string>
+				<key>installed_size</key>
+				<integer>311</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{CBC1DF68-89EC-11E4-AAA3-698B5802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (hu_HU)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{06EFADFE-89ED-11E4-9957-7C905802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (it_IT)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{4292EBC8-89ED-11E4-A567-8B955802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (ja_JP)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{7D3BDF14-89ED-11E4-803A-AB9A5802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (ko_KR)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{B624B012-89ED-11E4-A670-CE9F5802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (nb_NO)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{EE591AEA-89ED-11E4-8D92-D4A45802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (nl_NL)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{2754B372-89EE-11E4-8A7F-F1A95802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (pl_PL)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{614C3A14-89EE-11E4-AE18-F7AE5802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (pt_BR)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{98859DA4-89EE-11E4-996E-0FB45802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (ru_RU)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{D2734106-89EE-11E4-B251-2DB95802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (sv_SE)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{09E29ACE-89EF-11E4-8095-32BE5802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (tr_TR)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{49B503C6-89EF-11E4-AD70-4AC35802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (uk_UA)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{8246C1E8-89EF-11E4-88C7-5CC85802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (zh_CN)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{BB7F5286-89EF-11E4-A00A-79CD5802AA9A}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (zh_TW)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0.3.419</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{8F11EC3F-825C-4468-B2E0-7380A6CE87D3}</string>
+				<key>display_name</key>
+				<string>Adobe Media Encoder CS6</string>
+				<key>installed_size</key>
+				<integer>645668</integer>
+				<key>version</key>
+				<string>6.0.2</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{B65FE28C-B2AD-4C1C-B027-8B01AEF1E2A0}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6</string>
+				<key>installed_size</key>
+				<integer>647901</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{E372D2F7-BE94-4C9D-9DC4-FF2BC88A5635}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Czech Language Pack</string>
+				<key>installed_size</key>
+				<integer>7314</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{2FF949CF-842A-47C6-A00F-C8608B98ACF5}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Danish Language Pack</string>
+				<key>installed_size</key>
+				<integer>7336</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{25EBE010-C252-414C-8A64-A7C938AE35F8}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 German Language Pack</string>
+				<key>installed_size</key>
+				<integer>7633</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{BE7A18A6-4343-410D-AB48-52B9A5E88D41}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 AE English Language Pack</string>
+				<key>installed_size</key>
+				<integer>7116</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{78A95032-C8C3-4D3E-9FEF-1EEC21D2F586}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 International English Language Pack</string>
+				<key>installed_size</key>
+				<integer>7116</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{0E8E12CF-9C30-4E25-9BAE-9DB48B18C1E3}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 IL English Language Pack</string>
+				<key>installed_size</key>
+				<integer>7116</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{20A633B6-1631-4B4D-81B8-12482D2B3D79}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Spanish Language Pack</string>
+				<key>installed_size</key>
+				<integer>7677</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{D16EE9D2-06A0-45BC-A3F3-C21ED0468801}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 North American Spanish Language Pack</string>
+				<key>installed_size</key>
+				<integer>7678</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{B711BE70-BED5-4787-B091-9D7D6FC93A12}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Finnish Language Pack</string>
+				<key>installed_size</key>
+				<integer>7339</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{A7B1773F-FF33-4B69-B685-282C9663F5F5}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Canadian French Language Pack</string>
+				<key>installed_size</key>
+				<integer>7777</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{DA1878F9-9917-443A-8D89-319CF0F1DE5C}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 French Language Pack</string>
+				<key>installed_size</key>
+				<integer>7775</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{3808173F-E26F-4AF3-87C3-8A877B6FDF23}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 MA French Language Pack</string>
+				<key>installed_size</key>
+				<integer>7777</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{4133D335-0627-4513-9C6C-F635EBA6295B}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Hungarian Language Pack</string>
+				<key>installed_size</key>
+				<integer>7513</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{86A69573-1EB4-416F-ADA3-4156C3242542}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Italian Language Pack</string>
+				<key>installed_size</key>
+				<integer>7652</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{AEF84BBA-5C53-44C8-A9C9-A8EAA264354D}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Japanese Language Pack</string>
+				<key>installed_size</key>
+				<integer>6138</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{C1104231-3F7B-445F-99D1-9FCDE60AC58B}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Korean Language Pack</string>
+				<key>installed_size</key>
+				<integer>6049</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{ABA258EF-604F-4B25-B1F0-5F0B0E181E6A}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Norwegian Language Pack</string>
+				<key>installed_size</key>
+				<integer>7312</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{EA3E3ACE-CFA8-4B58-86CB-EBB9DAF3CC9C}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Dutch Language Pack</string>
+				<key>installed_size</key>
+				<integer>7557</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{99E8FBFA-E164-4249-ACCC-684A47FF14EC}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Polish Language Pack</string>
+				<key>installed_size</key>
+				<integer>7530</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{D163516D-6ED8-4CA0-A251-C567D0EB737D}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Brazilian Portugese Language Pack</string>
+				<key>installed_size</key>
+				<integer>7623</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{4969E652-BAB0-448D-98CE-6326BD16A989}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Russian Language Pack</string>
+				<key>installed_size</key>
+				<integer>7561</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{A8F0FFAF-A1AF-4414-BEAA-888A27C3F61A}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Support</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{C5063158-1FA6-49BB-95CC-12CABA118ADF}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Swedish Language Pack</string>
+				<key>installed_size</key>
+				<integer>7287</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{F6547136-C40A-4076-A078-77F5FDEDB4B3}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Turkish Language Pack</string>
+				<key>installed_size</key>
+				<integer>7304</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{4D628240-5295-4275-A3E8-495EA3E3F25E}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Ukrainian Language Pack</string>
+				<key>installed_size</key>
+				<integer>7550</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{DDC2D48D-41F2-4633-8E00-E6ABF53753AB}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Chinese Language Pack</string>
+				<key>installed_size</key>
+				<integer>5629</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{8DD60309-BFD0-4BE6-B9DF-AE548ADA976A}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Chinese (traditional) Language Pack</string>
+				<key>installed_size</key>
+				<integer>5664</integer>
+				<key>version</key>
+				<string>13.0.6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{B306E604-6439-49B9-B5D1-07503AF3E553}</string>
+				<key>display_name</key>
+				<string>Photoshop Camera Raw 7</string>
+				<key>installed_size</key>
+				<integer>108434</integer>
+				<key>version</key>
+				<string>9.1</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{373E3339-C141-4A99-A40A-77E28AFEF1B4}</string>
+				<key>display_name</key>
+				<string>Camera Profiles Installer</string>
+				<key>installed_size</key>
+				<integer>436239</integer>
+				<key>version</key>
+				<string>9.1</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{2591B843-8028-4395-9DEE-03AF8D631539}</string>
+				<key>display_name</key>
+				<string>Adobe Player for Embedding 3.3</string>
+				<key>installed_size</key>
+				<integer>63938</integer>
+				<key>version</key>
+				<string>3.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{97BA0109-F6BE-4F50-8904-C19442D7216E}</string>
+				<key>display_name</key>
+				<string>Adobe Bridge CS6</string>
+				<key>installed_size</key>
+				<integer>353538</integer>
+				<key>version</key>
+				<string>5.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{CFC3110A-491C-4DBF-A97D-66C567600A2F}</string>
+				<key>display_name</key>
+				<string>Photoshop Camera Raw 7</string>
+				<key>installed_size</key>
+				<integer>47193</integer>
+				<key>version</key>
+				<string>7.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{539AEF15-3A2B-4A31-A587-7E90F7D9C700}</string>
+				<key>display_name</key>
+				<string>Camera Profiles Installer</string>
+				<key>installed_size</key>
+				<integer>261804</integer>
+				<key>version</key>
+				<string>7.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{E8B1DAAA-0B6B-44E6-A2D3-8E418EA0EA85}</string>
+				<key>display_name</key>
+				<string>Adobe CMaps CS6</string>
+				<key>installed_size</key>
+				<integer>6372</integer>
+				<key>version</key>
+				<string>4.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{0C4E7429-E920-4125-980E-029A87AE0A4D}</string>
+				<key>display_name</key>
+				<string>AdobeColorCommonSetCMYK</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>4.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{C7B1C1B3-368D-4C32-A818-83F1554EB398}</string>
+				<key>display_name</key>
+				<string>AdobeColorCommonSetRGB</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>4.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{51C77DC1-5C75-4491-8645-A17CC33F5A36}</string>
+				<key>display_name</key>
+				<string>Adobe Color EU Extra Settings CS6</string>
+				<key>installed_size</key>
+				<integer>1976</integer>
+				<key>version</key>
+				<string>4.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{26F763C9-076F-473D-9A0E-4050C973737C}</string>
+				<key>display_name</key>
+				<string>Adobe Color JA Extra Settings CS6</string>
+				<key>installed_size</key>
+				<integer>2799</integer>
+				<key>version</key>
+				<string>4.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{BB66788C-4C4F-4EB0-B146-9178857DE287}</string>
+				<key>display_name</key>
+				<string>Adobe Color NA Recommended Settings CS6</string>
+				<key>installed_size</key>
+				<integer>2333</integer>
+				<key>version</key>
+				<string>4.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{48623899-C152-457D-9B30-1F957332AC2F}</string>
+				<key>display_name</key>
+				<string>Adobe Color - Photoshop Specific CS6</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>4.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{EB2A8CD4-B247-4810-A294-E3DB8EDC6060}</string>
+				<key>display_name</key>
+				<string>Adobe CSXS Extensions CS6</string>
+				<key>installed_size</key>
+				<integer>1293</integer>
+				<key>version</key>
+				<string>3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{36682D68-3834-487E-BA49-DFA4AB0A2E32}</string>
+				<key>display_name</key>
+				<string>Adobe CSXS Infrastructure CS6</string>
+				<key>installed_size</key>
+				<integer>5770</integer>
+				<key>version</key>
+				<string>3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{D8C642B6-A719-4234-8039-2654ED436D2A}</string>
+				<key>display_name</key>
+				<string>CS6 Design and Web Premium</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{14688254-5CD1-11E1-8D70-4DBBF019A2FF}</string>
+				<key>display_name</key>
+				<string>DPS Desktop Tools CS6</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>2.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{0377892E-FCAC-46EC-AA70-C6AC8A86A81F}</string>
+				<key>display_name</key>
+				<string>Adobe Dynamic Link Media Server</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{DE88AA40-6766-43D3-A755-8FC374B3D2C3}</string>
+				<key>display_name</key>
+				<string>Adobe Dynamiclink Support</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{50F5A7C9-1E43-4860-AED8-7F8722691F17}</string>
+				<key>display_name</key>
+				<string>Adobe ExtendScript Toolkit CS6</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>3.8.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{83463106-DD1C-4FE5-A61C-DF6715472AD4}</string>
+				<key>display_name</key>
+				<string>Adobe Extension Manager CS6</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>6.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{DE7C6FA1-AF75-48A8-B495-CFAD529BCC3D}</string>
+				<key>display_name</key>
+				<string>Adobe Fonts Recommended</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>2.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{311CDC89-AC18-4344-9EC9-0225328C73D3}</string>
+				<key>display_name</key>
+				<string>Adobe Fonts Required</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>2.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{AC85D480-BE25-4B01-84BE-E8A5932E39DB}</string>
+				<key>display_name</key>
+				<string>Adobe Hunspell Linguistics Plugin CS6</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{B5BC75FC-908D-4E1E-A1EE-09A3FDBBEC77}</string>
+				<key>display_name</key>
+				<string>Localization Ideas Plugin CS6</string>
+				<key>installed_size</key>
+				<integer>34</integer>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{0D9E083D-1ABE-4B41-B04D-B79947317FF8}</string>
+				<key>display_name</key>
+				<string>Ideas Plugin for AI CS6</string>
+				<key>installed_size</key>
+				<integer>951</integer>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{AAF0D225-F129-40F2-916E-12E28DBD19ED}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>16.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{B67ED9AA-F372-40CC-89AB-F5D8FBF56CD4}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 Support</string>
+				<key>installed_size</key>
+				<integer>594</integer>
+				<key>version</key>
+				<string>16.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{6040E054-500A-427A-9DA2-349F0FEB19D1}</string>
+				<key>display_name</key>
+				<string>Adobe Illustrator CS6 LangPack (en_US)</string>
+				<key>installed_size</key>
+				<integer>207371</integer>
+				<key>version</key>
+				<string>16.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{327492D4-78EB-11E1-8ABE-84C55623D190}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{7C895316-78E9-11E1-A476-3E8B5723D190}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Base Files2</string>
+				<key>installed_size</key>
+				<integer>76193</integer>
+				<key>version</key>
+				<string>8.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{68E6C82A-78E9-11E1-8AE1-E28A5723D190}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Feature Set Files (Roman)</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>8.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{E51F8824-78E8-11E1-AD81-3C805723D190}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Application Language Files (en_US)</string>
+				<key>installed_size</key>
+				<integer>657</integer>
+				<key>version</key>
+				<string>8.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{11C91E36-78ED-11E1-8DB4-73755723D190}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Common Base Files</string>
+				<key>installed_size</key>
+				<integer>43</integer>
+				<key>version</key>
+				<string>8.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{3CB7E1A8-78E9-11E1-A332-DF895723D190}</string>
+				<key>display_name</key>
+				<string>Adobe InDesign CS6 Common Language Files (en_US)</string>
+				<key>installed_size</key>
+				<integer>1</integer>
+				<key>version</key>
+				<string>8.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{03740852-60C2-4B1A-A3DA-1EDB082C6401}</string>
+				<key>display_name</key>
+				<string>Adobe Linguistics CS6</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>6.0.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{B98E0DCB-1A75-4394-9813-3A114AA3891D}</string>
+				<key>display_name</key>
+				<string>Adobe Mini Bridge CS6</string>
+				<key>installed_size</key>
+				<integer>3700</integer>
+				<key>version</key>
+				<string>2</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{8467887D-92F1-435C-B387-A7551B88EC70}</string>
+				<key>display_name</key>
+				<string>Adobe NPS Panel 1.0</string>
+				<key>installed_size</key>
+				<integer>622</integer>
+				<key>version</key>
+				<string>1.0.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{557F9FD3-EED8-43D7-AF29-0F19CA832728}</string>
+				<key>display_name</key>
+				<string>Adobe PDF Library Files CS6</string>
+				<key>installed_size</key>
+				<integer>69157</integer>
+				<key>version</key>
+				<string>10.9</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{84901376-1C55-4BD3-AD2C-F9BDB4449DAC}</string>
+				<key>display_name</key>
+				<string>PDF Settings CS5</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>10.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{4482EF4A-376B-46DE-9B17-E377232328E0}</string>
+				<key>display_name</key>
+				<string>PDF Settings CS6</string>
+				<key>installed_size</key>
+				<integer>590</integer>
+				<key>version</key>
+				<string>11.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{9124DF4E-617D-486B-A970-8FA632244F24}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6</string>
+				<key>installed_size</key>
+				<integer>66</integer>
+				<key>version</key>
+				<string>13.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{3071EDD7-EA5B-4CAC-B4D0-4D4D664154D1}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 English Language Pack</string>
+				<key>installed_size</key>
+				<integer>1504</integer>
+				<key>version</key>
+				<string>13.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{1F955A4A-F365-4379-AEE2-B7C83E1AA883}</string>
+				<key>display_name</key>
+				<string>Adobe Photoshop CS6 Support</string>
+				<key>installed_size</key>
+				<integer>1190</integer>
+				<key>version</key>
+				<string>13.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{C346BBCF-A687-4500-BB19-EE9C2D6FF284}</string>
+				<key>display_name</key>
+				<string>Suite Shared Configuration CS6</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>3.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{BAA50E10-F61C-11E0-AC88-C17AEB9B6A79}</string>
+				<key>display_name</key>
+				<string>Adobe Toolhints CS6</string>
+				<key>installed_size</key>
+				<integer>379</integer>
+				<key>version</key>
+				<string>2.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{A0F72081-99FB-4FFA-AE1A-62B5A656CAC1}</string>
+				<key>display_name</key>
+				<string>Adobe Type Support CS6</string>
+				<key>installed_size</key>
+				<integer>5856</integer>
+				<key>version</key>
+				<string>11.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{4F427880-01EA-4E0F-AAE2-9ADE97563A21}</string>
+				<key>display_name</key>
+				<string>Adobe Utilities CS6</string>
+				<key>installed_size</key>
+				<integer>3</integer>
+				<key>version</key>
+				<string>4.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{78E38D75-4D92-4F6E-B631-17A436BED680}</string>
+				<key>display_name</key>
+				<string>Adobe Color Video Profiles CS CS6</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>4.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{A9E40F78-E54D-494F-94A9-5D502F8DD1E1}</string>
+				<key>display_name</key>
+				<string>Adobe WinSoft Linguistics Plugin CS6</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>1.3</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{148542D8-49CA-482A-A334-1D54C5A9D53B}</string>
+				<key>display_name</key>
+				<string>Adobe XMP Panels</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>4.0</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{CC006FD6-00EF-46FC-ACA0-7A28EFF44D20}</string>
+				<key>display_name</key>
+				<string>Adobe Media Encoder CS6</string>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>version</key>
+				<string>6</string>
+			</dict>
+			<dict>
+				<key>AdobeCode</key>
+				<string>{4FFA83C0-007A-4DB3-955C-B5EEE73BEDAF}</string>
+				<key>display_name</key>
+				<string>Adobe SwitchBoard 2.0</string>
+				<key>installed_size</key>
+				<integer>35</integer>
+				<key>version</key>
+				<string>2.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>AdobeCS5AAMEEPackage</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.0.0.2015.08.16.21.45</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -2541,6 +4026,55 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<key>category</key>
 		<string>Printers</string>
 		<key>description</key>
+		<string>SGS_Printer_Art_Room_HP_LaserJet_4300</string>
+		<key>developer</key>
+		<string>SGS</string>
+		<key>display_name</key>
+		<string>SGS_Printer_Art_Room_HP_LaserJet_4300</string>
+		<key>installer_item_hash</key>
+		<string>00c590b1911eb79430cee4fb38b429babf349a1a080be3fcc1d3603efe4b761d</string>
+		<key>installer_item_location</key>
+		<string>printers/SGS_Printer_Art_Room_HP_LaserJet_4300-2015.08.18.13.37.pkg</string>
+		<key>installer_item_size</key>
+		<integer>4</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>SGS_Printer_Art_Room_HP_LaserJet_4300</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>org.seattlegirlsschool.SGS_Printer_Art_Room_HP_LaserJet_4300</string>
+				<key>version</key>
+				<string>2015.08.18.13.37</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Apple HP Printer Drivers</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2015.08.18.13.37</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Printers</string>
+		<key>description</key>
 		<string>SGS_Printer_Athletics_HP_LaserJet_2300</string>
 		<key>developer</key>
 		<string>SGS</string>
@@ -2645,9 +4179,9 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<key>display_name</key>
 		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
 		<key>installer_item_hash</key>
-		<string>e85b91bdc63912e6de8db6c5a675fe110bc9ff06dc0347d1f25374885799aa01</string>
+		<string>0b2fcd043b12bc06b8dc1837d94c1bd7c08718e386be38cfd71c73347a6d7773</string>
 		<key>installer_item_location</key>
-		<string>printers/SGS_Printer_Main_Copier_Konica_C552DS-2015.08.09.11.46.pkg</string>
+		<string>printers/SGS_Printer_Main_Copier_Konica_C552DS-2015.08.18.11.55.pkg</string>
 		<key>installer_item_size</key>
 		<integer>4</integer>
 		<key>minimum_os_version</key>
@@ -2662,7 +4196,7 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 				<key>packageid</key>
 				<string>org.seattlegirlsschool.SGS_Printer_Main_Copier_Konica_C552DS</string>
 				<key>version</key>
-				<string>2015.08.09.11.46</string>
+				<string>2015.08.18.11.55</string>
 			</dict>
 		</array>
 		<key>requires</key>
@@ -2676,7 +4210,7 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>2015.08.09.11.46</string>
+		<string>2015.08.18.11.55</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -2724,6 +4258,300 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<true/>
 		<key>version</key>
 		<string>3.1</string>
+	</dict>
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.mdm.yemoja.seattlegirlsschool.org.34b2a3c0-2812-0133-c3c9-406c8f4cc965.alacarte</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string></string>
+		<key>description</key>
+		<string>SGS_Finder_Settings</string>
+		<key>developer</key>
+		<string></string>
+		<key>display_name</key>
+		<string>SGS_Finder_Settings</string>
+		<key>installer_item_hash</key>
+		<string>7f97360be28f66cf1bd9b9840212b858d1f0dab0c860ace4b7130d2f55e9a67e</string>
+		<key>installer_item_location</key>
+		<string>profiles/Settings_for_SGS_Finder_Settings-1.0.mobileconfig</string>
+		<key>installer_item_size</key>
+		<integer>4</integer>
+		<key>installer_type</key>
+		<string>profile</string>
+		<key>minimum_munki_version</key>
+		<string>2.2</string>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>SGS_Finder_Settings</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.mdm.yemoja.seattlegirlsschool.org.bad61810-280b-0133-c3b0-406c8f4cc965.alacarte</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string></string>
+		<key>description</key>
+		<string>SGS_Restrictions</string>
+		<key>developer</key>
+		<string></string>
+		<key>display_name</key>
+		<string>SGS_Restrictions</string>
+		<key>installer_item_hash</key>
+		<string>74b070b5b35b1d0295f34e2269709c2cd53c648e16cc1198e45a9516c0725b9b</string>
+		<key>installer_item_location</key>
+		<string>profiles/Settings_for_SGS_Restrictions-1.0.mobileconfig</string>
+		<key>installer_item_size</key>
+		<integer>10</integer>
+		<key>installer_type</key>
+		<string>profile</string>
+		<key>minimum_munki_version</key>
+		<string>2.2</string>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>SGS_Restrictions</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.mdm.yemoja.seattlegirlsschool.org.4f8d1b50-280b-0133-c3ab-406c8f4cc965.alacarte</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string></string>
+		<key>description</key>
+		<string>SGS_Security</string>
+		<key>developer</key>
+		<string></string>
+		<key>display_name</key>
+		<string>SGS_Security</string>
+		<key>installer_item_hash</key>
+		<string>1266567052844cab92231c7ae34642f9127d5855613ca69e560184e8f55df715</string>
+		<key>installer_item_location</key>
+		<string>profiles/Settings_for_SGS_Security-1.0.mobileconfig</string>
+		<key>installer_item_size</key>
+		<integer>7</integer>
+		<key>installer_type</key>
+		<string>profile</string>
+		<key>minimum_munki_version</key>
+		<string>2.2</string>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>SGS_Security</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.mdm.yemoja.seattlegirlsschool.org.75501210-2812-0133-c3cf-406c8f4cc965.alacarte</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string></string>
+		<key>description</key>
+		<string>SGS_Software_Update_Server</string>
+		<key>developer</key>
+		<string></string>
+		<key>display_name</key>
+		<string>SGS_Software_Update_Server</string>
+		<key>installer_item_hash</key>
+		<string>8af027db14cd280ac3aeb06542b778b62cfaebae068ef184872a2954ac468f01</string>
+		<key>installer_item_location</key>
+		<string>profiles/Settings_for_SGS_Software_Update_Server-1.0.mobileconfig</string>
+		<key>installer_item_size</key>
+		<integer>4</integer>
+		<key>installer_type</key>
+		<string>profile</string>
+		<key>minimum_munki_version</key>
+		<string>2.2</string>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>SGS_Software_Update_Server</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.mdm.yemoja.seattlegirlsschool.org.fb967950-280a-0133-c3a8-406c8f4cc965.alacarte</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string></string>
+		<key>description</key>
+		<string>SGS_Wireless</string>
+		<key>developer</key>
+		<string></string>
+		<key>display_name</key>
+		<string>SGS_Wireless</string>
+		<key>installer_item_hash</key>
+		<string>b65b0073aa54f874ec13339dc6d35a29676b23a897c4c19f445fd2ef6d1c0495</string>
+		<key>installer_item_location</key>
+		<string>profiles/Settings_for_SGS_Wireless-1.0.mobileconfig</string>
+		<key>installer_item_size</key>
+		<integer>4</integer>
+		<key>installer_type</key>
+		<string>profile</string>
+		<key>minimum_munki_version</key>
+		<string>2.2</string>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>SGS_Wireless</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_profile</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>force_install_after_date</key>
+		<date>2015-08-20T13:00:00Z</date>
+		<key>installer_type</key>
+		<string>apple_update_metadata</string>
+		<key>name</key>
+		<string>031-30886</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>Alfred 2</string>
+		<key>developer</key>
+		<string>Running with Crayons Ltd.</string>
+		<key>display_name</key>
+		<string>Alfred 2</string>
+		<key>icon_hash</key>
+		<string>4cb629521eb38e71545d971282afc0538ecd2c17dc83874b1fe52e34b13737a7</string>
+		<key>installer_item_hash</key>
+		<string>2f7af114239242b4182b7efeefff6143afacac067dfddc337d4c1627f70fd9ce</string>
+		<key>installer_item_location</key>
+		<string>utilities/Alfred 2-2.7.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>3830</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.runningwithcrayons.Alfred-2</string>
+				<key>CFBundleName</key>
+				<string>Alfred 2</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.7.1</string>
+				<key>CFBundleVersion</key>
+				<string>387</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Alfred 2.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Alfred 2.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Alfred 2</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.7.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -2941,6 +4769,72 @@ exit 0</string>
 		<true/>
 		<key>version</key>
 		<string>2.4.3.1083</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>XRG</string>
+		<key>developer</key>
+		<string>Gaucho Soft</string>
+		<key>display_name</key>
+		<string>XRG</string>
+		<key>icon_hash</key>
+		<string>5995bc079c7732e263d8b6d0a5144db5fb3250d40884253d977b6c20b5b784ab</string>
+		<key>installer_item_hash</key>
+		<string>45aaf4987a1968fa82c7c6458924d7811e689c4e7ace6b13d59012dded9ac308</string>
+		<key>installer_item_location</key>
+		<string>utilities/XRG-2.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>910</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.piatekjimenez.XRG</string>
+				<key>CFBundleName</key>
+				<string>XRG</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.0</string>
+				<key>CFBundleVersion</key>
+				<string>2.0</string>
+				<key>minosversion</key>
+				<string>10.7</string>
+				<key>path</key>
+				<string>/Applications/XRG.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>XRG.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>XRG</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.0</string>
 	</dict>
 </array>
 </plist>
