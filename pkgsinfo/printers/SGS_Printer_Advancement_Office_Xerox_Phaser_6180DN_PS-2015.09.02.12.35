@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-08-17T04:54:31Z</date>
+		<date>2015-09-02T19:35:57Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
@@ -20,47 +20,51 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Browsers</string>
+	<string>Printers</string>
 	<key>description</key>
-	<string>Adobe Flash Player</string>
+	<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
 	<key>developer</key>
-	<string>Adobe</string>
+	<string>SGS</string>
 	<key>display_name</key>
-	<string>Adobe Flash Player</string>
-	<key>icon_hash</key>
-	<string>8f353356435e69588803b436216dd6b29f819a1956b7019833e3a5e08877ed94</string>
-	<key>installed_size</key>
-	<integer>17086</integer>
+	<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
 	<key>installer_item_hash</key>
-	<string>98cd746709b1a714e7edf432f0f4cc477e2a9757235a9f48516ac64150e3874a</string>
+	<string>cd7bc0135e51beb9a9bee4b10bf24f8714d7b554b623b09e3e51c84394704c5b</string>
 	<key>installer_item_location</key>
-	<string>apps/adobe/Install Adobe Flash Player-18.0.0.232.pkg</string>
+	<string>printers/SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS-2015.09.02.12.35.pkg</string>
 	<key>installer_item_size</key>
-	<integer>15781</integer>
+	<integer>4</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>Adobe Flash Player</string>
+	<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>17086</integer>
+			<integer>0</integer>
 			<key>packageid</key>
-			<string>com.adobe.pkg.FlashPlayer</string>
+			<string>org.seattlegirlsschool.SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
 			<key>version</key>
-			<string>18.0.0.232</string>
+			<string>2015.09.02.12.35</string>
 		</dict>
 	</array>
+	<key>requires</key>
+	<array>
+		<string>Xerox Phaser 6180 Print Driver</string>
+	</array>
+	<key>unattended_install</key>
+	<true/>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>RestartAction</key>
-	<string>RequireLogout</string>
-	<key>force_install_after_date</key>
-	<date>2015-08-21T13:00:00Z</date>
+	<key>requires</key>
+	<array>
+		<string>Xerox Phaser 6180 Print Driver</string>
+	</array>
+	<key>unattended_install</key>
+	<true/>
 	<key>version</key>
-	<string>18.0.0.232</string>
+	<string>2015.09.02.12.35</string>
 </dict>
 </plist>

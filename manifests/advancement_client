@@ -12,10 +12,12 @@
 	<key>managed_installs</key>
 	<array>
 		<string>munkireport</string>
+
 		<string>Google Chrome</string>
 		<string>Firefox</string>
 		<string>Adobe Flash Player</string>
 		<string>Silverlight</string>
+
 		<string>Aperture</string>
 		<string>Final Cut Pro</string>
 		<string>iMovie</string>
@@ -29,13 +31,22 @@
 		<string>HandBrake</string>
 		<string>Caffeine</string>
 		<string>Flux</string>
+
 		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
 		<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
 		<string>SGS_Printer_Building_Two_Canon_Image_Runner_1740iF</string>
+
+		<string>SGS_Printer_CMR_HP_LaserJet_4000</string>
+		<string>SGS_Printer_Singh_House_First_Floor_HP_LaserJet_1300n</string>
+
 		<string>SGS_Finder_Settings</string>
 		<string>SGS_Restrictions</string>
 		<string>SGS_Security</string>
 		<string>SGS_Software_Update_Server</string>
+		<string>SGS_Wireless</string>
+
+		<string>Disable System iCloud</string>
+		<string>Set Login Banner</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

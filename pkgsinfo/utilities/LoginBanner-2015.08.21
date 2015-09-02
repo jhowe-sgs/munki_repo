@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+  	<string>sgs_catalog</string>
+	</array>
+	<key>name</key>
+	<string>Set Login Banner</string>
+	<key>display_name</key>
+	<string>Set Login Banner</string>
+	<key>installer_type</key>
+	<string>nopkg</string>
+	<key>installs</key>
+	<array>
+  	<dict>
+		<key>path</key>
+		<string>/usr/local/sbin/login-banner</string>
+		<key>type</key>
+		<string>file</string>
+  	</dict>
+	</array>
+	<key>preinstall_script</key>
+	<string>#!/bin/bash
+defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "This device is the property of Seattle Girls\' School. Please call 206.709.2228 if found. Use of this device acknowledges compliance with all SGS Policies. SGS users are expected to log on with thier assigned SGS account on thier assigned 1:1 device only."
+if [ ! -d /usr/local/sbin ]; then
+  mkdir -p /usr/local/sbin
+fi
+touch /usr/local/sbin/login-banner</string>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>unattended_install</key>
+	<true/> 
+	<key>uninstallable</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>uninstall_script</string>
+	<key>uninstall_script</key>
+	<string>#!/bin/bash
+defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText ""
+rm /usr/local/sbin/login-banner</string>
+	<key>version</key>
+	<string>2015.08.21</string>
+</dict>
+</plist>

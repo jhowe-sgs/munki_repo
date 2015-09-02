@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>included_manifests</key>
+	<array>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>munkireport</string>
+
+		<string>Caffeine</string>
+		<string>XRG</string>
+		
+		<string>SGS_Finder_Settings</string>
+		<string>SGS_Restrictions</string>
+		<string>SGS_Security</string>
+		<string>SGS_Software_Update_Server</string>
+		<string>SGS_Wireless</string>
+
+		<string>Disable System iCloud</string>
+		<string>Set Login Banner</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array>
+	</array>
+</dict>
+</plist>

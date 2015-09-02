@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+  	<string>sgs_catalog</string>
+	</array>
+	<key>name</key>
+	<string>Disable System iCloud</string>
+	<key>display_name</key>
+	<string>Disable System iCloud</string>
+	<key>installer_type</key>
+	<string>nopkg</string>
+	<key>installs</key>
+	<array>
+  	<dict>
+		<key>path</key>
+		<string>/usr/local/sbin/icloud-disabled</string>
+		<key>type</key>
+		<string>file</string>
+  	</dict>
+	</array>
+	<key>preinstall_script</key>
+	<string>#!/bin/bash 
+if [ -d /System/Library/InternetAccounts/iCloud.iaplugin ]; then
+  if [ ! -d /System/Library/InternetAccounts/iCloud.iaplugin.disabled ]; then
+    mv /System/Library/InternetAccounts/iCloud.iaplugin /System/Library/InternetAccounts/iCloud.iaplugin.disabled
+  fi
+fi
+if [ ! -d /usr/local/sbin ]; then
+  mkdir -p /usr/local/sbin
+fi
+touch /usr/local/sbin/icloud-disabled</string>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>unattended_install</key>
+	<true/> 
+	<key>uninstallable</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>uninstall_script</string>
+	<key>uninstall_script</key>
+	<string>#!/bin/bash
+if [ -d /System/Library/InternetAccounts/iCloud.iaplugin.disabled ]; then
+  if [ ! -d /System/Library/InternetAccounts/iCloud.iaplugin ]; then
+    mv /System/Library/InternetAccounts/iCloud.iaplugin.disabled /System/Library/InternetAccounts/iCloud.iaplugin
+  fi
+fi
+rm /usr/local/sbin/icloud-disabled</string>
+	<key>version</key>
+	<string>2015.08.21</string>
+</dict>
+</plist>

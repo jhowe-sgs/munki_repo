@@ -7,11 +7,11 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-08-09T18:47:57Z</date>
+		<date>2015-08-21T00:28:21Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
-		<string>10.10.4</string>
+		<string>10.10.5</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
@@ -20,51 +20,49 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Printers</string>
+	<string>Browsers</string>
 	<key>description</key>
-	<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
+	<string>Google Voice and Video</string>
 	<key>developer</key>
-	<string>SGS</string>
+	<string>Google</string>
 	<key>display_name</key>
-	<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
+	<string>Google Voice and Video</string>
+	<key>installed_size</key>
+	<integer>17759</integer>
 	<key>installer_item_hash</key>
-	<string>b0933f002d97a4e8ec93380999a20182176c2bf03ac5aae4fdd1f335bba8152a</string>
+	<string>0b8eebc6b06476af36ebd943fe64a4c941db874cc21b64e184230ae8d03b6ce6</string>
 	<key>installer_item_location</key>
-	<string>printers/SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS-2015.08.09.11.47.pkg</string>
+	<string>apps/google/GoogleVoiceAndVideoSetup-5.40.2.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>4</integer>
+	<integer>9126</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
+	<string>Google Voice and Video</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
 			<integer>0</integer>
 			<key>packageid</key>
-			<string>org.seattlegirlsschool.SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
+			<string>com.google.pkg.Keystone</string>
 			<key>version</key>
-			<string>2015.08.09.11.47</string>
+			<string>1.1.0.3659</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>17759</integer>
+			<key>packageid</key>
+			<string>com.google.pkg.GoogleVoiceAndVideo</string>
+			<key>version</key>
+			<string>5.40.2.0</string>
 		</dict>
 	</array>
-	<key>requires</key>
-	<array>
-		<string>Xerox Phaser 6180 Print Driver</string>
-	</array>
-	<key>unattended_install</key>
-	<true/>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>requires</key>
-	<array>
-		<string>Xerox Phaser 6180 Print Driver</string>
-	</array>
-	<key>unattended_install</key>
-	<true/>
 	<key>version</key>
-	<string>2015.08.09.11.47</string>
+	<string>5.40.2.0</string>
 </dict>
 </plist>
