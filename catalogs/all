@@ -1615,6 +1615,8 @@
 		<string>Apple</string>
 		<key>display_name</key>
 		<string>Final Cut Pro</string>
+		<key>icon_hash</key>
+		<string>d59932b0e98cf81e2eaf28e2d9dd06f272b4767cec1a800c788a88cecd120662</string>
 		<key>installer_item_hash</key>
 		<string>cb7a6ce64b4bac36ee59702de67a40b3fc5df6a917673e04d7d2e5f0919a83b0</string>
 		<key>installer_item_location</key>
@@ -1663,6 +1665,72 @@
 		<true/>
 		<key>version</key>
 		<string>10.2.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Video Apps</string>
+		<key>description</key>
+		<string>Final Cut Pro</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>Final Cut Pro</string>
+		<key>icon_hash</key>
+		<string>d59932b0e98cf81e2eaf28e2d9dd06f272b4767cec1a800c788a88cecd120662</string>
+		<key>installer_item_hash</key>
+		<string>15fcf9a188aacdeb331734eb08f11dc4d1f26c1e6382d0be7ddc5f3d63395aea</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/Final Cut Pro-10.2.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>2820967</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.FinalCut</string>
+				<key>CFBundleName</key>
+				<string>Final Cut Pro</string>
+				<key>CFBundleShortVersionString</key>
+				<string>10.2.2</string>
+				<key>CFBundleVersion</key>
+				<string>269216</string>
+				<key>minosversion</key>
+				<string>10.10.4</string>
+				<key>path</key>
+				<string>/Applications/Final Cut Pro.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Final Cut Pro.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.4</string>
+		<key>name</key>
+		<string>Final Cut Pro</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.2.2</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -1871,6 +1939,8 @@
 		<string>Apple</string>
 		<key>display_name</key>
 		<string>Motion</string>
+		<key>icon_hash</key>
+		<string>748a1f6e75e6ce265d29b674aa9e1fde876748a2c6841dd349343824148921c0</string>
 		<key>installer_item_hash</key>
 		<string>189bb5cfabef5d0c48a859653bb9f4da9b6bc806179c6bc8102b5cb0e17d4532</string>
 		<key>installer_item_location</key>
@@ -1919,6 +1989,72 @@
 		<true/>
 		<key>version</key>
 		<string>5.2.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Video Apps</string>
+		<key>description</key>
+		<string>Motion</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>Motion</string>
+		<key>icon_hash</key>
+		<string>748a1f6e75e6ce265d29b674aa9e1fde876748a2c6841dd349343824148921c0</string>
+		<key>installer_item_hash</key>
+		<string>194f093c71db5453c7df3b61dceb61576dafa00fab19d3876f644910326034f1</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/Motion-5.2.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>2213122</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.motionapp</string>
+				<key>CFBundleName</key>
+				<string>Motion</string>
+				<key>CFBundleShortVersionString</key>
+				<string>5.2.2</string>
+				<key>CFBundleVersion</key>
+				<string>269216</string>
+				<key>minosversion</key>
+				<string>10.10.4</string>
+				<key>path</key>
+				<string>/Applications/Motion.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Motion.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.4</string>
+		<key>name</key>
+		<string>Motion</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>5.2.2</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -2065,12 +2201,16 @@
 		<string>Google</string>
 		<key>display_name</key>
 		<string>Google Chrome</string>
+		<key>force_install_after_date</key>
+		<date>2015-09-09T13:00:00Z</date>
+		<key>icon_hash</key>
+		<string>5cbec5cdef65ede7d4a2f6899e3e9343bb7d6c2285f1b1e217e07b635e21f839</string>
 		<key>installer_item_hash</key>
-		<string>81a8b1de850ee2f05d3a2935504bc6802a50ba687c204101dd538a07db210a7c</string>
+		<string>ab169c8ec3dcfb55bdbb92df783629b2ecb85b378fb8d33436f318a45ae89e85</string>
 		<key>installer_item_location</key>
-		<string>apps/google/googlechrome-44.0.2403.125.dmg</string>
+		<string>apps/google/googlechrome-45.0.2454.85.dmg</string>
 		<key>installer_item_size</key>
-		<integer>64651</integer>
+		<integer>64979</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -2081,9 +2221,9 @@
 				<key>CFBundleName</key>
 				<string>Chrome</string>
 				<key>CFBundleShortVersionString</key>
-				<string>44.0.2403.125</string>
+				<string>45.0.2454.85</string>
 				<key>CFBundleVersion</key>
-				<string>2403.125</string>
+				<string>2454.85</string>
 				<key>minosversion</key>
 				<string>10.6.0</string>
 				<key>path</key>
@@ -2112,7 +2252,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>44.0.2403.125</string>
+		<string>45.0.2454.85</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -3478,30 +3618,28 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<key>developer</key>
 		<string>Microsoft</string>
 		<key>display_name</key>
-		<string>Microsoft® Silverlight™ Browser Plug-In</string>
+		<string>Microsoft Silverlight Internet Browser Plugin</string>
 		<key>installed_size</key>
-		<integer>99420</integer>
+		<integer>35676</integer>
 		<key>installer_item_hash</key>
-		<string>800aae783b6a261d78a312b91bdaa827bc8e181739f4186007d124e918f30c9e</string>
+		<string>b4c839f7151dcb0372834e8efc045769c2188bbe2058b5be62ccc73f033cd15e</string>
 		<key>installer_item_location</key>
-		<string>apps/microsoft/Silverlight-5.1.40416.0.dmg</string>
+		<string>apps/microsoft/Silverlight-5.1.40728.0.dmg</string>
 		<key>installer_item_size</key>
-		<integer>14884</integer>
+		<integer>14737</integer>
 		<key>minimum_os_version</key>
-		<string>10.4.0</string>
+		<string>10.5.0</string>
 		<key>name</key>
 		<string>Silverlight</string>
 		<key>receipts</key>
 		<array>
 			<dict>
-				<key>filename</key>
-				<string>Silverlight.pkg</string>
 				<key>installed_size</key>
-				<integer>99420</integer>
+				<integer>35676</integer>
 				<key>packageid</key>
-				<string>com.microsoft.SilverlightInstaller</string>
+				<string>com.microsoft.silverlight.plugin</string>
 				<key>version</key>
-				<string>5.1.40416.0</string>
+				<string>5.1.40728.0</string>
 			</dict>
 		</array>
 		<key>uninstall_method</key>
@@ -3509,7 +3647,7 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>5.1.40416.0</string>
+		<string>5.1.40728.0</string>
 	</dict>
 	<dict>
 		<key>RestartAction</key>
@@ -3528,12 +3666,14 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<string>Mozilla</string>
 		<key>display_name</key>
 		<string>Firefox ESR</string>
+		<key>icon_hash</key>
+		<string>fed17282654a22e36d452b9fa5d0fd08a03594df6e8a3aaf8d34a65768d934e6</string>
 		<key>installer_item_hash</key>
-		<string>091991c93455626bc7f7799b1ed7a90aa7fd795b3d8376416faea216908ed45d</string>
+		<string>75a97747fd165571e8104c6de0a9f33f66d11807f65211e3898ead5e92cf83c7</string>
 		<key>installer_item_location</key>
-		<string>apps/mozilla/Firefox 38.1.0esr-38.1.0.dmg</string>
+		<string>apps/mozilla/Firefox 38.2.1esr-38.2.1.dmg</string>
 		<key>installer_item_size</key>
-		<integer>73002</integer>
+		<integer>73074</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -3544,9 +3684,9 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 				<key>CFBundleName</key>
 				<string>Firefox</string>
 				<key>CFBundleShortVersionString</key>
-				<string>38.1.0</string>
+				<string>38.2.1</string>
 				<key>CFBundleVersion</key>
-				<string>3815.6.24</string>
+				<string>3815.8.26</string>
 				<key>minosversion</key>
 				<string>10.6</string>
 				<key>path</key>
@@ -3575,7 +3715,73 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>38.1.0</string>
+		<string>38.2.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Mail Clients</string>
+		<key>description</key>
+		<string>Thunderbird</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Thunderbird</string>
+		<key>icon_hash</key>
+		<string>c60719061cfb37441d2c32a445e726957cf41c16b31674ec4e227045138a1383</string>
+		<key>installer_item_hash</key>
+		<string>22fbba726dcb409b5ad48c35f02de7fe7544193b3a9faa108f4c85a38f20ae03</string>
+		<key>installer_item_location</key>
+		<string>apps/mozilla/Thunderbird 38.2.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>68360</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.thunderbird</string>
+				<key>CFBundleName</key>
+				<string>Thunderbird</string>
+				<key>CFBundleShortVersionString</key>
+				<string>38.2.0</string>
+				<key>CFBundleVersion</key>
+				<string>38.2.0</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Thunderbird.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Thunderbird.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Thunderbird</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>38.2.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -4345,55 +4551,6 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<key>display_name</key>
 		<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
 		<key>installer_item_hash</key>
-		<string>b0933f002d97a4e8ec93380999a20182176c2bf03ac5aae4fdd1f335bba8152a</string>
-		<key>installer_item_location</key>
-		<string>printers/SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS-2015.08.09.11.47.pkg</string>
-		<key>installer_item_size</key>
-		<integer>4</integer>
-		<key>minimum_os_version</key>
-		<string>10.5.0</string>
-		<key>name</key>
-		<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>packageid</key>
-				<string>org.seattlegirlsschool.SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
-				<key>version</key>
-				<string>2015.08.09.11.47</string>
-			</dict>
-		</array>
-		<key>requires</key>
-		<array>
-			<string>Xerox Phaser 6180 Print Driver</string>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>2015.08.09.11.47</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>sgs_catalog</string>
-		</array>
-		<key>category</key>
-		<string>Printers</string>
-		<key>description</key>
-		<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
-		<key>developer</key>
-		<string>SGS</string>
-		<key>display_name</key>
-		<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
-		<key>installer_item_hash</key>
 		<string>cd7bc0135e51beb9a9bee4b10bf24f8714d7b554b623b09e3e51c84394704c5b</string>
 		<key>installer_item_location</key>
 		<string>printers/SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS-2015.09.02.12.35.pkg</string>
@@ -4524,55 +4681,6 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<true/>
 		<key>version</key>
 		<string>2015.08.09.13.01</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>sgs_catalog</string>
-		</array>
-		<key>category</key>
-		<string>Printers</string>
-		<key>description</key>
-		<string>SGS_Printer_Building_Two_Canon_Image_Runner_1740iF</string>
-		<key>developer</key>
-		<string>SGS</string>
-		<key>display_name</key>
-		<string>SGS_Printer_Building_Two_Canon_Image_Runner_1740iF</string>
-		<key>installer_item_hash</key>
-		<string>477973ab3ac468a79ae1fa22a04fd653585d22b9daafb345c51480e320f72826</string>
-		<key>installer_item_location</key>
-		<string>printers/SGS_Printer_Building_Two_Canon_Image_Runner_1740iF-2015.08.10.12.05.pkg</string>
-		<key>installer_item_size</key>
-		<integer>4</integer>
-		<key>minimum_os_version</key>
-		<string>10.5.0</string>
-		<key>name</key>
-		<string>SGS_Printer_Building_Two_Canon_Image_Runner_1740iF</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>packageid</key>
-				<string>org.seattlegirlsschool.SGS_Printer_Building_Two_Canon_Image_Runner_1740iF</string>
-				<key>version</key>
-				<string>2015.08.10.12.05</string>
-			</dict>
-		</array>
-		<key>requires</key>
-		<array>
-			<string>Canon PS Printer Driver 1740</string>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>2015.08.10.12.05</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

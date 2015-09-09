@@ -7,11 +7,11 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-08-02T20:33:54Z</date>
+		<date>2015-09-04T19:05:52Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
-		<string>10.10.4</string>
+		<string>10.10.5</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
@@ -26,30 +26,28 @@
 	<key>developer</key>
 	<string>Microsoft</string>
 	<key>display_name</key>
-	<string>Microsoft® Silverlight™ Browser Plug-In</string>
+	<string>Microsoft Silverlight Internet Browser Plugin</string>
 	<key>installed_size</key>
-	<integer>99420</integer>
+	<integer>35676</integer>
 	<key>installer_item_hash</key>
-	<string>800aae783b6a261d78a312b91bdaa827bc8e181739f4186007d124e918f30c9e</string>
+	<string>b4c839f7151dcb0372834e8efc045769c2188bbe2058b5be62ccc73f033cd15e</string>
 	<key>installer_item_location</key>
-	<string>apps/microsoft/Silverlight-5.1.40416.0.dmg</string>
+	<string>apps/microsoft/Silverlight-5.1.40728.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>14884</integer>
+	<integer>14737</integer>
 	<key>minimum_os_version</key>
-	<string>10.4.0</string>
+	<string>10.5.0</string>
 	<key>name</key>
 	<string>Silverlight</string>
 	<key>receipts</key>
 	<array>
 		<dict>
-			<key>filename</key>
-			<string>Silverlight.pkg</string>
 			<key>installed_size</key>
-			<integer>99420</integer>
+			<integer>35676</integer>
 			<key>packageid</key>
-			<string>com.microsoft.SilverlightInstaller</string>
+			<string>com.microsoft.silverlight.plugin</string>
 			<key>version</key>
-			<string>5.1.40416.0</string>
+			<string>5.1.40728.0</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
@@ -59,6 +57,6 @@
 	<key>RestartAction</key>
 	<string>RequireLogout</string>
 	<key>version</key>
-	<string>5.1.40416.0</string>
+	<string>5.1.40728.0</string>
 </dict>
 </plist>
