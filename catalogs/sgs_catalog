@@ -1618,72 +1618,6 @@
 		<key>icon_hash</key>
 		<string>d59932b0e98cf81e2eaf28e2d9dd06f272b4767cec1a800c788a88cecd120662</string>
 		<key>installer_item_hash</key>
-		<string>cb7a6ce64b4bac36ee59702de67a40b3fc5df6a917673e04d7d2e5f0919a83b0</string>
-		<key>installer_item_location</key>
-		<string>apps/apple/Final Cut Pro-10.2.1.dmg</string>
-		<key>installer_item_size</key>
-		<integer>2813139</integer>
-		<key>installer_type</key>
-		<string>copy_from_dmg</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.apple.FinalCut</string>
-				<key>CFBundleName</key>
-				<string>Final Cut Pro</string>
-				<key>CFBundleShortVersionString</key>
-				<string>10.2.1</string>
-				<key>CFBundleVersion</key>
-				<string>264102</string>
-				<key>minosversion</key>
-				<string>10.10.2</string>
-				<key>path</key>
-				<string>/Applications/Final Cut Pro.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>items_to_copy</key>
-		<array>
-			<dict>
-				<key>destination_path</key>
-				<string>/Applications</string>
-				<key>source_item</key>
-				<string>Final Cut Pro.app</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.2</string>
-		<key>name</key>
-		<string>Final Cut Pro</string>
-		<key>uninstall_method</key>
-		<string>remove_copied_items</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>10.2.1</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>sgs_catalog</string>
-		</array>
-		<key>category</key>
-		<string>Video Apps</string>
-		<key>description</key>
-		<string>Final Cut Pro</string>
-		<key>developer</key>
-		<string>Apple</string>
-		<key>display_name</key>
-		<string>Final Cut Pro</string>
-		<key>icon_hash</key>
-		<string>d59932b0e98cf81e2eaf28e2d9dd06f272b4767cec1a800c788a88cecd120662</string>
-		<key>installer_item_hash</key>
 		<string>15fcf9a188aacdeb331734eb08f11dc4d1f26c1e6382d0be7ddc5f3d63395aea</string>
 		<key>installer_item_location</key>
 		<string>apps/apple/Final Cut Pro-10.2.2.dmg</string>
@@ -1923,72 +1857,6 @@
 		<true/>
 		<key>version</key>
 		<string>6.5.3</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>sgs_catalog</string>
-		</array>
-		<key>category</key>
-		<string>Video Apps</string>
-		<key>description</key>
-		<string>Motion</string>
-		<key>developer</key>
-		<string>Apple</string>
-		<key>display_name</key>
-		<string>Motion</string>
-		<key>icon_hash</key>
-		<string>748a1f6e75e6ce265d29b674aa9e1fde876748a2c6841dd349343824148921c0</string>
-		<key>installer_item_hash</key>
-		<string>189bb5cfabef5d0c48a859653bb9f4da9b6bc806179c6bc8102b5cb0e17d4532</string>
-		<key>installer_item_location</key>
-		<string>apps/apple/Motion-5.2.1.dmg</string>
-		<key>installer_item_size</key>
-		<integer>2209070</integer>
-		<key>installer_type</key>
-		<string>copy_from_dmg</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.apple.motionapp</string>
-				<key>CFBundleName</key>
-				<string>Motion</string>
-				<key>CFBundleShortVersionString</key>
-				<string>5.2.1</string>
-				<key>CFBundleVersion</key>
-				<string>264102</string>
-				<key>minosversion</key>
-				<string>10.10.2</string>
-				<key>path</key>
-				<string>/Applications/Motion.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>items_to_copy</key>
-		<array>
-			<dict>
-				<key>destination_path</key>
-				<string>/Applications</string>
-				<key>source_item</key>
-				<string>Motion.app</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.10.2</string>
-		<key>name</key>
-		<string>Motion</string>
-		<key>uninstall_method</key>
-		<string>remove_copied_items</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>5.2.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -4779,6 +4647,55 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<true/>
 		<key>version</key>
 		<string>2015.08.27.18.05</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Printers</string>
+		<key>description</key>
+		<string>SGS_Printer_CMR_HP_LaserJet_4000</string>
+		<key>developer</key>
+		<string>SGS</string>
+		<key>display_name</key>
+		<string>SGS_Printer_CMR_HP_LaserJet_4000</string>
+		<key>installer_item_hash</key>
+		<string>cd533b9eeba9c777eee6bcfb9d4a5cfddc27ba9eafcdca62d51d123bd1d1506e</string>
+		<key>installer_item_location</key>
+		<string>printers/SGS_Printer_CMR_HP_LaserJet_4000-2015.09.09.15.11.pkg</string>
+		<key>installer_item_size</key>
+		<integer>4</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>SGS_Printer_CMR_HP_LaserJet_4000</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>org.seattlegirlsschool.SGS_Printer_CMR_HP_LaserJet_4000</string>
+				<key>version</key>
+				<string>2015.09.09.15.11</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Apple HP Printer Drivers</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2015.09.09.15.11</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>included_manifests</key>
+	<array>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>munkireport</string>
+
+		<string>Microsoft Office for Mac 2011</string>
+		<string>Office 2011 Update</string>
+		<string>CS6 Design and Web Premium</string>
+
+		<string>Google Chrome</string>
+		<string>Google Voice and Video</string>
+		<string>Firefox</string>
+		<string>Adobe Flash Player</string>
+		<string>Silverlight</string>
+
+		<string>Final Cut Pro</string>
+		<string>Keynote</string>
+		<string>Numbers</string>
+		<string>Pages</string>
+		<string>iMovie</string>
+		<string>iPhoto</string>
+
+		<string>Pixelmator</string>
+		<string>VLC media player</string>
+		<string>HandBrake</string>
+
+		<string>Alfred 2</string>
+		<string>Caffeine</string>
+		<string>Flux</string>
+		<string>XRG</string>
+		
+		<string>SGS_Printer_Building_Two_Canon_Image_Runner_1740iF</string>
+		<string>SGS_Printer_Art_Room_HP_LaserJet_4300</string>
+		<string>SGS_Printer_6th_Grade_Central_HP_LaserJet_4000</string>
+		<string>SGS_Printer_7th_Grade_East_HP_LaserJet_1320</string>
+		<string>SGS_Printer_7th_Grade_West_HP_LaserJet_1320</string>
+		<string>SGS_Printer_8th_Grade_Lab_HP_LaserJet_1300n</string>
+		<string>SGS_Printer_8th_Grade_Library_HP_LasetJet_P2015dn</string>
+		<string>SGS_Printer_CMR_HP_LaserJet_4000</string>
+		
+
+		<string>SGS_Finder_Settings</string>
+		<string>SGS_Restrictions</string>
+		<string>SGS_Security</string>
+		<string>SGS_Software_Update_Server</string>
+		<string>SGS_Wireless</string>
+
+		<string>Disable System iCloud</string>
+		<string>Set Login Banner</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array>
+	</array>
+</dict>
+</plist>
