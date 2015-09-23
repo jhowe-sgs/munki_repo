@@ -4217,6 +4217,98 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<key>category</key>
 		<string>Printers</string>
 		<key>description</key>
+		<string>SGS_Printer_6th_Grade_North_HP_LaserJet_2300</string>
+		<key>developer</key>
+		<string>SGS</string>
+		<key>display_name</key>
+		<string>SGS_Printer_6th_Grade_North_HP_LaserJet_2300</string>
+		<key>installer_item_hash</key>
+		<string>a65a0ef26e4138dbfbfbfe723a6ce820b80b83d021ae54664ec2266ba98e54ee</string>
+		<key>installer_item_location</key>
+		<string>printers/SGS_Printer_6th_Grade_North_HP_LaserJet_2300-2015.09.23.13.35.pkg</string>
+		<key>installer_item_size</key>
+		<integer>4</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>SGS_Printer_6th_Grade_North_HP_LaserJet_2300</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>org.seattlegirlsschool.SGS_Printer_6th_Grade_North_HP_LaserJet_2300</string>
+				<key>version</key>
+				<string>2015.09.23.13.35</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Apple HP Printer Drivers</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2015.09.23.13.35</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Printers</string>
+		<key>description</key>
+		<string>SGS_Printer_6th_Grade_North_HP_LasetJet_2300</string>
+		<key>developer</key>
+		<string>SGS</string>
+		<key>display_name</key>
+		<string>SGS_Printer_6th_Grade_North_HP_LasetJet_2300</string>
+		<key>installer_item_hash</key>
+		<string>d1b7dfbf60b4606c2f78d22344626912181c3fe99170b0a6f56bd02241e3a8e1</string>
+		<key>installer_item_location</key>
+		<string>printers/SGS_Printer_6th_Grade_North_HP_LasetJet_2300-2015.09.23.13.35.pkg</string>
+		<key>installer_item_size</key>
+		<integer>4</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>SGS_Printer_6th_Grade_North_HP_LasetJet_2300</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>org.seattlegirlsschool.SGS_Printer_6th_Grade_North_HP_LasetJet_2300</string>
+				<key>version</key>
+				<string>2015.09.23.13.35</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2015.09.23.13.35</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Printers</string>
+		<key>description</key>
 		<string>SGS_Printer_7th_Grade_East_HP_LaserJet_1320</string>
 		<key>developer</key>
 		<string>SGS</string>
@@ -4598,55 +4690,6 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<true/>
 		<key>version</key>
 		<string>2015.08.31.12.47</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>sgs_catalog</string>
-		</array>
-		<key>category</key>
-		<string>Printers</string>
-		<key>description</key>
-		<string>SGS_Printer_CMR_HP_LaserJet_4000</string>
-		<key>developer</key>
-		<string>SGS</string>
-		<key>display_name</key>
-		<string>SGS_Printer_CMR_HP_LaserJet_4000</string>
-		<key>installer_item_hash</key>
-		<string>c5e674bb6cbf8ef4b2f2a240ce11f772ac6d4ae0add39abe40ba44f8fd8f8911</string>
-		<key>installer_item_location</key>
-		<string>printers/SGS_Printer_CMR_HP_LaserJet_4000-2015.08.27.18.05.pkg</string>
-		<key>installer_item_size</key>
-		<integer>4</integer>
-		<key>minimum_os_version</key>
-		<string>10.5.0</string>
-		<key>name</key>
-		<string>SGS_Printer_CMR_HP_LaserJet_4000</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>packageid</key>
-				<string>org.seattlegirlsschool.SGS_Printer_CMR_HP_LaserJet_4000</string>
-				<key>version</key>
-				<string>2015.08.27.18.05</string>
-			</dict>
-		</array>
-		<key>requires</key>
-		<array>
-			<string>Apple HP Printer Drivers</string>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>2015.08.27.18.05</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-08-28T01:35:40Z</date>
+		<date>2015-09-23T20:40:29Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
@@ -22,43 +22,37 @@
 	<key>category</key>
 	<string>Printers</string>
 	<key>description</key>
-	<string>SGS_Printer_CMR_HP_LaserJet_4000</string>
+	<string>SGS_Printer_6th_Grade_North_HP_LasetJet_2300</string>
 	<key>developer</key>
 	<string>SGS</string>
 	<key>display_name</key>
-	<string>SGS_Printer_CMR_HP_LaserJet_4000</string>
+	<string>SGS_Printer_6th_Grade_North_HP_LasetJet_2300</string>
 	<key>installer_item_hash</key>
-	<string>c5e674bb6cbf8ef4b2f2a240ce11f772ac6d4ae0add39abe40ba44f8fd8f8911</string>
+	<string>d1b7dfbf60b4606c2f78d22344626912181c3fe99170b0a6f56bd02241e3a8e1</string>
 	<key>installer_item_location</key>
-	<string>printers/SGS_Printer_CMR_HP_LaserJet_4000-2015.08.27.18.05.pkg</string>
+	<string>printers/SGS_Printer_6th_Grade_North_HP_LasetJet_2300-2015.09.23.13.35.pkg</string>
 	<key>installer_item_size</key>
 	<integer>4</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>SGS_Printer_CMR_HP_LaserJet_4000</string>
+	<string>SGS_Printer_6th_Grade_North_HP_LasetJet_2300</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
 			<integer>0</integer>
 			<key>packageid</key>
-			<string>org.seattlegirlsschool.SGS_Printer_CMR_HP_LaserJet_4000</string>
+			<string>org.seattlegirlsschool.SGS_Printer_6th_Grade_North_HP_LasetJet_2300</string>
 			<key>version</key>
-			<string>2015.08.27.18.05</string>
+			<string>2015.09.23.13.35</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>requires</key>
-	<array>
-		<string>Apple HP Printer Drivers</string>
-	</array>
-	<key>unattended_install</key>
-	<true/>
 	<key>version</key>
-	<string>2015.08.27.18.05</string>
+	<string>2015.09.23.13.35</string>
 </dict>
 </plist>
