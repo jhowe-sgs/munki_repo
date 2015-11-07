@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>serveradmin</string>
+		<key>creation_date</key>
+		<date>2015-11-05T01:11:47Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>category</key>
+	<string>Music Applications</string>
+	<key>description</key>
+	<string>MAContent10_GarageBandCoreContent_v3</string>
+	<key>developer</key>
+	<string>Apple</string>
+	<key>display_name</key>
+	<string>MAContent10_GarageBandCoreContent_v3</string>
+	<key>installed_size</key>
+	<integer>1207956</integer>
+	<key>installer_item_hash</key>
+	<string>10a169e2254f9faf60e6d54d0032dbbe09b41c24b15b94ff16fcc31d98b4833e</string>
+	<key>installer_item_location</key>
+	<string>apps/apple/garageband/MAContent10_GarageBandCoreContent_v3-3.0.0.0.1.1256150330.pkg</string>
+	<key>installer_item_size</key>
+	<integer>1469782</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>MAContent10_GarageBandCoreContent_v3</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>1858395</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.MAContent10_GarageBandCoreContent</string>
+			<key>version</key>
+			<string>3.0.0.0.1.1256150330</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>unattended_install</key>
+	<true/>
+	<key>update_for</key>
+	<array>
+		<string>GarageBand</string>
+	</array>
+	<key>requires</key>
+	<array>
+		<string>GarageBand</string>
+	</array>
+	<key>version</key>
+	<string>3.0.0.0.1.1256150330</string>
+</dict>
+</plist>

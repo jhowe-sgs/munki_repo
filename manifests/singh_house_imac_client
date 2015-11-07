@@ -25,6 +25,7 @@
 
 		<string>Aperture</string>
 		<string>Final Cut Pro</string>
+		<string>Motion</string>
 		<string>Keynote</string>
 		<string>Numbers</string>
 		<string>Pages</string>
@@ -41,29 +42,13 @@
 		<string>Flux</string>
 		<string>XRG</string>
 
-		<string>Easy Grade Pro</string>
-		
-		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
-		<string>SGS_Printer_Building_Two_Canon_Image_Runner_1740iF</string>
-		<string>SGS_Printer_Art_Room_HP_LaserJet_4300</string>
-		<string>SGS_Printer_5th_Grade_HP_LaserJet_1300n</string>
-		<string>SGS_Printer_6th_Grade_Central_HP_LaserJet_4000</string>
-		<string>SGS_Printer_6th_Grade_North_HP_LaserJet_2300</string>
-		<string>SGS_Printer_7th_Grade_East_HP_LaserJet_1320</string>
-		<string>SGS_Printer_7th_Grade_West_HP_LaserJet_1320</string>
-		<string>SGS_Printer_8th_Grade_Lab_HP_LaserJet_1300n</string>
-		<string>SGS_Printer_8th_Grade_Library_HP_LasetJet_P2015dn</string>
-		<string>SGS_Printer_CMR_HP_LaserJet_4000</string>
 		<string>SGS_Printer_Singh_House_First_Floor_HP_LaserJet_1300n</string>
 		
-
 		<string>SGS_Finder_Settings</string>
 		<string>SGS_Restrictions</string>
 		<string>SGS_Security</string>
 		<string>SGS_Software_Update_Server</string>
 		<string>SGS_Wireless</string>
-		<string>SGS Faculty Share</string>
-		<string>SGS Public Share</string>
 
 		<string>Disable System iCloud</string>
 		<string>Set Login Banner</string>

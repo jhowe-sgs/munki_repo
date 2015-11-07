@@ -20,17 +20,17 @@
 		<key>display_name</key>
 		<string>Adobe Flash Player</string>
 		<key>force_install_after_date</key>
-		<date>2015-08-21T13:00:00Z</date>
+		<date>2015-10-20T13:00:00Z</date>
 		<key>icon_hash</key>
 		<string>8f353356435e69588803b436216dd6b29f819a1956b7019833e3a5e08877ed94</string>
 		<key>installed_size</key>
-		<integer>17086</integer>
+		<integer>17141</integer>
 		<key>installer_item_hash</key>
-		<string>98cd746709b1a714e7edf432f0f4cc477e2a9757235a9f48516ac64150e3874a</string>
+		<string>39c967685558fe8b9c92dfcd7626b26f61d875933ae89fe114e68794b7f8e8c1</string>
 		<key>installer_item_location</key>
-		<string>apps/adobe/Install Adobe Flash Player-18.0.0.232.pkg</string>
+		<string>apps/adobe/Install Adobe Flash Player-19.0.0.226.pkg</string>
 		<key>installer_item_size</key>
-		<integer>15781</integer>
+		<integer>15833</integer>
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>
@@ -39,11 +39,11 @@
 		<array>
 			<dict>
 				<key>installed_size</key>
-				<integer>17086</integer>
+				<integer>17141</integer>
 				<key>packageid</key>
 				<string>com.adobe.pkg.FlashPlayer</string>
 				<key>version</key>
-				<string>18.0.0.232</string>
+				<string>19.0.0.226</string>
 			</dict>
 		</array>
 		<key>uninstall_method</key>
@@ -51,7 +51,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>18.0.0.232</string>
+		<string>19.0.0.226</string>
 	</dict>
 	<dict>
 		<key>AdobeSetupType</key>
@@ -1674,6 +1674,72 @@
 			<string>sgs_catalog</string>
 		</array>
 		<key>category</key>
+		<string>Music Applications</string>
+		<key>description</key>
+		<string>GarageBand</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>GarageBand</string>
+		<key>icon_hash</key>
+		<string>a843c9b59a3e528389fe652aeed1f0c705dd83a1318c2db925f5e7b0b8ba10ea</string>
+		<key>installer_item_hash</key>
+		<string>8f2d8cfb6678283d798e63de1c959a58e96a41752817fb668dc750e5e919fd55</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/GarageBand-10.1.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>905569</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.garageband10</string>
+				<key>CFBundleName</key>
+				<string>GarageBand</string>
+				<key>CFBundleShortVersionString</key>
+				<string>10.1.0</string>
+				<key>CFBundleVersion</key>
+				<string>3962.23</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/GarageBand.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>GarageBand.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>GarageBand</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
 		<string>Video Apps</string>
 		<key>description</key>
 		<string>iMovie</string>
@@ -1681,12 +1747,14 @@
 		<string>Apple</string>
 		<key>display_name</key>
 		<string>iMovie</string>
+		<key>icon_hash</key>
+		<string>8c24770a49973ba6e25ee56fccd7fad93fd5a7cab47f3a52bae44e3fb7483ec5</string>
 		<key>installer_item_hash</key>
-		<string>03347915907e9fa62ed12404e5bfa84956b14f6136c8275f684d3007a5583f08</string>
+		<string>4ca45a2efd5bf3526cbc9458e170ef4559e89b41eb5dd5436296c8a92e45cb3c</string>
 		<key>installer_item_location</key>
-		<string>apps/apple/iMovie-10.0.9.dmg</string>
+		<string>apps/apple/iMovie-10.1.dmg</string>
 		<key>installer_item_size</key>
-		<integer>2010403</integer>
+		<integer>2036346</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -1697,11 +1765,11 @@
 				<key>CFBundleName</key>
 				<string>iMovie</string>
 				<key>CFBundleShortVersionString</key>
-				<string>10.0.9</string>
+				<string>10.1</string>
 				<key>CFBundleVersion</key>
-				<string>266479</string>
+				<string>271335</string>
 				<key>minosversion</key>
-				<string>10.10.2</string>
+				<string>10.10.5</string>
 				<key>path</key>
 				<string>/Applications/iMovie.app</string>
 				<key>type</key>
@@ -1720,7 +1788,7 @@
 			</dict>
 		</array>
 		<key>minimum_os_version</key>
-		<string>10.10.2</string>
+		<string>10.10.5</string>
 		<key>name</key>
 		<string>iMovie</string>
 		<key>uninstall_method</key>
@@ -1728,7 +1796,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>10.0.9</string>
+		<string>10.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -1809,12 +1877,14 @@
 		<string>Apple</string>
 		<key>display_name</key>
 		<string>Keynote</string>
+		<key>icon_hash</key>
+		<string>89518e9af7836434517083101c327c9d2477fc8df6887e49272fd8ed770b7cf9</string>
 		<key>installer_item_hash</key>
-		<string>0c96750d182ce653d22034819a57409c52c2cc7ff8785ec12204d5846ed40289</string>
+		<string>a22644968e826cf35c2c80526d3be754c2f1a598898c88e422559a0d107b7c7c</string>
 		<key>installer_item_location</key>
-		<string>apps/apple/Keynote-6.5.3.dmg</string>
+		<string>apps/apple/Keynote-6.6.dmg</string>
 		<key>installer_item_size</key>
-		<integer>446388</integer>
+		<integer>480976</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -1825,11 +1895,11 @@
 				<key>CFBundleName</key>
 				<string>Keynote</string>
 				<key>CFBundleShortVersionString</key>
-				<string>6.5.3</string>
+				<string>6.6</string>
 				<key>CFBundleVersion</key>
-				<string>2151</string>
+				<string>2550</string>
 				<key>minosversion</key>
-				<string>10.10</string>
+				<string>10.10.4</string>
 				<key>path</key>
 				<string>/Applications/Keynote.app</string>
 				<key>type</key>
@@ -1848,7 +1918,7 @@
 			</dict>
 		</array>
 		<key>minimum_os_version</key>
-		<string>10.10</string>
+		<string>10.10.4</string>
 		<key>name</key>
 		<string>Keynote</string>
 		<key>uninstall_method</key>
@@ -1856,7 +1926,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>6.5.3</string>
+		<string>6.6</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -1939,12 +2009,14 @@
 		<string>Apple</string>
 		<key>display_name</key>
 		<string>Numbers</string>
+		<key>icon_hash</key>
+		<string>ba70afbf66a522a24762a40f873aab172cba731ad4d713b79617c18efef2beaf</string>
 		<key>installer_item_hash</key>
-		<string>2e724ffe85fd6dd9e4753487595593b952ff0f907a44fa1f5a362c9afe6a7776</string>
+		<string>20197d74f9b6502f52125936bdbdc5abed920b1e1c3489d3bee89f479f4c748a</string>
 		<key>installer_item_location</key>
-		<string>apps/apple/Numbers-3.5.3.dmg</string>
+		<string>apps/apple/Numbers-3.6.dmg</string>
 		<key>installer_item_size</key>
-		<integer>211369</integer>
+		<integer>184944</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -1955,11 +2027,11 @@
 				<key>CFBundleName</key>
 				<string>Numbers</string>
 				<key>CFBundleShortVersionString</key>
-				<string>3.5.3</string>
+				<string>3.6</string>
 				<key>CFBundleVersion</key>
-				<string>2150</string>
+				<string>2557</string>
 				<key>minosversion</key>
-				<string>10.10</string>
+				<string>10.10.4</string>
 				<key>path</key>
 				<string>/Applications/Numbers.app</string>
 				<key>type</key>
@@ -1978,7 +2050,7 @@
 			</dict>
 		</array>
 		<key>minimum_os_version</key>
-		<string>10.10</string>
+		<string>10.10.4</string>
 		<key>name</key>
 		<string>Numbers</string>
 		<key>uninstall_method</key>
@@ -1986,7 +2058,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>3.5.3</string>
+		<string>3.6</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -2003,12 +2075,14 @@
 		<string>Apple</string>
 		<key>display_name</key>
 		<string>Pages</string>
+		<key>icon_hash</key>
+		<string>402b654421a2ce4ab56b2f5f64bc1203dba5c5b4e2fbeec399867e3a5aa062fd</string>
 		<key>installer_item_hash</key>
-		<string>881ab37801c5caf51317e21ec34622340d7f881bde6bbb6cdf0f64815d4583ec</string>
+		<string>65e1d8ee244b8de7ba049055dd97e51cf87900c6f4d13239494b3b95a496e366</string>
 		<key>installer_item_location</key>
-		<string>apps/apple/Pages-5.5.3.dmg</string>
+		<string>apps/apple/Pages-5.6.dmg</string>
 		<key>installer_item_size</key>
-		<integer>315281</integer>
+		<integer>248244</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -2019,11 +2093,11 @@
 				<key>CFBundleName</key>
 				<string>Pages</string>
 				<key>CFBundleShortVersionString</key>
-				<string>5.5.3</string>
+				<string>5.6</string>
 				<key>CFBundleVersion</key>
-				<string>2152</string>
+				<string>2553</string>
 				<key>minosversion</key>
-				<string>10.10</string>
+				<string>10.10.4</string>
 				<key>path</key>
 				<string>/Applications/Pages.app</string>
 				<key>type</key>
@@ -2042,7 +2116,7 @@
 			</dict>
 		</array>
 		<key>minimum_os_version</key>
-		<string>10.10</string>
+		<string>10.10.4</string>
 		<key>name</key>
 		<string>Pages</string>
 		<key>uninstall_method</key>
@@ -2050,7 +2124,960 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>5.5.3</string>
+		<string>5.6</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Music Apps</string>
+		<key>description</key>
+		<string>MAContent10_GarageBandCoreContent2</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>MAContent10_GarageBandCoreContent2</string>
+		<key>installed_size</key>
+		<integer>358140</integer>
+		<key>installer_item_hash</key>
+		<string>83e481618776dc7363051156e4e93780bf0f6c9a208d1f21fbb8862a27dc52ca</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/garageband/MAContent10_GarageBandCoreContent2-2.0.0.0.1.1256150330.pkg</string>
+		<key>installer_item_size</key>
+		<integer>469214</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MAContent10_GarageBandCoreContent2</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>550985</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.MAContent10_GarageBandCoreContent2</string>
+				<key>version</key>
+				<string>2.0.0.0.1.1256150330</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>version</key>
+		<string>2.0.0.0.1.1256150330</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Music Applications</string>
+		<key>description</key>
+		<string>MAContent10_GarageBandCoreContent_v3</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>MAContent10_GarageBandCoreContent_v3</string>
+		<key>installed_size</key>
+		<integer>1207956</integer>
+		<key>installer_item_hash</key>
+		<string>10a169e2254f9faf60e6d54d0032dbbe09b41c24b15b94ff16fcc31d98b4833e</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/garageband/MAContent10_GarageBandCoreContent_v3-3.0.0.0.1.1256150330.pkg</string>
+		<key>installer_item_size</key>
+		<integer>1469782</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MAContent10_GarageBandCoreContent_v3</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1858395</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.MAContent10_GarageBandCoreContent</string>
+				<key>version</key>
+				<string>3.0.0.0.1.1256150330</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>version</key>
+		<string>3.0.0.0.1.1256150330</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Music Applications</string>
+		<key>description</key>
+		<string>MAContent10_PremiumPreLoopsChillwave</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>MAContent10_PremiumPreLoopsChillwave</string>
+		<key>installed_size</key>
+		<integer>971</integer>
+		<key>installer_item_hash</key>
+		<string>66bb6fac0275111286b0230c80f3a046f0559a98acb0727da03259ffb7d0e7ff</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/garageband/MAContent10_PremiumPreLoopsChillwave-1.0.0.0.1.1256150330.pkg</string>
+		<key>installer_item_size</key>
+		<integer>128</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MAContent10_PremiumPreLoopsChillwave</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1495</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.MAContent10_PremiumPreLoopsChillwave</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1256150330</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>version</key>
+		<string>1.0.0.0.1.1256150330</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Music Applications</string>
+		<key>description</key>
+		<string>MAContent10_PremiumPreLoopsDeepHouse</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>MAContent10_PremiumPreLoopsDeepHouse</string>
+		<key>installed_size</key>
+		<integer>330</integer>
+		<key>installer_item_hash</key>
+		<string>174590e7ed2304ae4bca8900720481e2098494adb561b2b82407086f135838a3</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/garageband/MAContent10_PremiumPreLoopsDeepHouse-1.0.0.0.1.1256150330.pkg</string>
+		<key>installer_item_size</key>
+		<integer>109</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MAContent10_PremiumPreLoopsDeepHouse</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>509</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.MAContent10_PremiumPreLoopsDeepHouse</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1256150330</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>version</key>
+		<string>1.0.0.0.1.1256150330</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Music Applications</string>
+		<key>description</key>
+		<string>MAContent10_PremiumPreLoopsDubstep</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>MAContent10_PremiumPreLoopsDubstep</string>
+		<key>installed_size</key>
+		<integer>408</integer>
+		<key>installer_item_hash</key>
+		<string>1af2991a9641b6bc120cbce8cb684efaf06785f5162eba606eba1f2ec5b71864</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/garageband/MAContent10_PremiumPreLoopsDubstep-1.0.0.0.1.1256150330.pkg</string>
+		<key>installer_item_size</key>
+		<integer>113</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MAContent10_PremiumPreLoopsDubstep</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>628</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.MAContent10_PremiumPreLoopsDubstep</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1256150330</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>version</key>
+		<string>1.0.0.0.1.1256150330</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Music Applications</string>
+		<key>description</key>
+		<string>MAContent10_PremiumPreLoopsElectroHouse</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>MAContent10_PremiumPreLoopsElectroHouse</string>
+		<key>installed_size</key>
+		<integer>1602</integer>
+		<key>installer_item_hash</key>
+		<string>bd47622040bd6f6181849d6198383946039199c3dd0bbf7c53142b272591c04e</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/garageband/MAContent10_PremiumPreLoopsElectroHouse-1.0.0.0.1.1256150330.pkg</string>
+		<key>installer_item_size</key>
+		<integer>172</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MAContent10_PremiumPreLoopsElectroHouse</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>2465</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.MAContent10_PremiumPreLoopsElectroHouse</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1256150330</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>version</key>
+		<string>1.0.0.0.1.1256150330</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Music Applications</string>
+		<key>description</key>
+		<string>MAContent10_PremiumPreLoopsGarageBand</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>MAContent10_PremiumPreLoopsGarageBand</string>
+		<key>installed_size</key>
+		<integer>119</integer>
+		<key>installer_item_hash</key>
+		<string>bda1c81f2d9461377374d1f0af1c166181705798f26f0ca5967506439c723ca4</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/garageband/MAContent10_PremiumPreLoopsGarageBand-1.0.0.0.1.1256150330.pkg</string>
+		<key>installer_item_size</key>
+		<integer>99</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MAContent10_PremiumPreLoopsGarageBand</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>184</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.MAContent10_PremiumPreLoopsGarageBand</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1256150330</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>version</key>
+		<string>1.0.0.0.1.1256150330</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Music Applications</string>
+		<key>description</key>
+		<string>MAContent10_PremiumPreLoopsHipHop</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>MAContent10_PremiumPreLoopsHipHop</string>
+		<key>installed_size</key>
+		<integer>2350</integer>
+		<key>installer_item_hash</key>
+		<string>6e116c2d86671ea717c8f82554c22358a6715407f5b875cb0c37ac556aa5b8b0</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/garageband/MAContent10_PremiumPreLoopsHipHop-1.0.0.0.1.1256150330.pkg</string>
+		<key>installer_item_size</key>
+		<integer>181</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MAContent10_PremiumPreLoopsHipHop</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>3616</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.MAContent10_PremiumPreLoopsHipHop</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1256150330</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>version</key>
+		<string>1.0.0.0.1.1256150330</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Music Applications</string>
+		<key>description</key>
+		<string>MAContent10_PremiumPreLoopsJamPack1</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>MAContent10_PremiumPreLoopsJamPack1</string>
+		<key>installed_size</key>
+		<integer>172</integer>
+		<key>installer_item_hash</key>
+		<string>2a024ad58e993c689ee33d7f65530ad871b49716cc38e395d328ea21b5750fd3</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/garageband/MAContent10_PremiumPreLoopsJamPack1-1.0.0.0.1.1256150330.pkg</string>
+		<key>installer_item_size</key>
+		<integer>104</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MAContent10_PremiumPreLoopsJamPack1</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>266</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.MAContent10_PremiumPreLoopsJamPack1</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1256150330</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>version</key>
+		<string>1.0.0.0.1.1256150330</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Music Applications</string>
+		<key>description</key>
+		<string>MAContent10_PremiumPreLoopsModernRnB</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>MAContent10_PremiumPreLoopsModernRnB</string>
+		<key>installed_size</key>
+		<integer>980</integer>
+		<key>installer_item_hash</key>
+		<string>654527938aad104ecc6ade63a70130203a58a4ba080ae3470e719c182010f702</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/garageband/MAContent10_PremiumPreLoopsModernRnB-1.0.0.0.1.1256150330.pkg</string>
+		<key>installer_item_size</key>
+		<integer>135</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MAContent10_PremiumPreLoopsModernRnB</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1508</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.MAContent10_PremiumPreLoopsModernRnB</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1256150330</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>version</key>
+		<string>1.0.0.0.1.1256150330</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Music Applications</string>
+		<key>description</key>
+		<string>MAContent10_PremiumPreLoopsRemixTools</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>MAContent10_PremiumPreLoopsRemixTools</string>
+		<key>installed_size</key>
+		<integer>123</integer>
+		<key>installer_item_hash</key>
+		<string>7b16d3169ad6f6697ea4a0ea8f56dd4b028c3211083819f81ce8679d29a6ffa8</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/garageband/MAContent10_PremiumPreLoopsRemixTools-1.0.0.0.1.1256150330.pkg</string>
+		<key>installer_item_size</key>
+		<integer>97</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MAContent10_PremiumPreLoopsRemixTools</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>190</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.MAContent10_PremiumPreLoopsRemixTools</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1256150330</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>version</key>
+		<string>1.0.0.0.1.1256150330</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Music Applications</string>
+		<key>description</key>
+		<string>MAContent10_PremiumPreLoopsRhythmSection</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>MAContent10_PremiumPreLoopsRhythmSection</string>
+		<key>installed_size</key>
+		<integer>236</integer>
+		<key>installer_item_hash</key>
+		<string>66271eb0b6bc877d1191fb1e037a9308548106f4dd9e032e76c3d5aeff93b075</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/garageband/MAContent10_PremiumPreLoopsRhythmSection-1.0.0.0.1.1256150330.pkg</string>
+		<key>installer_item_size</key>
+		<integer>108</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MAContent10_PremiumPreLoopsRhythmSection</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>364</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.MAContent10_PremiumPreLoopsRhythmSection</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1256150330</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>version</key>
+		<string>1.0.0.0.1.1256150330</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Music Applications</string>
+		<key>description</key>
+		<string>MAContent10_PremiumPreLoopsSymphony</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>MAContent10_PremiumPreLoopsSymphony</string>
+		<key>installed_size</key>
+		<integer>188</integer>
+		<key>installer_item_hash</key>
+		<string>7f77d8ced16a5e2870a84d83a0df07e53c7171954d97f8103ab12a2848f20abc</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/garageband/MAContent10_PremiumPreLoopsSymphony-1.0.0.0.1.1256150330.pkg</string>
+		<key>installer_item_size</key>
+		<integer>101</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MAContent10_PremiumPreLoopsSymphony</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>290</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.MAContent10_PremiumPreLoopsSymphony</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1256150330</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>version</key>
+		<string>1.0.0.0.1.1256150330</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Music Applications</string>
+		<key>description</key>
+		<string>MAContent10_PremiumPreLoopsTechHouse</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>MAContent10_PremiumPreLoopsTechHouse</string>
+		<key>installed_size</key>
+		<integer>871</integer>
+		<key>installer_item_hash</key>
+		<string>3dd155f89eeab093593b828d8f70f464831e6ae3db678e53a1ccd117960e57f5</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/garageband/MAContent10_PremiumPreLoopsTechHouse-1.0.0.0.1.1256150330.pkg</string>
+		<key>installer_item_size</key>
+		<integer>135</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MAContent10_PremiumPreLoopsTechHouse</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>1341</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.MAContent10_PremiumPreLoopsTechHouse</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1256150330</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>version</key>
+		<string>1.0.0.0.1.1256150330</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Music Applications</string>
+		<key>description</key>
+		<string>MAContent10_PremiumPreLoopsWorld</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>MAContent10_PremiumPreLoopsWorld</string>
+		<key>installed_size</key>
+		<integer>285</integer>
+		<key>installer_item_hash</key>
+		<string>3d99e7fa560c4f76fe0cac4292ebb2635fa7a82204071b14e6af86d066acbe0c</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/garageband/MAContent10_PremiumPreLoopsWorld-1.0.0.0.1.1256150330.pkg</string>
+		<key>installer_item_size</key>
+		<integer>105</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MAContent10_PremiumPreLoopsWorld</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>439</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.MAContent10_PremiumPreLoopsWorld</string>
+				<key>version</key>
+				<string>1.0.0.0.1.1256150330</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>GarageBand</string>
+		</array>
+		<key>version</key>
+		<string>1.0.0.0.1.1256150330</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Programming</string>
+		<key>description</key>
+		<string>Arduino IDE</string>
+		<key>developer</key>
+		<string>Arduino LLC</string>
+		<key>display_name</key>
+		<string>Arduino IDE</string>
+		<key>icon_hash</key>
+		<string>f7c5dfe0dec467f2ff46f25dc4b7e8008f7f2d046662ed9f792143f10cbfabf1</string>
+		<key>installer_item_hash</key>
+		<string>28c671a35a1c5bcd4d2b18877f6a6685f0aa6df6e82a3ffb4c91c4dc07237a11</string>
+		<key>installer_item_location</key>
+		<string>apps/arduino/Arduino-1.6.5-r5.dmg</string>
+		<key>installer_item_size</key>
+		<integer>143567</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>cc.arduino.Arduino</string>
+				<key>CFBundleName</key>
+				<string>Arduino</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.6.5-r5</string>
+				<key>CFBundleVersion</key>
+				<string>1.6.5-r5</string>
+				<key>minosversion</key>
+				<string>10.7</string>
+				<key>path</key>
+				<string>/Applications/Arduino.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Arduino.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>Arduino</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.6.5-r5</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Teacher Applications</string>
+		<key>description</key>
+		<string>Easy Grade Pro</string>
+		<key>developer</key>
+		<string>Blackboard</string>
+		<key>display_name</key>
+		<string>Easy Grade Pro</string>
+		<key>icon_hash</key>
+		<string>8f8f7cd081ac7e48e71c6cd2e8779d822aa54800115c4b62a855b0b3413fc0aa</string>
+		<key>installer_item_hash</key>
+		<string>794387a4d5081e7c5ef0e209c4d53a295f65774aad77db8027eed1372d2e9562</string>
+		<key>installer_item_location</key>
+		<string>apps/easy-grade-pro/Easy Grade Pro 4.1-4.1.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>6619</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.orbissoft.easygradepro</string>
+				<key>CFBundleName</key>
+				<string>Easy Grade Pro 4.1</string>
+				<key>CFBundleVersion</key>
+				<string>4.1.0</string>
+				<key>path</key>
+				<string>/Applications/Easy Grade Pro 4.1.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Easy Grade Pro 4.1.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Easy Grade Pro</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>4.1.0</string>
 	</dict>
 	<dict>
 		<key>RestartAction</key>
@@ -2070,15 +3097,15 @@
 		<key>display_name</key>
 		<string>Google Chrome</string>
 		<key>force_install_after_date</key>
-		<date>2015-09-09T13:00:00Z</date>
+		<date>2015-10-15T13:00:00Z</date>
 		<key>icon_hash</key>
 		<string>5cbec5cdef65ede7d4a2f6899e3e9343bb7d6c2285f1b1e217e07b635e21f839</string>
 		<key>installer_item_hash</key>
-		<string>ab169c8ec3dcfb55bdbb92df783629b2ecb85b378fb8d33436f318a45ae89e85</string>
+		<string>971a0c508ad678b5615cbb6192c954df92e579f19c5f071ae68b48e3b72806d9</string>
 		<key>installer_item_location</key>
-		<string>apps/google/googlechrome-45.0.2454.85.dmg</string>
+		<string>apps/google/googlechrome-46.0.2490.71.dmg</string>
 		<key>installer_item_size</key>
-		<integer>64979</integer>
+		<integer>63854</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -2089,9 +3116,9 @@
 				<key>CFBundleName</key>
 				<string>Chrome</string>
 				<key>CFBundleShortVersionString</key>
-				<string>45.0.2454.85</string>
+				<string>46.0.2490.71</string>
 				<key>CFBundleVersion</key>
-				<string>2454.85</string>
+				<string>2490.71</string>
 				<key>minosversion</key>
 				<string>10.6.0</string>
 				<key>path</key>
@@ -2120,7 +3147,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>45.0.2454.85</string>
+		<string>46.0.2490.71</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -3025,13 +4052,13 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<key>display_name</key>
 		<string>Office 2011 Update</string>
 		<key>installed_size</key>
-		<integer>338694</integer>
+		<integer>338688</integer>
 		<key>installer_item_hash</key>
-		<string>362a4a1d85c62028de8198666120ad024d84f5f782a77c6f48a82ae581dbdc57</string>
+		<string>51544d9adba743750dbda079205defccddecb9b6ef4ac06db97277d50c907529</string>
 		<key>installer_item_location</key>
-		<string>apps/microsoft/Office2011-1453Update_EN-US-14.5.3.dmg</string>
+		<string>apps/microsoft/Office2011-1457Update_EN-US-14.5.7.dmg</string>
 		<key>installer_item_size</key>
-		<integer>116085</integer>
+		<integer>116086</integer>
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>
@@ -3042,417 +4069,417 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 				<key>installed_size</key>
 				<integer>0</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.quit.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.quit.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>4</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.readme.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.readme.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>12673</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.core_resources.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.core_resources.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>22455</integer>
+				<integer>22459</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.ooxml.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.ooxml.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>7</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.clipart.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.clipart.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>35</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.equationeditor_resources.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.equationeditor_resources.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>25</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.graph_resources.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.graph_resources.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>33</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.langregister.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.langregister.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>5</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.sharepointbrowserplugin_resources.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.sharepointbrowserplugin_resources.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>1804</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.word_resources.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.word_resources.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>33</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.word_wizards.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.word_wizards.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>1904</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.excel_resources.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.excel_resources.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>180</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.excel_templates.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.excel_templates.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>6649</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.query.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.query.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>858</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.solver.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.solver.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>892</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.powerpoint_resources.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.powerpoint_resources.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>5359</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.outlook_resources.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.outlook_resources.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>11</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.outlook_scriptmenuitems.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.outlook_scriptmenuitems.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>372</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_catalan.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_catalan.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>372</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_danish.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_danish.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>372</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_dutch.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_dutch.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>1807</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_english.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_english.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>7</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_finnish.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_finnish.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>1349</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_french.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_french.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>1852</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_german.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_german.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>372</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_italian.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_italian.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>1783</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_italian_grammar.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_italian_grammar.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>280</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_japanese.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_japanese.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>741</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_norwegian.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_norwegian.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>372</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_portuguese.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_portuguese.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>372</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_brazilian.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_brazilian.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>373</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_spanish.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_spanish.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>373</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_swedish.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_swedish.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>372</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_czech.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_czech.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>372</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_polish.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_polish.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>372</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_russian.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_russian.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>372</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_turkish.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.proofing_turkish.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>401</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.dcc_resources.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.dcc_resources.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>241</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.fonts.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.fonts.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>11241</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.automator.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.automator.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>55</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.automator_workflow.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.en.automator_workflow.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>6</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.equationeditor.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.equationeditor.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>3622</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.graph.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.graph.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>242</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.sharepointbrowserplugin.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.sharepointbrowserplugin.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>36956</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.word.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.word.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>27716</integer>
+				<integer>27712</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.excel.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.excel.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>19512</integer>
+				<integer>19516</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.powerpoint.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.powerpoint.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>24701</integer>
+				<integer>24697</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.outlook.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.outlook.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>5524</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.vb.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.vb.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>632</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.dcc.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.dcc.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>0</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.fix_permissions.pkg.14.5.3</string>
+				<string>com.microsoft.office.all.fix_permissions.pkg.14.5.7</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>142633</integer>
+				<integer>142627</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.core.pkg.14.5.3.update</string>
+				<string>com.microsoft.office.all.core.pkg.14.5.7.update</string>
 				<key>version</key>
-				<string>14.5.3</string>
+				<string>14.5.7</string>
 			</dict>
 		</array>
 		<key>requires</key>
@@ -3468,7 +4495,7 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 			<string>Microsoft Office for Mac 2011</string>
 		</array>
 		<key>version</key>
-		<string>14.5.3</string>
+		<string>14.5.7</string>
 	</dict>
 	<dict>
 		<key>RestartAction</key>
@@ -3534,14 +4561,16 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<string>Mozilla</string>
 		<key>display_name</key>
 		<string>Firefox ESR</string>
+		<key>force_install_after_date</key>
+		<date>2015-10-09T13:00:00Z</date>
 		<key>icon_hash</key>
 		<string>fed17282654a22e36d452b9fa5d0fd08a03594df6e8a3aaf8d34a65768d934e6</string>
 		<key>installer_item_hash</key>
-		<string>75a97747fd165571e8104c6de0a9f33f66d11807f65211e3898ead5e92cf83c7</string>
+		<string>163548f026890d868a999e6f18cc1b738e14ceb562333e8409889ad8f19e92e8</string>
 		<key>installer_item_location</key>
-		<string>apps/mozilla/Firefox 38.2.1esr-38.2.1.dmg</string>
+		<string>apps/mozilla/Firefox 38.3.0esr-38.3.0.dmg</string>
 		<key>installer_item_size</key>
-		<integer>73074</integer>
+		<integer>73092</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -3552,9 +4581,9 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 				<key>CFBundleName</key>
 				<string>Firefox</string>
 				<key>CFBundleShortVersionString</key>
-				<string>38.2.1</string>
+				<string>38.3.0</string>
 				<key>CFBundleVersion</key>
-				<string>3815.8.26</string>
+				<string>3815.9.16</string>
 				<key>minosversion</key>
 				<string>10.6</string>
 				<key>path</key>
@@ -3583,7 +4612,7 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>38.2.1</string>
+		<string>38.3.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -3603,11 +4632,11 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<key>icon_hash</key>
 		<string>c60719061cfb37441d2c32a445e726957cf41c16b31674ec4e227045138a1383</string>
 		<key>installer_item_hash</key>
-		<string>22fbba726dcb409b5ad48c35f02de7fe7544193b3a9faa108f4c85a38f20ae03</string>
+		<string>67120a0b4e97a973302720121d936589d113adf82996be0a99128cd7d9f3cca3</string>
 		<key>installer_item_location</key>
-		<string>apps/mozilla/Thunderbird 38.2.0.dmg</string>
+		<string>apps/mozilla/Thunderbird-38.3.0.dmg</string>
 		<key>installer_item_size</key>
-		<integer>68360</integer>
+		<integer>68342</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -3618,9 +4647,9 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 				<key>CFBundleName</key>
 				<string>Thunderbird</string>
 				<key>CFBundleShortVersionString</key>
-				<string>38.2.0</string>
+				<string>38.3.0</string>
 				<key>CFBundleVersion</key>
-				<string>38.2.0</string>
+				<string>38.3.0</string>
 				<key>minosversion</key>
 				<string>10.6.0</string>
 				<key>path</key>
@@ -3649,7 +4678,7 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>38.2.0</string>
+		<string>38.3.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -3666,12 +4695,14 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<string>Pixelmator</string>
 		<key>display_name</key>
 		<string>Pixelmator</string>
+		<key>icon_hash</key>
+		<string>c33d6a077c28807518f2e20c034e72f61550cabb46147555fdda43a0673aac9a</string>
 		<key>installer_item_hash</key>
-		<string>63e7ab997e289e7a056fd51a67d69451d15e9e76683831469e55c1b477ac8855</string>
+		<string>f053674cd902cbdcd8cb20f6a00a075bdcbf46e61487e8f1ea9aea0450d333f0</string>
 		<key>installer_item_location</key>
-		<string>apps/pixelmator/Pixelmator-3.3.2.dmg</string>
+		<string>apps/pixelmator/Pixelmator-3.4.dmg</string>
 		<key>installer_item_size</key>
-		<integer>46886</integer>
+		<integer>50753</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -3682,9 +4713,9 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 				<key>CFBundleName</key>
 				<string>Pixelmator</string>
 				<key>CFBundleShortVersionString</key>
-				<string>3.3.2</string>
+				<string>3.4</string>
 				<key>CFBundleVersion</key>
-				<string>50417</string>
+				<string>51012</string>
 				<key>minosversion</key>
 				<string>10.9.5</string>
 				<key>path</key>
@@ -3713,7 +4744,139 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>3.3.2</string>
+		<string>3.4</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Programming</string>
+		<key>description</key>
+		<string>Sublime Text 2</string>
+		<key>developer</key>
+		<string>Sublime Text</string>
+		<key>display_name</key>
+		<string>Sublime Text 2</string>
+		<key>icon_hash</key>
+		<string>220e47e1f481f6c0b4eb8547bd66aa671896be458a222bb4378a4fe6913d25b0</string>
+		<key>installer_item_hash</key>
+		<string>906e71e19ae5321f80e7cf42eab8355146d8f2c3fd55be1f7fe5c62c57165add</string>
+		<key>installer_item_location</key>
+		<string>apps/sublimetext/Sublime Text 2.0.2-2221.dmg</string>
+		<key>installer_item_size</key>
+		<integer>7827</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sublimetext.2</string>
+				<key>CFBundleName</key>
+				<string>Sublime Text 2</string>
+				<key>CFBundleShortVersionString</key>
+				<string>Version 2.0.2, Build 2221</string>
+				<key>CFBundleVersion</key>
+				<string>2221</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Sublime Text 2.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Sublime Text 2.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Sublime Text 2</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2221</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Tutors</string>
+		<key>description</key>
+		<string>Typist</string>
+		<key>developer</key>
+		<string>Takeshi Ogihara</string>
+		<key>display_name</key>
+		<string>Typist</string>
+		<key>icon_hash</key>
+		<string>4f19006a5bf95edb1217a9a3a344f653aa8c08ba23815208020ce6e6174f884d</string>
+		<key>installer_item_hash</key>
+		<string>6e5a404eaa7c3a399f98c2b3fdc446513b362dc20d372c88a0013923773c0547</string>
+		<key>installer_item_location</key>
+		<string>apps/typist/Typist-2.4.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>3863</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>jp.ogihara.typist</string>
+				<key>CFBundleName</key>
+				<string>Typist</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.4.0</string>
+				<key>CFBundleVersion</key>
+				<string>2.320</string>
+				<key>minosversion</key>
+				<string>10.8</string>
+				<key>path</key>
+				<string>/Applications/Typist.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Typist.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.8</string>
+		<key>name</key>
+		<string>Typist</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.4.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -3784,6 +4947,59 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<true/>
 		<key>version</key>
 		<string>2.2.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Developer Applications</string>
+		<key>description</key>
+		<string>Node.js</string>
+		<key>developer</key>
+		<string>Node.js Foundation</string>
+		<key>display_name</key>
+		<string>Node.js</string>
+		<key>installed_size</key>
+		<integer>38228</integer>
+		<key>installer_item_hash</key>
+		<string>688df0a12461f378b296f69e8ae2c1cbb974b0216278624815bce7dcfea080c2</string>
+		<key>installer_item_location</key>
+		<string>developer/node.js/node-v4.2.1.pkg</string>
+		<key>installer_item_size</key>
+		<integer>12294</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Node.js</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>38228</integer>
+				<key>packageid</key>
+				<string>org.nodejs.node.pkg</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>16696</integer>
+				<key>packageid</key>
+				<string>org.nodejs.nodejs.npm.pkg</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>4.2.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -4157,6 +5373,55 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<true/>
 		<key>version</key>
 		<string>4.5.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Printers</string>
+		<key>description</key>
+		<string>SGS_Printer_5th_Grade_HP_LaserJet_1300n</string>
+		<key>developer</key>
+		<string>SGS</string>
+		<key>display_name</key>
+		<string>SGS_Printer_5th_Grade_HP_LaserJet_1300n</string>
+		<key>installer_item_hash</key>
+		<string>80252cb99a15983839d915dfef6945d00d8e03f6feb55e5a0d40e960558a6460</string>
+		<key>installer_item_location</key>
+		<string>printers/SGS_Printer_5th_Grade_HP_LaserJet_1300n-2015.09.27.15.54.pkg</string>
+		<key>installer_item_size</key>
+		<integer>4</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>SGS_Printer_5th_Grade_HP_LaserJet_1300n</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>org.seattlegirlsschool.SGS_Printer_5th_Grade_HP_LaserJet_1300n</string>
+				<key>version</key>
+				<string>2015.09.27.15.54</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Apple HP Printer Drivers</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2015.09.27.15.54</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -5504,6 +6769,112 @@ rm /usr/local/sbin/icloud-disabled</string>
 		<true/>
 		<key>version</key>
 		<string>34.3</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>display_name</key>
+		<string>HideSGSAdmin</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>path</key>
+				<string>/usr/local/sbin/hidesgsadmin</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>HideSGSAdmin</string>
+		<key>preinstall_script</key>
+		<string>#!/bin/bash 
+dscl . create /Users/sgsadmin IsHidden 1
+touch /usr/local/sbin/hidesgsadmin
+exit 0</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/sh
+dscl . create /Users/sgsadmin IsHidden 0
+exit 0</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>20150927</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>iTerm</string>
+		<key>developer</key>
+		<string>George Nachman</string>
+		<key>display_name</key>
+		<string>iTerm</string>
+		<key>icon_hash</key>
+		<string>773c741dea3f007b25ac8cac16cdb795544f9773c2ed4f51c1324715e427df7c</string>
+		<key>installer_item_hash</key>
+		<string>4220639529ad29b8f01e8242416962870430cce9ce0282017f3f73d0ef8b7326</string>
+		<key>installer_item_location</key>
+		<string>utilities/iTerm-2.1.4.dmg</string>
+		<key>installer_item_size</key>
+		<integer>3279</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.googlecode.iterm2</string>
+				<key>CFBundleName</key>
+				<string>iTerm</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.1.4</string>
+				<key>CFBundleVersion</key>
+				<string>2.1.4</string>
+				<key>path</key>
+				<string>/Applications/iTerm.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>iTerm.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>iTerm</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.1.4</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

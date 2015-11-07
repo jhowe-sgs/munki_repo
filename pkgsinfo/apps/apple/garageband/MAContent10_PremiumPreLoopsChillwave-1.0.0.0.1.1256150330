@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>serveradmin</string>
+		<key>creation_date</key>
+		<date>2015-11-06T22:40:51Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>category</key>
+	<string>Music Applications</string>
+	<key>description</key>
+	<string>MAContent10_PremiumPreLoopsChillwave</string>
+	<key>developer</key>
+	<string>Apple</string>
+	<key>display_name</key>
+	<string>MAContent10_PremiumPreLoopsChillwave</string>
+	<key>installed_size</key>
+	<integer>971</integer>
+	<key>installer_item_hash</key>
+	<string>66bb6fac0275111286b0230c80f3a046f0559a98acb0727da03259ffb7d0e7ff</string>
+	<key>installer_item_location</key>
+	<string>apps/apple/garageband/MAContent10_PremiumPreLoopsChillwave-1.0.0.0.1.1256150330.pkg</string>
+	<key>installer_item_size</key>
+	<integer>128</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>MAContent10_PremiumPreLoopsChillwave</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>1495</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.MAContent10_PremiumPreLoopsChillwave</string>
+			<key>version</key>
+			<string>1.0.0.0.1.1256150330</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>unattended_install</key>
+	<true/>
+	<key>update_for</key>
+	<array>
+		<string>GarageBand</string>
+	</array>
+	<key>requires</key>
+	<array>
+		<string>GarageBand</string>
+	</array>
+	<key>version</key>
+	<string>1.0.0.0.1.1256150330</string>
+</dict>
+</plist>

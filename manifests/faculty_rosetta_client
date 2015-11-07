@@ -31,6 +31,7 @@
 		<string>Pages</string>
 		<string>iMovie</string>
 		<string>iPhoto</string>
+		<string>GarageBand</string>
 
 		<string>Pixelmator</string>
 		<string>VLC media player</string>
@@ -61,6 +62,7 @@
 
 		<string>Disable System iCloud</string>
 		<string>Set Login Banner</string>
+		<string>HideSGSAdmin</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-08-17T04:54:31Z</date>
+		<date>2015-11-06T22:46:46Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
@@ -20,47 +20,51 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Browsers</string>
+	<string>Music Applications</string>
 	<key>description</key>
-	<string>Adobe Flash Player</string>
+	<string>MAContent10_PremiumPreLoopsRhythmSection</string>
 	<key>developer</key>
-	<string>Adobe</string>
+	<string>Apple</string>
 	<key>display_name</key>
-	<string>Adobe Flash Player</string>
-	<key>icon_hash</key>
-	<string>8f353356435e69588803b436216dd6b29f819a1956b7019833e3a5e08877ed94</string>
+	<string>MAContent10_PremiumPreLoopsRhythmSection</string>
 	<key>installed_size</key>
-	<integer>17086</integer>
+	<integer>236</integer>
 	<key>installer_item_hash</key>
-	<string>98cd746709b1a714e7edf432f0f4cc477e2a9757235a9f48516ac64150e3874a</string>
+	<string>66271eb0b6bc877d1191fb1e037a9308548106f4dd9e032e76c3d5aeff93b075</string>
 	<key>installer_item_location</key>
-	<string>apps/adobe/Install Adobe Flash Player-18.0.0.232.pkg</string>
+	<string>apps/apple/garageband/MAContent10_PremiumPreLoopsRhythmSection-1.0.0.0.1.1256150330.pkg</string>
 	<key>installer_item_size</key>
-	<integer>15781</integer>
+	<integer>108</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>Adobe Flash Player</string>
+	<string>MAContent10_PremiumPreLoopsRhythmSection</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>17086</integer>
+			<integer>364</integer>
 			<key>packageid</key>
-			<string>com.adobe.pkg.FlashPlayer</string>
+			<string>com.apple.pkg.MAContent10_PremiumPreLoopsRhythmSection</string>
 			<key>version</key>
-			<string>18.0.0.232</string>
+			<string>1.0.0.0.1.1256150330</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>RestartAction</key>
-	<string>RequireLogout</string>
-	<key>force_install_after_date</key>
-	<date>2015-08-21T13:00:00Z</date>
+	<key>unattended_install</key>
+	<true/>
+	<key>update_for</key>
+	<array>
+		<string>GarageBand</string>
+	</array>
+	<key>requires</key>
+	<array>
+		<string>GarageBand</string>
+	</array>
 	<key>version</key>
-	<string>18.0.0.232</string>
+	<string>1.0.0.0.1.1256150330</string>
 </dict>
 </plist>

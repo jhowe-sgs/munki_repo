@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>serveradmin</string>
+		<key>creation_date</key>
+		<date>2015-10-19T16:48:56Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>category</key>
+	<string>Browsers</string>
+	<key>description</key>
+	<string>Adobe Flash Player</string>
+	<key>developer</key>
+	<string>Adobe</string>
+	<key>display_name</key>
+	<string>Adobe Flash Player</string>
+	<key>icon_hash</key>
+	<string>8f353356435e69588803b436216dd6b29f819a1956b7019833e3a5e08877ed94</string>
+	<key>installed_size</key>
+	<integer>17141</integer>
+	<key>installer_item_hash</key>
+	<string>39c967685558fe8b9c92dfcd7626b26f61d875933ae89fe114e68794b7f8e8c1</string>
+	<key>installer_item_location</key>
+	<string>apps/adobe/Install Adobe Flash Player-19.0.0.226.pkg</string>
+	<key>installer_item_size</key>
+	<integer>15833</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Adobe Flash Player</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>17141</integer>
+			<key>packageid</key>
+			<string>com.adobe.pkg.FlashPlayer</string>
+			<key>version</key>
+			<string>19.0.0.226</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>RestartAction</key>
+	<string>RequireLogout</string>
+	<key>force_install_after_date</key>
+	<date>2015-10-20T13:00:00Z</date>
+	<key>version</key>
+	<string>19.0.0.226</string>
+</dict>
+</plist>

@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-09-04T18:12:10Z</date>
+		<date>2015-10-19T16:44:10Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
@@ -20,42 +20,38 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Browsers</string>
+	<string>Teacher Applications</string>
 	<key>description</key>
-	<string>Google Chrome</string>
+	<string>Easy Grade Pro</string>
 	<key>developer</key>
-	<string>Google</string>
+	<string>Blackboard</string>
 	<key>display_name</key>
-	<string>Google Chrome</string>
+	<string>Easy Grade Pro</string>
 	<key>icon_hash</key>
-	<string>5cbec5cdef65ede7d4a2f6899e3e9343bb7d6c2285f1b1e217e07b635e21f839</string>
+	<string>8f8f7cd081ac7e48e71c6cd2e8779d822aa54800115c4b62a855b0b3413fc0aa</string>
 	<key>installer_item_hash</key>
-	<string>ab169c8ec3dcfb55bdbb92df783629b2ecb85b378fb8d33436f318a45ae89e85</string>
+	<string>794387a4d5081e7c5ef0e209c4d53a295f65774aad77db8027eed1372d2e9562</string>
 	<key>installer_item_location</key>
-	<string>apps/google/googlechrome-45.0.2454.85.dmg</string>
+	<string>apps/easy-grade-pro/Easy Grade Pro 4.1-4.1.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>64979</integer>
+	<integer>6619</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.google.Chrome</string>
+			<string>com.orbissoft.easygradepro</string>
 			<key>CFBundleName</key>
-			<string>Chrome</string>
-			<key>CFBundleShortVersionString</key>
-			<string>45.0.2454.85</string>
+			<string>Easy Grade Pro 4.1</string>
 			<key>CFBundleVersion</key>
-			<string>2454.85</string>
-			<key>minosversion</key>
-			<string>10.6.0</string>
+			<string>4.1.0</string>
 			<key>path</key>
-			<string>/Applications/Google Chrome.app</string>
+			<string>/Applications/Easy Grade Pro 4.1.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
-			<string>CFBundleShortVersionString</string>
+			<string>CFBundleVersion</string>
 		</dict>
 	</array>
 	<key>items_to_copy</key>
@@ -64,22 +60,18 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Google Chrome.app</string>
+			<string>Easy Grade Pro 4.1.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6.0</string>
+	<string>10.4.0</string>
 	<key>name</key>
-	<string>Google Chrome</string>
+	<string>Easy Grade Pro</string>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>force_install_after_date</key>
-	<date>2015-09-09T13:00:00Z</date>
-	<key>RestartAction</key>
-	<string>RequireLogout</string>
 	<key>version</key>
-	<string>45.0.2454.85</string>
+	<string>4.1.0</string>
 </dict>
 </plist>

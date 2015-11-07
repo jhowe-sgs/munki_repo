@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>serveradmin</string>
+		<key>creation_date</key>
+		<date>2015-10-05T18:54:53Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>category</key>
+	<string>Programming</string>
+	<key>description</key>
+	<string>Sublime Text 2</string>
+	<key>developer</key>
+	<string>Sublime Text</string>
+	<key>display_name</key>
+	<string>Sublime Text 2</string>
+	<key>icon_hash</key>
+	<string>220e47e1f481f6c0b4eb8547bd66aa671896be458a222bb4378a4fe6913d25b0</string>
+	<key>installer_item_hash</key>
+	<string>906e71e19ae5321f80e7cf42eab8355146d8f2c3fd55be1f7fe5c62c57165add</string>
+	<key>installer_item_location</key>
+	<string>apps/sublimetext/Sublime Text 2.0.2-2221.dmg</string>
+	<key>installer_item_size</key>
+	<integer>7827</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.sublimetext.2</string>
+			<key>CFBundleName</key>
+			<string>Sublime Text 2</string>
+			<key>CFBundleShortVersionString</key>
+			<string>Version 2.0.2, Build 2221</string>
+			<key>CFBundleVersion</key>
+			<string>2221</string>
+			<key>minosversion</key>
+			<string>10.6</string>
+			<key>path</key>
+			<string>/Applications/Sublime Text 2.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Sublime Text 2.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.6</string>
+	<key>name</key>
+	<string>Sublime Text 2</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2221</string>
+</dict>
+</plist>

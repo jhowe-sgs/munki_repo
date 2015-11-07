@@ -7,11 +7,11 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-08-02T19:44:48Z</date>
+		<date>2015-10-05T18:42:00Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
-		<string>10.10.4</string>
+		<string>10.10.5</string>
 	</dict>
 	<key>autoremove</key>
 	<false/>
@@ -20,36 +20,38 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Video Apps</string>
+	<string>Mail Clients</string>
 	<key>description</key>
-	<string>iMovie</string>
+	<string>Thunderbird</string>
 	<key>developer</key>
-	<string>Apple</string>
+	<string>Mozilla</string>
 	<key>display_name</key>
-	<string>iMovie</string>
+	<string>Thunderbird</string>
+	<key>icon_hash</key>
+	<string>c60719061cfb37441d2c32a445e726957cf41c16b31674ec4e227045138a1383</string>
 	<key>installer_item_hash</key>
-	<string>03347915907e9fa62ed12404e5bfa84956b14f6136c8275f684d3007a5583f08</string>
+	<string>67120a0b4e97a973302720121d936589d113adf82996be0a99128cd7d9f3cca3</string>
 	<key>installer_item_location</key>
-	<string>apps/apple/iMovie-10.0.9.dmg</string>
+	<string>apps/mozilla/Thunderbird-38.3.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>2010403</integer>
+	<integer>68342</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.iMovieApp</string>
+			<string>org.mozilla.thunderbird</string>
 			<key>CFBundleName</key>
-			<string>iMovie</string>
+			<string>Thunderbird</string>
 			<key>CFBundleShortVersionString</key>
-			<string>10.0.9</string>
+			<string>38.3.0</string>
 			<key>CFBundleVersion</key>
-			<string>266479</string>
+			<string>38.3.0</string>
 			<key>minosversion</key>
-			<string>10.10.2</string>
+			<string>10.6.0</string>
 			<key>path</key>
-			<string>/Applications/iMovie.app</string>
+			<string>/Applications/Thunderbird.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -62,18 +64,18 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>iMovie.app</string>
+			<string>Thunderbird.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.10.2</string>
+	<string>10.6.0</string>
 	<key>name</key>
-	<string>iMovie</string>
+	<string>Thunderbird</string>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>10.0.9</string>
+	<string>38.3.0</string>
 </dict>
 </plist>

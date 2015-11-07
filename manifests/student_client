@@ -29,18 +29,26 @@
 		<string>Pages</string>
 		<string>iMovie</string>
 		<string>iPhoto</string>
+		<string>GarageBand</string>
 
 		<string>Pixelmator</string>
 		<string>VLC media player</string>
 		<string>HandBrake</string>
 
+		<string>Typist</string>
+
 		<string>Alfred 2</string>
 		<string>Caffeine</string>
 		<string>Flux</string>
 		<string>XRG</string>
+
+		<string>Arduino</string>
+		<string>Sublime Text 2</string>
+		<string>Node.js</string>
 		
 		<string>SGS_Printer_Building_Two_Canon_Image_Runner_1740iF</string>
 		<string>SGS_Printer_Art_Room_HP_LaserJet_4300</string>
+		<string>SGS_Printer_5th_Grade_HP_LaserJet_1300n</string>
 		<string>SGS_Printer_6th_Grade_Central_HP_LaserJet_4000</string>
 		<string>SGS_Printer_6th_Grade_North_HP_LaserJet_2300</string>
 		<string>SGS_Printer_7th_Grade_East_HP_LaserJet_1320</string>
@@ -48,7 +56,6 @@
 		<string>SGS_Printer_8th_Grade_Lab_HP_LaserJet_1300n</string>
 		<string>SGS_Printer_8th_Grade_Library_HP_LasetJet_P2015dn</string>
 		<string>SGS_Printer_CMR_HP_LaserJet_4000</string>
-		
 
 		<string>SGS_Finder_Settings</string>
 		<string>SGS_Restrictions</string>
@@ -58,6 +65,7 @@
 
 		<string>Disable System iCloud</string>
 		<string>Set Login Banner</string>
+		<string>HideSGSAdmin</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
