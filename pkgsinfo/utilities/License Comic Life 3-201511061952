@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-10-19T16:48:56Z</date>
+		<date>2015-11-07T03:53:25Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
@@ -20,47 +20,53 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Browsers</string>
+	<string>Utilities</string>
 	<key>description</key>
-	<string>Adobe Flash Player</string>
+	<string>License Comic Life 3</string>
 	<key>developer</key>
-	<string>Adobe</string>
+	<string>SGS</string>
 	<key>display_name</key>
-	<string>Adobe Flash Player</string>
+	<string>License Comic Life 3</string>
 	<key>icon_hash</key>
-	<string>8f353356435e69588803b436216dd6b29f819a1956b7019833e3a5e08877ed94</string>
+	<string>6cd54c87d00864131fb76bef512f8f886ddf5f12b006e3fc5714ec64e8a5260a</string>
 	<key>installed_size</key>
-	<integer>17141</integer>
+	<integer>372</integer>
 	<key>installer_item_hash</key>
-	<string>39c967685558fe8b9c92dfcd7626b26f61d875933ae89fe114e68794b7f8e8c1</string>
+	<string>0da7ec8e0d9dbb5e2bdcd15075e2340d367f4dda7ba54a17802e783a1c84d972</string>
 	<key>installer_item_location</key>
-	<string>apps/adobe/Install Adobe Flash Player-19.0.0.226.pkg</string>
+	<string>utilities/License Comic Life 3-201511061952.pkg</string>
 	<key>installer_item_size</key>
-	<integer>15833</integer>
+	<integer>252</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>Adobe Flash Player</string>
+	<string>License Comic Life 3</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>17141</integer>
+			<integer>372</integer>
 			<key>packageid</key>
-			<string>com.adobe.pkg.FlashPlayer</string>
+			<string>org.seattlegirlsschool.license_comic_life_3</string>
 			<key>version</key>
-			<string>19.0.0.226</string>
+			<string>201511061952</string>
 		</dict>
 	</array>
+	<key>requires</key>
+	<array>
+		<string>Comic Life 3</string>
+	</array>
+	<key>unattended_install</key>
+	<true/>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>RestartAction</key>
-	<string>RequireLogout</string>
-	<key>force_install_after_date</key>
-	<date>2015-10-20T13:00:00Z</date>
+	<key>update_for</key>
+	<array>
+		<string>Comic Life 3</string>
+	</array>
 	<key>version</key>
-	<string>19.0.0.226</string>
+	<string>201511061952</string>
 </dict>
 </plist>

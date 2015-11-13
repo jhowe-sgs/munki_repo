@@ -36,6 +36,7 @@
 		<string>Pixelmator</string>
 		<string>VLC media player</string>
 		<string>HandBrake</string>
+		<string>Comic Life 3</string>
 
 		<string>Alfred 2</string>
 		<string>Caffeine</string>
@@ -52,6 +53,7 @@
 
 		<string>Disable System iCloud</string>
 		<string>Set Login Banner</string>
+		<string>SetNTPServers</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

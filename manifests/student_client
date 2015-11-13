@@ -34,6 +34,7 @@
 		<string>Pixelmator</string>
 		<string>VLC media player</string>
 		<string>HandBrake</string>
+		<string>Comic Life 3</string>
 
 		<string>Typist</string>
 
@@ -44,7 +45,7 @@
 
 		<string>Arduino</string>
 		<string>Sublime Text 2</string>
-		<string>Node.js</string>
+		<string>TextWrangler</string>
 		
 		<string>SGS_Printer_Building_Two_Canon_Image_Runner_1740iF</string>
 		<string>SGS_Printer_Art_Room_HP_LaserJet_4300</string>
@@ -66,6 +67,7 @@
 		<string>Disable System iCloud</string>
 		<string>Set Login Banner</string>
 		<string>HideSGSAdmin</string>
+		<string>SetNTPServers</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+  	<string>sgs_catalog</string>
+	</array>
+	<key>name</key>
+	<string>SetNTPServers</string>
+	<key>display_name</key>
+	<string>SetNTPServers</string>
+	<key>installer_type</key>
+	<string>nopkg</string>
+	<key>installs</key>
+	<array>
+  	<dict>
+		<key>path</key>
+		<string>/usr/local/sbin/setntpservers</string>
+		<key>type</key>
+		<string>file</string>
+  	</dict>
+	</array>
+	<key>preinstall_script</key>
+	<string>#!/bin/bash 
+echo "Setting Time Zone... "
+
+/usr/sbin/systemsetup -settimezone America/Los_Angeles
+
+NTP_CONF=/private/etc/ntp.conf
+
+if [ ! -f ${NTP_CONF} ]; then
+        touch ${NTP_CONF}
+fi
+
+echo "Setting NTP Servers... "
+
+/usr/sbin/systemsetup -setnetworktimeserver ogunte.seattlegirlsschool.org
+
+echo "server 0.pool.ntp.org" >> ${NTP_CONF}
+echo "server 1.pool.ntp.org" >> ${NTP_CONF}
+echo "server 2.pool.ntp.org" >> ${NTP_CONF}
+echo "server 3.pool.ntp.org" >> ${NTP_CONF}
+
+/usr/sbin/systemsetup -setusingnetworktime off
+#sleep 2
+/usr/sbin/systemsetup -setusingnetworktime on
+
+
+touch /usr/local/sbin/setntpservers
+exit 0</string>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>unattended_install</key>
+	<true/> 
+	<key>uninstallable</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>uninstall_script</string>
+	<key>uninstall_script</key>
+	<string>#!/bin/sh
+/usr/sbin/systemsetup -setusingnetworktime off
+rm /private/etc/ntp.conf
+exit 0</string>
+	<key>version</key>
+	<string>20151106</string>
+</dict>
+</plist>

@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-09-23T20:40:29Z</date>
+		<date>2015-11-12T20:44:23Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
@@ -20,39 +20,47 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Printers</string>
+	<string>Browsers</string>
 	<key>description</key>
-	<string>SGS_Printer_6th_Grade_North_HP_LasetJet_2300</string>
+	<string>Adobe Flash Player</string>
 	<key>developer</key>
-	<string>SGS</string>
+	<string>Adobe</string>
 	<key>display_name</key>
-	<string>SGS_Printer_6th_Grade_North_HP_LasetJet_2300</string>
+	<string>Adobe Flash Player</string>
+	<key>icon_hash</key>
+	<string>8f353356435e69588803b436216dd6b29f819a1956b7019833e3a5e08877ed94</string>
+	<key>installed_size</key>
+	<integer>17143</integer>
 	<key>installer_item_hash</key>
-	<string>d1b7dfbf60b4606c2f78d22344626912181c3fe99170b0a6f56bd02241e3a8e1</string>
+	<string>b95580debd1c8d373ae206b7b4b5f1b13cab3cd368b1b9a2fed6bc5043a2ef02</string>
 	<key>installer_item_location</key>
-	<string>printers/SGS_Printer_6th_Grade_North_HP_LasetJet_2300-2015.09.23.13.35.pkg</string>
+	<string>apps/adobe/Install Adobe Flash Player-19.0.0.245.pkg</string>
 	<key>installer_item_size</key>
-	<integer>4</integer>
+	<integer>15836</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>SGS_Printer_6th_Grade_North_HP_LasetJet_2300</string>
+	<string>Adobe Flash Player</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>0</integer>
+			<integer>17143</integer>
 			<key>packageid</key>
-			<string>org.seattlegirlsschool.SGS_Printer_6th_Grade_North_HP_LasetJet_2300</string>
+			<string>com.adobe.pkg.FlashPlayer</string>
 			<key>version</key>
-			<string>2015.09.23.13.35</string>
+			<string>19.0.0.245</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
+	<key>RestartAction</key>
+	<string>RequireLogout</string>
+	<key>force_install_after_date</key>
+	<date>2015-11-13T13:00:00Z</date>
 	<key>version</key>
-	<string>2015.09.23.13.35</string>
+	<string>19.0.0.245</string>
 </dict>
 </plist>
