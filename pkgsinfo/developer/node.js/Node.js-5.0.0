@@ -49,14 +49,6 @@
 			<key>version</key>
 			<string>1.0</string>
 		</dict>
-		<dict>
-			<key>installed_size</key>
-			<integer>16688</integer>
-			<key>packageid</key>
-			<string>org.nodejs.nodejs.npm.pkg</string>
-			<key>version</key>
-			<string>1.0</string>
-		</dict>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
