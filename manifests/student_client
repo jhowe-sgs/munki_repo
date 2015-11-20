@@ -69,6 +69,7 @@
 		<string>Set Login Banner</string>
 		<string>HideSGSAdmin</string>
 		<string>SetNTPServers</string>
+		<string>SGS LanSchool Student</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
