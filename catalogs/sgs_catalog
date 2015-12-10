@@ -2937,6 +2937,8 @@
 		<key>requires</key>
 		<array>
 			<string>GarageBand</string>
+			<string>MAContent10_GarageBandCoreContent_v3</string>
+			<string>MAContent10_GarageBandCoreContent2</string>
 		</array>
 		<key>unattended_install</key>
 		<true/>
@@ -3016,6 +3018,189 @@
 		<true/>
 		<key>version</key>
 		<string>1.6.5-r5</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Programming</string>
+		<key>description</key>
+		<string>Arduino IDE</string>
+		<key>developer</key>
+		<string>Arduino LLC</string>
+		<key>display_name</key>
+		<string>Arduino IDE</string>
+		<key>icon_hash</key>
+		<string>f7c5dfe0dec467f2ff46f25dc4b7e8008f7f2d046662ed9f792143f10cbfabf1</string>
+		<key>installer_item_hash</key>
+		<string>8e9616027fade4d25e6439ccf92551aad76bdff5f792375f40cf1d289878b4ed</string>
+		<key>installer_item_location</key>
+		<string>apps/arduino/Arduino-1.6.6.dmg</string>
+		<key>installer_item_size</key>
+		<integer>150074</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>cc.arduino.Arduino</string>
+				<key>CFBundleName</key>
+				<string>Arduino</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.6.6</string>
+				<key>CFBundleVersion</key>
+				<string>1.6.6</string>
+				<key>minosversion</key>
+				<string>10.7</string>
+				<key>path</key>
+				<string>/Applications/Arduino.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Arduino.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>Arduino</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.6.6</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Programming</string>
+		<key>description</key>
+		<string>Arduino IDE</string>
+		<key>developer</key>
+		<string>Arduino LLC</string>
+		<key>display_name</key>
+		<string>Arduino IDE</string>
+		<key>icon_hash</key>
+		<string>f7c5dfe0dec467f2ff46f25dc4b7e8008f7f2d046662ed9f792143f10cbfabf1</string>
+		<key>installer_item_hash</key>
+		<string>05049f6d0c7b13a7b226aa5645d2be0d39fa7fcfad4b2efd5d3d9cd3e3fde022</string>
+		<key>installer_item_location</key>
+		<string>apps/arduino/Arduino-1.6.6__1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>150073</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>cc.arduino.Arduino</string>
+				<key>CFBundleName</key>
+				<string>Arduino</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.6.6</string>
+				<key>CFBundleVersion</key>
+				<string>1.6.6</string>
+				<key>minosversion</key>
+				<string>10.7</string>
+				<key>path</key>
+				<string>/Applications/Arduino.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Arduino.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.7</string>
+		<key>name</key>
+		<string>Arduino</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.6.6</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Developer</string>
+		<key>description</key>
+		<string>FTDI USB Serial Driver</string>
+		<key>developer</key>
+		<string>Future Technology Devices International Ltd.</string>
+		<key>display_name</key>
+		<string>FTDI USB Serial Driver</string>
+		<key>installed_size</key>
+		<integer>271</integer>
+		<key>installer_item_hash</key>
+		<string>08e7fab56d20832ea609bfb2758130279ba49722084298a952796a009b82442d</string>
+		<key>installer_item_location</key>
+		<string>apps/arduino/FTDIUSBSerialDriver_v2_3-2.3.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>83</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>FTDIUSBSerial</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>271</integer>
+				<key>packageid</key>
+				<string>com.FTDI.driver.FTDIUSBSerialDriver</string>
+				<key>version</key>
+				<string>2.3.0</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Arduino</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.3.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -7283,6 +7468,78 @@ exit 0</string>
 		<true/>
 		<key>version</key>
 		<string>20151106</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>display_name</key>
+		<string>Tweak_Arduino_Permissions</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>path</key>
+				<string>/usr/local/sbin/tweak_arduino_permissions</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Tweak_Arduino_Permissions</string>
+		<key>preinstall_script</key>
+		<string>#!/bin/bash
+if [ ! -d /Users/jenkins/jenkins/workspace/toolchain-avr-mac32/objdir ]; then
+  mkdir -p /Users/jenkins/jenkins/workspace/toolchain-avr-mac32/objdir
+fi
+
+if [ -e /Users/jenkins/jenkins/workspace/toolchain-avr-mac32/objdir/lib ]; then
+  if [ ! -L /Users/jenkins/jenkins/workspace/toolchain-avr-mac32/objdir/lib ]; then
+    rm /Users/jenkins/jenkins/workspace/toolchain-avr-mac32/objdir/lib
+  fi
+fi
+
+if [ -d /Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib ]; then
+  ln -s /Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib /Users/jenkins/jenkins/workspace/toolchain-avr-mac32/objdir/lib
+fi
+
+if [ -e /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avrdude_bin ]; then
+  if [ ! -x /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avrdude_bin ]; then
+    chmod 0755 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avrdude_bin
+  fi
+fi
+
+if [ -d /Applications/Arduino.app/Contents/Java/reference/Edison_help_files ]; then
+  chmod 0755 /Applications/Arduino.app/Contents/Java/reference/Edison_help_files
+fi
+
+if [ -d /Applications/Arduino.app/Contents/Java/reference/Galileo_help_files ]; then
+  chmod 0755 /Applications/Arduino.app/Contents/Java/reference/Galileo_help_files
+fi
+
+touch /usr/local/sbin/tweak_arduino_permissions
+exit 0</string>
+		<key>requires</key>
+		<array>
+			<string>Arduino</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/sh
+exit 0</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>20151207</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

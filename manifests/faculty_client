@@ -36,7 +36,6 @@
 		<string>VLC media player</string>
 		<string>HandBrake</string>
 		<string>Comic Life 3</string>
-		<string>TextWrangler</string>
 
 		<string>Alfred 2</string>
 		<string>Caffeine</string>
@@ -44,6 +43,13 @@
 		<string>XRG</string>
 
 		<string>Easy Grade Pro</string>
+
+		<string>Arduino</string>
+		<string>FTDIUSBSerial</string>
+		<string>Tweak_Arduino_Permissions</string>
+		<string>Sublime Text 2</string>
+		<string>TextWrangler</string>
+		<string>Node.js</string>
 		
 		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
 		<string>SGS_Printer_Building_Two_Canon_Image_Runner_1740iF</string>
@@ -64,6 +70,7 @@
 		<string>SGS_Security</string>
 		<string>SGS_Software_Update_Server</string>
 		<string>SGS_Wireless</string>
+
 		<string>SGS Faculty Share</string>
 		<string>SGS Public Share</string>
 

@@ -44,6 +44,8 @@
 		<string>XRG</string>
 
 		<string>Arduino</string>
+		<string>FTDIUSBSerial</string>
+		<string>Tweak_Arduino_Permissions</string>
 		<string>Sublime Text 2</string>
 		<string>TextWrangler</string>
 		<string>Node.js</string>

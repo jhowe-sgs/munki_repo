@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-11-06T22:50:40Z</date>
+		<date>2015-12-07T18:09:44Z</date>
 		<key>munki_version</key>
 		<string>2.2.4.2431</string>
 		<key>os_version</key>
@@ -20,53 +20,47 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Music Applications</string>
+	<string>Developer</string>
 	<key>description</key>
-	<string>MAContent10_PremiumPreLoopsWorld</string>
+	<string>FTDI USB Serial Driver</string>
 	<key>developer</key>
-	<string>Apple</string>
+	<string>Future Technology Devices International Ltd.</string>
 	<key>display_name</key>
-	<string>MAContent10_PremiumPreLoopsWorld</string>
+	<string>FTDI USB Serial Driver</string>
 	<key>installed_size</key>
-	<integer>285</integer>
+	<integer>271</integer>
 	<key>installer_item_hash</key>
-	<string>3d99e7fa560c4f76fe0cac4292ebb2635fa7a82204071b14e6af86d066acbe0c</string>
+	<string>08e7fab56d20832ea609bfb2758130279ba49722084298a952796a009b82442d</string>
 	<key>installer_item_location</key>
-	<string>apps/apple/garageband/MAContent10_PremiumPreLoopsWorld-1.0.0.0.1.1256150330.pkg</string>
+	<string>apps/arduino/FTDIUSBSerialDriver_v2_3-2.3.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>105</integer>
+	<integer>83</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>MAContent10_PremiumPreLoopsWorld</string>
+	<string>FTDIUSBSerial</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>439</integer>
+			<integer>271</integer>
 			<key>packageid</key>
-			<string>com.apple.pkg.MAContent10_PremiumPreLoopsWorld</string>
+			<string>com.FTDI.driver.FTDIUSBSerialDriver</string>
 			<key>version</key>
-			<string>1.0.0.0.1.1256150330</string>
+			<string>2.3.0</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>unattended_install</key>
-	<true/>
-	<key>update_for</key>
-	<array>
-		<string>GarageBand</string>
-	</array>
 	<key>requires</key>
 	<array>
-		<string>GarageBand</string>
-		<string>MAContent10_GarageBandCoreContent_v3</string>
-		<string>MAContent10_GarageBandCoreContent2</string>
+		<string>Arduino</string>
 	</array>
+	<key>unattended_install</key>
+	<true/>
 	<key>version</key>
-	<string>1.0.0.0.1.1256150330</string>
+	<string>2.3.0</string>
 </dict>
 </plist>
