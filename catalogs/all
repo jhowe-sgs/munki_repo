@@ -4856,6 +4856,53 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<key>category</key>
 		<string>Browsers</string>
 		<key>description</key>
+		<string>Microsoft® Silverlight™ Browser Plug-In</string>
+		<key>developer</key>
+		<string>Microsoft</string>
+		<key>display_name</key>
+		<string>Microsoft Silverlight Internet Browser Plugin</string>
+		<key>installed_size</key>
+		<integer>35672</integer>
+		<key>installer_item_hash</key>
+		<string>5f7d2b3f29ae6b08d5a2f68236189f87f86765332107d32f3c531b74da4781c9</string>
+		<key>installer_item_location</key>
+		<string>apps/microsoft/Silverlight-5.1.41105.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>15324</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Silverlight</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>35672</integer>
+				<key>packageid</key>
+				<string>com.microsoft.silverlight.plugin</string>
+				<key>version</key>
+				<string>5.1.41105.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>5.1.41105.0</string>
+	</dict>
+	<dict>
+		<key>RestartAction</key>
+		<string>RequireLogout</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Browsers</string>
+		<key>description</key>
 		<string>Firefox ESR</string>
 		<key>developer</key>
 		<string>Mozilla</string>
@@ -5247,6 +5294,376 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<true/>
 		<key>version</key>
 		<string>2.2.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Developer Applications</string>
+		<key>description</key>
+		<string>Xcode Command Line Tools OS X 10.10</string>
+		<key>developer</key>
+		<string>Apple, Inc.</string>
+		<key>display_name</key>
+		<string>Xcode Command Line Tools OS X 10.10</string>
+		<key>installed_size</key>
+		<integer>395587</integer>
+		<key>installer_item_hash</key>
+		<string>b763127af49093eb763af5793bd6416116431ec3f57ef2d665329120ad9d32ec</string>
+		<key>installer_item_location</key>
+		<string>developer/apple/Command_Line_Tools_OS_X_10.10_for_Xcode_7.2-7.2.0.0.1.1447826929.dmg</string>
+		<key>installer_item_size</key>
+		<integer>160913</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Xcode Command Line Tools OS X 10.10</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>365074</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.CLTools_Executables</string>
+				<key>version</key>
+				<string>7.2.0.0.1.1447826929</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>243522</integer>
+				<key>packageid</key>
+				<string>com.apple.pkg.DevSDK_OSX1010</string>
+				<key>version</key>
+				<string>7.2.0.0.1.1447826929</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Xcode</string>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.2.0.0.1.1447826929</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Developer Applications</string>
+		<key>description</key>
+		<string>Xcode Apple Integrated Developer Environment</string>
+		<key>developer</key>
+		<string>Apple, Inc.</string>
+		<key>display_name</key>
+		<string>Xcode Apple Integrated Developer Environment</string>
+		<key>icon_hash</key>
+		<string>7df77958155706418962f2a5232e9e31cbbdee78998535a5eb7ab322ca3cdf7b</string>
+		<key>installer_item_hash</key>
+		<string>6f08ddabfb159143e9857de1668e5fdb04ba92b77297f7a1d50cf467be7222c8</string>
+		<key>installer_item_location</key>
+		<string>developer/apple/Xcode_7.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>4622771</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.dt.Xcode</string>
+				<key>CFBundleName</key>
+				<string>Xcode</string>
+				<key>CFBundleShortVersionString</key>
+				<string>7.2</string>
+				<key>CFBundleVersion</key>
+				<string>9548</string>
+				<key>minosversion</key>
+				<string>10.10.5</string>
+				<key>path</key>
+				<string>/Applications/Xcode.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Xcode.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.5</string>
+		<key>name</key>
+		<string>Xcode</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/bash
+# make sure all users on this machine are members of the _developer group
+/usr/sbin/dseditgroup -o edit -a everyone -t group _developer
+# enable developer mode
+/usr/sbin/DevToolsSecurity -enable
+# accept Xcode license
+/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -license accept
+# install embedded packages
+for PKG in `/bin/ls /Applications/Xcode.app/Contents/Resources/Packages/*.pkg` ; do
+  /usr/sbin/installer -pkg "$PKG" -target /
+done
+	</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>7.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Developer Applications</string>
+		<key>description</key>
+		<string>GitHub Desktop</string>
+		<key>developer</key>
+		<string>GitHub, Inc.</string>
+		<key>display_name</key>
+		<string>GitHub Desktop</string>
+		<key>icon_hash</key>
+		<string>60cbf2c2662122b051b0c5e08ab1c702be1395421e696fac615ce789b3d40f1c</string>
+		<key>installer_item_hash</key>
+		<string>438a9c80e349e8a18507cf7c65740fc321fd244c0681a6bfae9e8e08d82118d1</string>
+		<key>installer_item_location</key>
+		<string>developer/github/GitHub Desktop-216.dmg</string>
+		<key>installer_item_size</key>
+		<integer>30160</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.github.GitHub</string>
+				<key>CFBundleName</key>
+				<string>GitHub Desktop</string>
+				<key>CFBundleShortVersionString</key>
+				<string>Das Ship Machine</string>
+				<key>CFBundleVersion</key>
+				<string>216</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/GitHub Desktop.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>GitHub Desktop.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>GitHub Desktop</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>216</string>
+	</dict>
+	<dict>
+		<key>RestartAction</key>
+		<string>RequireLogout</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Developer Applications</string>
+		<key>description</key>
+		<string>LEGO MINDSTORMS Education EV3 Patch</string>
+		<key>developer</key>
+		<string>The LEGO Group</string>
+		<key>display_name</key>
+		<string>LEGO MINDSTORMS Education EV3 Patch</string>
+		<key>installed_size</key>
+		<integer>1039901</integer>
+		<key>installer_item_hash</key>
+		<string>252276f16c72c21742c029b6eb11f4ebb2deb381ad7f9d228bac72ad27906c34</string>
+		<key>installer_item_location</key>
+		<string>developer/lego/LME-EV3-OSX-ENUS-01-01-01-patch-setup-1.1.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>701907</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>LEGO MINDSTORMS Education EV3 Patch</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>622808</integer>
+				<key>packageid</key>
+				<string>com.ni.pkg.lego.ev3.edu.1.1.1.core</string>
+				<key>version</key>
+				<string>1.1.1</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>3</integer>
+				<key>packageid</key>
+				<string>com.ni.pkg.lego.ev3.edu.1.1.1.update</string>
+				<key>version</key>
+				<string>1.1.1</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>124202</integer>
+				<key>packageid</key>
+				<string>com.ni.pkg.lego.ev3.edu.Eng.1.1.1</string>
+				<key>version</key>
+				<string>1.1.1</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1689</integer>
+				<key>packageid</key>
+				<string>com.ni.pkg.legodriver</string>
+				<key>version</key>
+				<string>1.2.49155</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>3</integer>
+				<key>packageid</key>
+				<string>com.ni.pkg.lego.ev3.edu.1.1.1.mode</string>
+				<key>version</key>
+				<string>1.1.1</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>LEGO MINDSTORMS Education EV3</string>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>update_for</key>
+		<array>
+			<string>LEGO MINDSTORMS Education EV3</string>
+		</array>
+		<key>version</key>
+		<string>1.1.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Developer Applications</string>
+		<key>description</key>
+		<string>LEGO MINDSTORMS Education EV3</string>
+		<key>developer</key>
+		<string>The LEGO Group</string>
+		<key>display_name</key>
+		<string>LEGO MINDSTORMS Education EV3</string>
+		<key>installed_size</key>
+		<integer>1023467</integer>
+		<key>installer_item_hash</key>
+		<string>4563aa0f4c4dc3a45c0a9e2dd24231ce9b9294861b510ec73fc7136cdba5ba74</string>
+		<key>installer_item_location</key>
+		<string>developer/lego/LME-EV3-OSX-ENUS-01-01-full-setup-1.0.1.20151210.01.dmg</string>
+		<key>installer_item_size</key>
+		<integer>689972</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>LEGO MINDSTORMS Education EV3</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>606461</integer>
+				<key>packageid</key>
+				<string>com.ni.pkg.lego.ev3.edu.1.0.core</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>3</integer>
+				<key>packageid</key>
+				<string>com.ni.pkg.lego.ev3.edu.1.0.update</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>124614</integer>
+				<key>packageid</key>
+				<string>com.ni.pkg.lego.ev3.edu.Eng.1.0</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>1202</integer>
+				<key>packageid</key>
+				<string>com.ni.pkg.legodriver</string>
+				<key>version</key>
+				<string>1.2.49153</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>255625</integer>
+				<key>packageid</key>
+				<string>com.ximian.mono-2.10.9</string>
+				<key>version</key>
+				<string>2.10.9</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Silverlight</string>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.1.20151210.01</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

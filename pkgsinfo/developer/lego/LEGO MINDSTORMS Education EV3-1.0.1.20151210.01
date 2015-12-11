@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>serveradmin</string>
+		<key>creation_date</key>
+		<date>2015-12-10T23:10:00Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>category</key>
+	<string>Developer Applications</string>
+	<key>description</key>
+	<string>LEGO MINDSTORMS Education EV3</string>
+	<key>developer</key>
+	<string>The LEGO Group</string>
+	<key>display_name</key>
+	<string>LEGO MINDSTORMS Education EV3</string>
+	<key>installed_size</key>
+	<integer>1023467</integer>
+	<key>installer_item_hash</key>
+	<string>4563aa0f4c4dc3a45c0a9e2dd24231ce9b9294861b510ec73fc7136cdba5ba74</string>
+	<key>installer_item_location</key>
+	<string>developer/lego/LME-EV3-OSX-ENUS-01-01-full-setup-1.0.1.20151210.01.dmg</string>
+	<key>installer_item_size</key>
+	<integer>689972</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>LEGO MINDSTORMS Education EV3</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>606461</integer>
+			<key>packageid</key>
+			<string>com.ni.pkg.lego.ev3.edu.1.0.core</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>3</integer>
+			<key>packageid</key>
+			<string>com.ni.pkg.lego.ev3.edu.1.0.update</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>124614</integer>
+			<key>packageid</key>
+			<string>com.ni.pkg.lego.ev3.edu.Eng.1.0</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>1202</integer>
+			<key>packageid</key>
+			<string>com.ni.pkg.legodriver</string>
+			<key>version</key>
+			<string>1.2.49153</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>255625</integer>
+			<key>packageid</key>
+			<string>com.ximian.mono-2.10.9</string>
+			<key>version</key>
+			<string>2.10.9</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0.1.20151210.01</string>
+	<key>requires</key>
+	<array>
+		<string>Silverlight</string>
+	</array>
+</dict>
+</plist>

@@ -36,16 +36,22 @@
 		<string>Pixelmator</string>
 		<string>VLC media player</string>
 		<string>HandBrake</string>
+		<string>Comic Life 3</string>
 
 		<string>Alfred 2</string>
 		<string>Caffeine</string>
 		<string>Flux</string>
 		<string>XRG</string>
+
+		<string>Easy Grade Pro</string>
 		
 		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
 		<string>SGS_Printer_Building_Two_Canon_Image_Runner_1740iF</string>
+
 		<string>SGS_Printer_Art_Room_HP_LaserJet_4300</string>
+		<string>SGS_Printer_5th_Grade_HP_LaserJet_1300n</string>
 		<string>SGS_Printer_6th_Grade_Central_HP_LaserJet_4000</string>
+		<string>SGS_Printer_6th_Grade_North_HP_LaserJet_2300</string>
 		<string>SGS_Printer_7th_Grade_East_HP_LaserJet_1320</string>
 		<string>SGS_Printer_7th_Grade_West_HP_LaserJet_1320</string>
 		<string>SGS_Printer_8th_Grade_Lab_HP_LaserJet_1300n</string>
@@ -64,6 +70,12 @@
 		<string>Set Login Banner</string>
 		<string>HideSGSAdmin</string>
 		<string>SetNTPServers</string>
+	</array>
+	<key>optional_installs</key>
+	<array>
+		<string>Xcode</string>
+		<string>Xcode Command Line Tools OS X 10.10</string>
+		<string>LEGO MINDSTORMS Education EV3</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>serveradmin</string>
+		<key>creation_date</key>
+		<date>2015-12-10T22:39:18Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>category</key>
+	<string>Developer Applications</string>
+	<key>description</key>
+	<string>Xcode Apple Integrated Developer Environment</string>
+	<key>developer</key>
+	<string>Apple, Inc.</string>
+	<key>display_name</key>
+	<string>Xcode Apple Integrated Developer Environment</string>
+	<key>icon_hash</key>
+	<string>7df77958155706418962f2a5232e9e31cbbdee78998535a5eb7ab322ca3cdf7b</string>
+	<key>installer_item_hash</key>
+	<string>6f08ddabfb159143e9857de1668e5fdb04ba92b77297f7a1d50cf467be7222c8</string>
+	<key>installer_item_location</key>
+	<string>developer/apple/Xcode_7.2.dmg</string>
+	<key>installer_item_size</key>
+	<integer>4622771</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.dt.Xcode</string>
+			<key>CFBundleName</key>
+			<string>Xcode</string>
+			<key>CFBundleShortVersionString</key>
+			<string>7.2</string>
+			<key>CFBundleVersion</key>
+			<string>9548</string>
+			<key>minosversion</key>
+			<string>10.10.5</string>
+			<key>path</key>
+			<string>/Applications/Xcode.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Xcode.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.10.5</string>
+	<key>name</key>
+	<string>Xcode</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>7.2</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/bash
+# make sure all users on this machine are members of the _developer group
+/usr/sbin/dseditgroup -o edit -a everyone -t group _developer
+# enable developer mode
+/usr/sbin/DevToolsSecurity -enable
+# accept Xcode license
+/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -license accept
+# install embedded packages
+for PKG in `/bin/ls /Applications/Xcode.app/Contents/Resources/Packages/*.pkg` ; do
+  /usr/sbin/installer -pkg "$PKG" -target /
+done
+	</string>
+</dict>
+</plist>
