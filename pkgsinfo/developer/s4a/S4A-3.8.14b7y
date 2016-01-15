@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>serveradmin</string>
+		<key>creation_date</key>
+		<date>2015-12-18T23:34:33Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>category</key>
+	<string>Developer Applications</string>
+	<key>description</key>
+	<string>Scratch for Arduino</string>
+	<key>developer</key>
+	<string>Citilab</string>
+	<key>display_name</key>
+	<string>Scratch for Arduino</string>
+	<key>icon_hash</key>
+	<string>19f983e2adeb4e07a979316b357e1831d6ba6655a32d61362edf881bc243177d</string>
+	<key>installed_size</key>
+	<integer>48303</integer>
+	<key>installer_item_hash</key>
+	<string>3953339f0e3a460832573652cdd01f2caf96239253c39145a8a1a4bd61387961</string>
+	<key>installer_item_location</key>
+	<string>developer/s4a/S4A-3.8.14b7y.pkg</string>
+	<key>installer_item_size</key>
+	<integer>30317</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>S4A</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>48303</integer>
+			<key>packageid</key>
+			<string>s4a</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.8.14b7y</string>
+</dict>
+</plist>

@@ -45,7 +45,10 @@
 
 		<string>Arduino</string>
 		<string>FTDIUSBSerial</string>
+		<string>CH34X USB Serial Driver</string>
 		<string>Tweak_Arduino_Permissions</string>
+		<string>S4A</string>
+		<string>mBlock</string>
 		<string>Sublime Text 2</string>
 		<string>TextWrangler</string>
 		<string>Node.js</string>

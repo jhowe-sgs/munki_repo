@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>serveradmin</string>
+		<key>creation_date</key>
+		<date>2016-01-13T00:35:40Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>category</key>
+	<string>Browsers</string>
+	<key>description</key>
+	<string>Microsoft® Silverlight™ Browser Plug-In</string>
+	<key>developer</key>
+	<string>Microsoft</string>
+	<key>display_name</key>
+	<string>Microsoft Silverlight Internet Browser Plugin</string>
+	<key>installed_size</key>
+	<integer>35673</integer>
+	<key>installer_item_hash</key>
+	<string>e7fd86ebcc5f48f8b2dcc2fc17028aef1f8208c3fe798245ba879a5c99fe4ad9</string>
+	<key>installer_item_location</key>
+	<string>apps/microsoft/Silverlight-5.1.41212.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>14525</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Silverlight</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>35673</integer>
+			<key>packageid</key>
+			<string>com.microsoft.silverlight.plugin</string>
+			<key>version</key>
+			<string>5.1.41212.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>5.1.41212.0</string>
+	<key>RestartAction</key>
+	<string>RequireLogout</string>
+</dict>
+</plist>

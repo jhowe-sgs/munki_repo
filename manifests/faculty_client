@@ -46,11 +46,16 @@
 
 		<string>Arduino</string>
 		<string>FTDIUSBSerial</string>
+		<string>CH34X USB Serial Driver</string>
 		<string>Tweak_Arduino_Permissions</string>
+		<string>S4A</string>
+		<string>mBlock</string>
 		<string>Sublime Text 2</string>
 		<string>TextWrangler</string>
 		<string>Node.js</string>
 		<string>GitHub Desktop</string>
+		<string>SanDisk Formatter</string>
+		<string>LEGO MINDSTORMS Education EV3</string>
 		
 		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
 		<string>SGS_Printer_Building_Two_Canon_Image_Runner_1740iF</string>
@@ -84,7 +89,6 @@
 	<array>
 		<string>Xcode</string>
 		<string>Xcode Command Line Tools OS X 10.10</string>
-		<string>LEGO MINDSTORMS Education EV3</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
