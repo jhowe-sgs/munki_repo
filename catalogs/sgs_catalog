@@ -3152,6 +3152,57 @@
 		<string>1.6.7</string>
 	</dict>
 	<dict>
+		<key>RestartAction</key>
+		<string>RequireRestart</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Developer</string>
+		<key>description</key>
+		<string>CH34X Signed USB Serial Driver</string>
+		<key>developer</key>
+		<string>Jiangsu Qinheng Co., Ltd.</string>
+		<key>display_name</key>
+		<string>CH34X Signed USB Serial Driver</string>
+		<key>installed_size</key>
+		<integer>80</integer>
+		<key>installer_item_hash</key>
+		<string>483ae80a216dd2af7940324a2e49d3bde60a83aa8619c435077b9bec9e3506d3</string>
+		<key>installer_item_location</key>
+		<string>apps/arduino/CH34x_Install-1.0.pkg</string>
+		<key>installer_item_size</key>
+		<integer>24</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>CH34X Signed USB Serial Driver</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>80</integer>
+				<key>packageid</key>
+				<string>com.wch.usbserial.pkg</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>Arduino</string>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
