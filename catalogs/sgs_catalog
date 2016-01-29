@@ -54,6 +54,57 @@
 		<string>19.0.0.245</string>
 	</dict>
 	<dict>
+		<key>RestartAction</key>
+		<string>RequireLogout</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Browsers</string>
+		<key>description</key>
+		<string>Adobe Flash Player</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>force_install_after_date</key>
+		<date>2016-01-29T13:00:00Z</date>
+		<key>icon_hash</key>
+		<string>8f353356435e69588803b436216dd6b29f819a1956b7019833e3a5e08877ed94</string>
+		<key>installed_size</key>
+		<integer>17383</integer>
+		<key>installer_item_hash</key>
+		<string>b0cad2be46f3b9c686e4ad6fbbf7b2b31dd678e38b552357153bf21ca451457a</string>
+		<key>installer_item_location</key>
+		<string>apps/adobe/Install Adobe Flash Player-20.0.0.286.pkg</string>
+		<key>installer_item_size</key>
+		<integer>16036</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Adobe Flash Player</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>17383</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>20.0.0.286</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>20.0.0.286</string>
+	</dict>
+	<dict>
 		<key>AdobeSetupType</key>
 		<string>ProductInstall</string>
 		<key>adobe_install_info</key>
@@ -1797,6 +1848,72 @@
 		<true/>
 		<key>version</key>
 		<string>10.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Video Apps</string>
+		<key>description</key>
+		<string>iMovie</string>
+		<key>developer</key>
+		<string>Apple</string>
+		<key>display_name</key>
+		<string>iMovie</string>
+		<key>icon_hash</key>
+		<string>8c24770a49973ba6e25ee56fccd7fad93fd5a7cab47f3a52bae44e3fb7483ec5</string>
+		<key>installer_item_hash</key>
+		<string>cc1e136c4aeb5982cd0f935302b6a62d1ec8b6c501f9087cb633e1689215888b</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/iMovie-10.1.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>2036919</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iMovieApp</string>
+				<key>CFBundleName</key>
+				<string>iMovie</string>
+				<key>CFBundleShortVersionString</key>
+				<string>10.1.1</string>
+				<key>CFBundleVersion</key>
+				<string>275755</string>
+				<key>minosversion</key>
+				<string>10.10.5</string>
+				<key>path</key>
+				<string>/Applications/iMovie.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>iMovie.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.10.5</string>
+		<key>name</key>
+		<string>iMovie</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.1.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -9690,6 +9807,78 @@ exit 0</string>
 		<true/>
 		<key>version</key>
 		<string>20151207</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>display_name</key>
+		<string>Tweak_Arduino_Permissions_1_6_7</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>path</key>
+				<string>/usr/local/sbin/tweak_arduino_permissions_1_6_7</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Tweak_Arduino_Permissions_1_6_7</string>
+		<key>preinstall_script</key>
+		<string>#!/bin/bash
+if [ ! -d /Users/jenkins/jenkins/workspace/toolchain-avr-mac32/objdir ]; then
+  mkdir -p /Users/jenkins/jenkins/workspace/toolchain-avr-mac32/objdir
+fi
+
+if [ -e /Users/jenkins/jenkins/workspace/toolchain-avr-mac32/objdir/lib ]; then
+  if [ ! -L /Users/jenkins/jenkins/workspace/toolchain-avr-mac32/objdir/lib ]; then
+    rm /Users/jenkins/jenkins/workspace/toolchain-avr-mac32/objdir/lib
+  fi
+fi
+
+if [ -d /Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib ]; then
+  ln -s /Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib /Users/jenkins/jenkins/workspace/toolchain-avr-mac32/objdir/lib
+fi
+
+if [ -e /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avrdude_bin ]; then
+  if [ ! -x /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avrdude_bin ]; then
+    chmod 0755 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avrdude_bin
+  fi
+fi
+
+if [ -d /Applications/Arduino.app/Contents/Java/reference/Edison_help_files ]; then
+  chmod 0755 /Applications/Arduino.app/Contents/Java/reference/Edison_help_files
+fi
+
+if [ -d /Applications/Arduino.app/Contents/Java/reference/Galileo_help_files ]; then
+  chmod 0755 /Applications/Arduino.app/Contents/Java/reference/Galileo_help_files
+fi
+
+touch /usr/local/sbin/tweak_arduino_permissions_1_6_7
+exit 0</string>
+		<key>requires</key>
+		<array>
+			<string>Arduino</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/sh
+exit 0</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>20160128</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
