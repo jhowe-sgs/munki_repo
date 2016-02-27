@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>serveradmin</string>
+		<key>creation_date</key>
+		<date>2016-02-03T22:09:31Z</date>
+		<key>munki_version</key>
+		<string>2.4.0.2561</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>category</key>
+	<string>Printers</string>
+	<key>description</key>
+	<string>SGS_Printer_Business_E2_Konica_C220</string>
+	<key>developer</key>
+	<string>SGS</string>
+	<key>display_name</key>
+	<string>SGS_Printer_Business_E2_Konica_C220</string>
+	<key>installer_item_hash</key>
+	<string>80a700d68739769fcf33893969c7bd047a7111c17e598494c92c7905c1ae2876</string>
+	<key>installer_item_location</key>
+	<string>printers/SGS_Printer_Business_E2_Konica_C220-2016.01.13.13.58.pkg</string>
+	<key>installer_item_size</key>
+	<integer>4</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>SGS_Printer_Business_E2_Konica_C220</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>org.seattlegirlsschool.SGS_Printer_Business_E2_Konica_C220</string>
+			<key>version</key>
+			<string>2016.01.13.13.58</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>requires</key>
+	<array>
+		<string>bizhub C220 PS</string>
+	</array>
+	<key>version</key>
+	<string>2016.01.13.13.58</string>
+</dict>
+</plist>

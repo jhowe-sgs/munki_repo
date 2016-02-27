@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>serveradmin</string>
+		<key>creation_date</key>
+		<date>2016-02-27T00:38:54Z</date>
+		<key>munki_version</key>
+		<string>2.4.0.2561</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>category</key>
+	<string>Browsers</string>
+	<key>description</key>
+	<string>Google Voice and Video</string>
+	<key>developer</key>
+	<string>Google</string>
+	<key>display_name</key>
+	<string>Google Voice and Video</string>
+	<key>installed_size</key>
+	<integer>17649</integer>
+	<key>installer_item_hash</key>
+	<string>7b536fd83aec377d578b311ed9fdf622785857bd23d837735becf2f01cf6bbfd</string>
+	<key>installer_item_location</key>
+	<string>apps/google/GoogleVoiceAndVideoSetup-5.41.3.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>9085</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Google Voice and Video</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>com.google.pkg.Keystone</string>
+			<key>version</key>
+			<string>1.1.0.3659</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>17649</integer>
+			<key>packageid</key>
+			<string>com.google.pkg.GoogleVoiceAndVideo</string>
+			<key>version</key>
+			<string>5.41.3.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>5.41.3.0</string>
+</dict>
+</plist>

@@ -3467,6 +3467,93 @@
 		<string>3.2.1</string>
 	</dict>
 	<dict>
+		<key>RestartAction</key>
+		<string>RequireRestart</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Media Applications</string>
+		<key>description</key>
+		<string>Blackmagic Desktop Video</string>
+		<key>developer</key>
+		<string>Blackmagic Design Pty. Ltd.</string>
+		<key>display_name</key>
+		<string>Blackmagic Desktop Video</string>
+		<key>installed_size</key>
+		<integer>359685</integer>
+		<key>installer_item_hash</key>
+		<string>c795afdf751cac2c4173e37b1f09511e4308f3dd56b41beb3a3689ec5805aa28</string>
+		<key>installer_item_location</key>
+		<string>apps/blackmagicdesign/Install Desktop Video 10.6.pkg</string>
+		<key>installer_item_size</key>
+		<integer>145360</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Blackmagic Desktop Video</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>247043</integer>
+				<key>packageid</key>
+				<string>com.blackmagic-design.DesktopVideo</string>
+				<key>version</key>
+				<string>10.6</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>28378</integer>
+				<key>packageid</key>
+				<string>com.blackmagic-design.DesktopVideoAssets</string>
+				<key>version</key>
+				<string>10.6</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>337</integer>
+				<key>packageid</key>
+				<string>com.blackmagic-design.DesktopVideoUninstaller</string>
+				<key>version</key>
+				<string>10.6</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>41915</integer>
+				<key>packageid</key>
+				<string>com.blackmagic-design.DiskSpeedTest</string>
+				<key>version</key>
+				<string>2.2.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>41740</integer>
+				<key>packageid</key>
+				<string>com.blackmagic-design.MediaExpress</string>
+				<key>version</key>
+				<string>3.5</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>272</integer>
+				<key>packageid</key>
+				<string>com.apple.uncompressed422.Uncompressed422.pkg</string>
+				<key>version</key>
+				<string>1.6.1</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.6</string>
+	</dict>
+	<dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -3612,15 +3699,15 @@
 		<key>display_name</key>
 		<string>Google Chrome</string>
 		<key>force_install_after_date</key>
-		<date>2015-11-13T13:00:00Z</date>
+		<date>2016-02-22T13:00:00Z</date>
 		<key>icon_hash</key>
 		<string>5cbec5cdef65ede7d4a2f6899e3e9343bb7d6c2285f1b1e217e07b635e21f839</string>
 		<key>installer_item_hash</key>
-		<string>6f6e0930eac9eb63db2e7f4fc793b7473fe55792035ef83069cb81ef8d8ceace</string>
+		<string>06373036c933146d3fe3c1ba9761a04e56e5a17d010adf1c509fe66f4e12f704</string>
 		<key>installer_item_location</key>
-		<string>apps/google/googlechrome-46.0.2490.86.dmg</string>
+		<string>apps/google/googlechrome-48.0.2564.109.dmg</string>
 		<key>installer_item_size</key>
-		<integer>63849</integer>
+		<integer>64617</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -3631,9 +3718,9 @@
 				<key>CFBundleName</key>
 				<string>Chrome</string>
 				<key>CFBundleShortVersionString</key>
-				<string>46.0.2490.86</string>
+				<string>48.0.2564.109</string>
 				<key>CFBundleVersion</key>
-				<string>2490.86</string>
+				<string>2564.109</string>
 				<key>minosversion</key>
 				<string>10.6.0</string>
 				<key>path</key>
@@ -3662,7 +3749,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>46.0.2490.86</string>
+		<string>48.0.2564.109</string>
 	</dict>
 	<dict>
 		<key>RestartAction</key>
@@ -3682,15 +3769,15 @@
 		<key>display_name</key>
 		<string>Google Chrome</string>
 		<key>force_install_after_date</key>
-		<date>2016-01-15T13:00:00Z</date>
+		<date>2016-02-22T13:00:00Z</date>
 		<key>icon_hash</key>
 		<string>5cbec5cdef65ede7d4a2f6899e3e9343bb7d6c2285f1b1e217e07b635e21f839</string>
 		<key>installer_item_hash</key>
-		<string>7509611fc1913298b366485f3abe97a6c882951997995809053ce23908c9d3fa</string>
+		<string>b07e005137280486d7b9615da95ef216dde7480593d7d6335389040719aac200</string>
 		<key>installer_item_location</key>
-		<string>apps/google/googlechrome-47.0.2526.106.dmg</string>
+		<string>apps/google/googlechrome-48.0.2564.116.dmg</string>
 		<key>installer_item_size</key>
-		<integer>64308</integer>
+		<integer>64624</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -3701,9 +3788,9 @@
 				<key>CFBundleName</key>
 				<string>Chrome</string>
 				<key>CFBundleShortVersionString</key>
-				<string>47.0.2526.106</string>
+				<string>48.0.2564.116</string>
 				<key>CFBundleVersion</key>
-				<string>2526.106</string>
+				<string>2564.116</string>
 				<key>minosversion</key>
 				<string>10.6.0</string>
 				<key>path</key>
@@ -3732,77 +3819,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>47.0.2526.106</string>
-	</dict>
-	<dict>
-		<key>RestartAction</key>
-		<string>RequireLogout</string>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>sgs_catalog</string>
-		</array>
-		<key>category</key>
-		<string>Browsers</string>
-		<key>description</key>
-		<string>Google Chrome</string>
-		<key>developer</key>
-		<string>Google</string>
-		<key>display_name</key>
-		<string>Google Chrome</string>
-		<key>force_install_after_date</key>
-		<date>2016-01-15T13:00:00Z</date>
-		<key>icon_hash</key>
-		<string>5cbec5cdef65ede7d4a2f6899e3e9343bb7d6c2285f1b1e217e07b635e21f839</string>
-		<key>installer_item_hash</key>
-		<string>0ddb3faaa7188aefb90137f114ed216af2862d10b78fe4425dc4d428445c0888</string>
-		<key>installer_item_location</key>
-		<string>apps/google/googlechrome-47.0.2526.111.dmg</string>
-		<key>installer_item_size</key>
-		<integer>64447</integer>
-		<key>installer_type</key>
-		<string>copy_from_dmg</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.google.Chrome</string>
-				<key>CFBundleName</key>
-				<string>Chrome</string>
-				<key>CFBundleShortVersionString</key>
-				<string>47.0.2526.111</string>
-				<key>CFBundleVersion</key>
-				<string>2526.111</string>
-				<key>minosversion</key>
-				<string>10.6.0</string>
-				<key>path</key>
-				<string>/Applications/Google Chrome.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>items_to_copy</key>
-		<array>
-			<dict>
-				<key>destination_path</key>
-				<string>/Applications</string>
-				<key>source_item</key>
-				<string>Google Chrome.app</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.6.0</string>
-		<key>name</key>
-		<string>Google Chrome</string>
-		<key>uninstall_method</key>
-		<string>remove_copied_items</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>47.0.2526.111</string>
+		<string>48.0.2564.116</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -3927,6 +3944,59 @@
 			<string>sgs_catalog</string>
 		</array>
 		<key>category</key>
+		<string>Browsers</string>
+		<key>description</key>
+		<string>Google Voice and Video</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Google Voice and Video</string>
+		<key>installed_size</key>
+		<integer>17649</integer>
+		<key>installer_item_hash</key>
+		<string>7b536fd83aec377d578b311ed9fdf622785857bd23d837735becf2f01cf6bbfd</string>
+		<key>installer_item_location</key>
+		<string>apps/google/GoogleVoiceAndVideoSetup-5.41.3.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>9085</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Google Voice and Video</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.google.pkg.Keystone</string>
+				<key>version</key>
+				<string>1.1.0.3659</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>17649</integer>
+				<key>packageid</key>
+				<string>com.google.pkg.GoogleVoiceAndVideo</string>
+				<key>version</key>
+				<string>5.41.3.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>5.41.3.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
 		<string>Media Apps</string>
 		<key>description</key>
 		<string>HandBrake</string>
@@ -3934,6 +4004,8 @@
 		<string>The Handbrake Team</string>
 		<key>display_name</key>
 		<string>HandBrake</string>
+		<key>icon_hash</key>
+		<string>4f3222e5f2b5082117269ee56d5491b553ec9d88249357466e35952a97cc32e0</string>
 		<key>installer_item_hash</key>
 		<string>9591cefbfcbe97ad4e039b456f82ea0e76035b5db9c9aa2ebca044fb171d4dd5</string>
 		<key>installer_item_location</key>
@@ -3982,6 +4054,72 @@
 		<true/>
 		<key>version</key>
 		<string>0.10.2 x86_64</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Media Apps</string>
+		<key>description</key>
+		<string>HandBrake</string>
+		<key>developer</key>
+		<string>The Handbrake Team</string>
+		<key>display_name</key>
+		<string>HandBrake</string>
+		<key>icon_hash</key>
+		<string>4f3222e5f2b5082117269ee56d5491b553ec9d88249357466e35952a97cc32e0</string>
+		<key>installer_item_hash</key>
+		<string>a2f1cacfb508e5ebe2489c64fa15204f15578aaf5e7f8a5ae9ab1fdccde51222</string>
+		<key>installer_item_location</key>
+		<string>apps/handbrake/HandBrake-0.10.5-MacOSX.6_GUI_x86_64-0.10.5 x86_64.dmg</string>
+		<key>installer_item_size</key>
+		<integer>10506</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>fr.handbrake.HandBrake</string>
+				<key>CFBundleName</key>
+				<string>HandBrake</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.10.5 x86_64</string>
+				<key>CFBundleVersion</key>
+				<string>2016021100</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/HandBrake.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>HandBrake.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>HandBrake</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.10.5 x86_64</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -6688,6 +6826,72 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 			<string>sgs_catalog</string>
 		</array>
 		<key>category</key>
+		<string>Mail Clients</string>
+		<key>description</key>
+		<string>Thunderbird</string>
+		<key>developer</key>
+		<string>Mozilla</string>
+		<key>display_name</key>
+		<string>Thunderbird</string>
+		<key>icon_hash</key>
+		<string>c60719061cfb37441d2c32a445e726957cf41c16b31674ec4e227045138a1383</string>
+		<key>installer_item_hash</key>
+		<string>ad6f9a2727c97b9435584eb1588715fde075c92f3ede559685d955a1212f9bf1</string>
+		<key>installer_item_location</key>
+		<string>apps/mozilla/Thunderbird 38.6.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>68416</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.thunderbird</string>
+				<key>CFBundleName</key>
+				<string>Thunderbird</string>
+				<key>CFBundleShortVersionString</key>
+				<string>38.6.0</string>
+				<key>CFBundleVersion</key>
+				<string>38.6.0</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Thunderbird.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Thunderbird.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Thunderbird</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>38.6.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
 		<string>Photo Apps</string>
 		<key>description</key>
 		<string>Pixelmator</string>
@@ -6745,6 +6949,72 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<true/>
 		<key>version</key>
 		<string>3.4</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Photo Apps</string>
+		<key>description</key>
+		<string>Pixelmator</string>
+		<key>developer</key>
+		<string>Pixelmator</string>
+		<key>display_name</key>
+		<string>Pixelmator</string>
+		<key>icon_hash</key>
+		<string>c33d6a077c28807518f2e20c034e72f61550cabb46147555fdda43a0673aac9a</string>
+		<key>installer_item_hash</key>
+		<string>c57b19d1630a215dd0b59fead4cae783c3275af9bb0364a4fc2923d6d236e2bd</string>
+		<key>installer_item_location</key>
+		<string>apps/pixelmator/Pixelmator-3.4.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>50831</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.pixelmatorteam.pixelmator</string>
+				<key>CFBundleName</key>
+				<string>Pixelmator</string>
+				<key>CFBundleShortVersionString</key>
+				<string>3.4.2</string>
+				<key>CFBundleVersion</key>
+				<string>51215</string>
+				<key>minosversion</key>
+				<string>10.9.5</string>
+				<key>path</key>
+				<string>/Applications/Pixelmator.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Pixelmator.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.5</string>
+		<key>name</key>
+		<string>Pixelmator</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.4.2</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -6886,6 +7156,77 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 			<string>sgs_catalog</string>
 		</array>
 		<key>category</key>
+		<string>Science Tools</string>
+		<key>description</key>
+		<string>Logger Pro 3</string>
+		<key>developer</key>
+		<string>Vernier Software &amp; Technology</string>
+		<key>display_name</key>
+		<string>Logger Pro 3</string>
+		<key>icon_hash</key>
+		<string>1f3905aa1d81c19ade9c42e27f4500c26a0a4564ff291165d2181c6eb34c3f34</string>
+		<key>installed_size</key>
+		<integer>216982</integer>
+		<key>installer_item_hash</key>
+		<string>34589daf9f213ac555121c3e6019c5ee1ac03ef90bcc574fe21cb0cdeeb1ea51</string>
+		<key>installer_item_location</key>
+		<string>apps/vernier/Install Logger Pro 3-3.10.2.pkg</string>
+		<key>installer_item_size</key>
+		<integer>149578</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Logger Pro 3</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>2555</integer>
+				<key>packageid</key>
+				<string>com.vernier.installer.webroot.pkg</string>
+				<key>version</key>
+				<string>0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>124528</integer>
+				<key>packageid</key>
+				<string>com.vernier.installer.experiments</string>
+				<key>version</key>
+				<string>0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>58443</integer>
+				<key>packageid</key>
+				<string>com.vernier.installer.experiments_movies</string>
+				<key>version</key>
+				<string>0</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>31456</integer>
+				<key>packageid</key>
+				<string>com.vernier.installer.lpapp</string>
+				<key>version</key>
+				<string>0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.10.2</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
 		<string>Media Apps</string>
 		<key>description</key>
 		<string>VLC media player</string>
@@ -6893,6 +7234,8 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<string>VLC</string>
 		<key>display_name</key>
 		<string>VLC media player</string>
+		<key>icon_hash</key>
+		<string>3fcc8c659110e169cb096abd125a495bba9be5fd8ccb865e32dbb9603500c02a</string>
 		<key>installer_item_hash</key>
 		<string>ef881ca19fc7cc6b7c54699c99c064b9a5d553aa4181d1d1e185758d32405740</string>
 		<key>installer_item_location</key>
@@ -6947,6 +7290,78 @@ pkgutil --forget com.microsoft.lync.all.meetingjoinplugin.pkg.14.0.2
 		<true/>
 		<key>version</key>
 		<string>2.2.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Media Apps</string>
+		<key>description</key>
+		<string>VLC media player</string>
+		<key>developer</key>
+		<string>VLC</string>
+		<key>display_name</key>
+		<string>VLC media player</string>
+		<key>icon_hash</key>
+		<string>3fcc8c659110e169cb096abd125a495bba9be5fd8ccb865e32dbb9603500c02a</string>
+		<key>installer_item_hash</key>
+		<string>0a68188a9d193a4d4614d28366a052355289a064571b79d0890e045caba5384a</string>
+		<key>installer_item_location</key>
+		<string>apps/vlc/vlc-2.2.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>35481</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.videolan.vlc</string>
+				<key>CFBundleName</key>
+				<string>VLC media player</string>
+				<key>CFBundleShortVersionString</key>
+				<string>2.2.2</string>
+				<key>CFBundleVersion</key>
+				<string>2.2.2</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/VLC.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>VLC.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>VLC media player</string>
+		<key>requires</key>
+		<array>
+			<string>libdvdcss</string>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.2.2</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -8435,6 +8850,53 @@ done
 		<key>category</key>
 		<string>Printers</string>
 		<key>description</key>
+		<string>SGS_Printer_Business_E2_Konica_C220</string>
+		<key>developer</key>
+		<string>SGS</string>
+		<key>display_name</key>
+		<string>SGS_Printer_Business_E2_Konica_C220</string>
+		<key>installer_item_hash</key>
+		<string>80a700d68739769fcf33893969c7bd047a7111c17e598494c92c7905c1ae2876</string>
+		<key>installer_item_location</key>
+		<string>printers/SGS_Printer_Business_E2_Konica_C220-2016.01.13.13.58.pkg</string>
+		<key>installer_item_size</key>
+		<integer>4</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>SGS_Printer_Business_E2_Konica_C220</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>org.seattlegirlsschool.SGS_Printer_Business_E2_Konica_C220</string>
+				<key>version</key>
+				<string>2016.01.13.13.58</string>
+			</dict>
+		</array>
+		<key>requires</key>
+		<array>
+			<string>bizhub C220 PS</string>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2016.01.13.13.58</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Printers</string>
+		<key>description</key>
 		<string>SGS_Printer_CMR_HP_LaserJet_4000</string>
 		<key>developer</key>
 		<string>SGS</string>
@@ -8928,6 +9390,24 @@ done
 		<string>apple_update_metadata</string>
 		<key>name</key>
 		<string>zzz031-42609</string>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>RestartAction</key>
+		<string>RequireLogout</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>force_install_after_date</key>
+		<date>2016-02-01T13:00:00Z</date>
+		<key>installer_type</key>
+		<string>apple_update_metadata</string>
+		<key>name</key>
+		<string>031-46039</string>
 		<key>version</key>
 		<string>1.0</string>
 	</dict>
