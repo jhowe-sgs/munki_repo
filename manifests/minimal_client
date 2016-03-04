@@ -13,12 +13,25 @@
 	<array>
 		<string>munkireport</string>
 
+		<string>Microsoft Office for Mac 2011</string>
+		<string>Office 2011 Update</string>
+		<string>CS6 Design and Web Premium</string>
+
 		<string>Google Chrome</string>
 		<string>Google Voice and Video</string>
 		<string>Firefox</string>
 		<string>Adobe Flash Player</string>
+		<string>Silverlight</string>
+
+		<string>Keynote</string>
+		<string>Numbers</string>
+		<string>Pages</string>
+		<string>iMovie</string>
+		<string>iPhoto</string>
 
 		<string>Logger Pro 3</string>
+
+		<string>Pixelmator</string>
 		<string>VLC media player</string>
 
 		<string>Blackmagic Desktop Video</string>
@@ -49,6 +62,8 @@
 	<key>managed_uninstalls</key>
 	<array>
 		<string>CH34X USB Serial Driver</string>
+		<string>Quick Time Broadcaster</string>
+		<string>QuickTime Player 7</string>
 	</array>
 </dict>
 </plist>
