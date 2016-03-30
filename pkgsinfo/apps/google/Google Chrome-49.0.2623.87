@@ -7,9 +7,9 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-12-17T21:20:19Z</date>
+		<date>2016-03-16T21:04:59Z</date>
 		<key>munki_version</key>
-		<string>2.2.4.2431</string>
+		<string>2.4.0.2561</string>
 		<key>os_version</key>
 		<string>10.10.5</string>
 	</dict>
@@ -22,36 +22,36 @@
 	<key>category</key>
 	<string>Browsers</string>
 	<key>description</key>
-	<string>Firefox ESR</string>
+	<string>Google Chrome</string>
 	<key>developer</key>
-	<string>Mozilla</string>
+	<string>Google</string>
 	<key>display_name</key>
-	<string>Firefox ESR</string>
+	<string>Google Chrome</string>
 	<key>icon_hash</key>
-	<string>fed17282654a22e36d452b9fa5d0fd08a03594df6e8a3aaf8d34a65768d934e6</string>
+	<string>5cbec5cdef65ede7d4a2f6899e3e9343bb7d6c2285f1b1e217e07b635e21f839</string>
 	<key>installer_item_hash</key>
-	<string>751ad18028b8b74d11430d1f77ebae1fba3a315f27433478d8c9d7cd5f3d5780</string>
+	<string>3d29c758a9f32028e5fe7f6a79454a3549a95624334442a979dad7bb1cd271d3</string>
 	<key>installer_item_location</key>
-	<string>apps/mozilla/Firefox 38.5.0esr-38.5.0.dmg</string>
+	<string>apps/google/googlechrome-49.0.2623.87.dmg</string>
 	<key>installer_item_size</key>
-	<integer>73073</integer>
+	<integer>65452</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>org.mozilla.firefox</string>
+			<string>com.google.Chrome</string>
 			<key>CFBundleName</key>
-			<string>Firefox</string>
+			<string>Chrome</string>
 			<key>CFBundleShortVersionString</key>
-			<string>38.5.0</string>
+			<string>49.0.2623.87</string>
 			<key>CFBundleVersion</key>
-			<string>3815.12.14</string>
+			<string>2623.87</string>
 			<key>minosversion</key>
-			<string>10.6</string>
+			<string>10.6.0</string>
 			<key>path</key>
-			<string>/Applications/Firefox.app</string>
+			<string>/Applications/Google Chrome.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -64,21 +64,21 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Firefox.app</string>
+			<string>Google Chrome.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6</string>
+	<string>10.6.0</string>
 	<key>name</key>
-	<string>Firefox</string>
+	<string>Google Chrome</string>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>38.5.0</string>
+	<string>49.0.2623.87</string>
 	<key>force_install_after_date</key>
-	<date>2016-01-15T13:00:00Z</date>
+	<date>2016-03-18T13:00:00Z</date>
 	<key>RestartAction</key>
 	<string>RequireLogout</string>
 </dict>

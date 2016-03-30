@@ -7,9 +7,9 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-10-13T19:24:37Z</date>
+		<date>2016-03-16T21:18:01Z</date>
 		<key>munki_version</key>
-		<string>2.2.4.2431</string>
+		<string>2.4.0.2561</string>
 		<key>os_version</key>
 		<string>10.10.5</string>
 	</dict>
@@ -30,11 +30,11 @@
 	<key>icon_hash</key>
 	<string>a843c9b59a3e528389fe652aeed1f0c705dd83a1318c2db925f5e7b0b8ba10ea</string>
 	<key>installer_item_hash</key>
-	<string>8f2d8cfb6678283d798e63de1c959a58e96a41752817fb668dc750e5e919fd55</string>
+	<string>9a926bc6f329bfae6dc545da045cde2966abf7839a8dc1285405c3e278ab7eec</string>
 	<key>installer_item_location</key>
 	<string>apps/apple/GarageBand-10.1.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>905569</integer>
+	<integer>914154</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
