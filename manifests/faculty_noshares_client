@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>included_manifests</key>
+	<array>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>munkireport</string>
+
+		<string>Microsoft Office for Mac 2011</string>
+		<string>Office 2011 Update</string>
+		<string>CS6 Design and Web Premium</string>
+
+		<string>Google Chrome</string>
+		<string>Google Voice and Video</string>
+		<string>Firefox</string>
+		<string>Adobe Flash Player</string>
+		<string>Silverlight</string>
+
+		<string>Kindle for Mac</string>
+
+		<string>Aperture</string>
+		<string>Final Cut Pro</string>
+		<string>Motion</string>
+		<string>Keynote</string>
+		<string>Numbers</string>
+		<string>Pages</string>
+		<string>iMovie</string>
+		<string>iPhoto</string>
+		<string>GarageBand</string>
+
+		<string>Pixelmator</string>
+		<string>VLC media player</string>
+		<string>HandBrake</string>
+		<string>Comic Life 3</string>
+
+		<string>Alfred 2</string>
+		<string>Caffeine</string>
+		<string>Flux</string>
+		<string>XRG</string>
+
+		<string>Easy Grade Pro</string>
+		<string>Logger Pro 3</string>
+
+		<string>Arduino</string>
+		<string>FTDIUSBSerial</string>
+		<string>CH34X Signed USB Serial Driver</string>
+		<string>Tweak_Arduino_Permissions_1_6_7</string>
+		<string>S4A</string>
+		<string>mBlock</string>
+		<string>Sublime Text 2</string>
+		<string>TextWrangler</string>
+		<string>Node.js</string>
+		<string>GitHub Desktop</string>
+		<string>SanDisk Formatter</string>
+		<string>LEGO MINDSTORMS Education EV3</string>
+		
+		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
+		<string>SGS_Printer_Building_Two_Canon_Image_Runner_1740iF</string>
+		<string>SGS_Printer_Art_Room_HP_LaserJet_4300</string>
+		<string>SGS_Printer_5th_Grade_HP_LaserJet_1300n</string>
+		<string>SGS_Printer_6th_Grade_Central_HP_LaserJet_4000</string>
+		<string>SGS_Printer_6th_Grade_North_HP_LaserJet_2300</string>
+		<string>SGS_Printer_7th_Grade_East_HP_LaserJet_1320</string>
+		<string>SGS_Printer_7th_Grade_West_HP_LaserJet_1320</string>
+		<string>SGS_Printer_8th_Grade_Lab_HP_LaserJet_1300n</string>
+		<string>SGS_Printer_8th_Grade_Library_HP_LasetJet_P2015dn</string>
+		<string>SGS_Printer_CMR_HP_LaserJet_4000</string>
+		<string>SGS_Printer_Singh_House_First_Floor_HP_LaserJet_1300n</string>
+		
+
+		<string>SGS_Finder_Settings</string>
+		<string>SGS_Restrictions</string>
+		<string>SGS_Security</string>
+		<string>SGS_Software_Update_Server</string>
+		<string>SGS_Wireless</string>
+
+		<string>Disable System iCloud</string>
+		<string>Set Login Banner</string>
+		<string>HideSGSAdmin</string>
+		<string>SetNTPServers</string>
+	</array>
+	<key>optional_installs</key>
+	<array>
+		<string>Xcode</string>
+		<string>Xcode Command Line Tools OS X 10.10</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array>
+		<string>CH34X USB Serial Driver</string>
+		<string>SGS Faculty Share</string>
+		<string>SGS Public Share</string>
+	</array>
+</dict>
+</plist>
