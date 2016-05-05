@@ -7924,6 +7924,53 @@ done
 		<string>1.0.1.20151210.01</string>
 	</dict>
 	<dict>
+		<key>RestartAction</key>
+		<string>RequireLogout</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Development</string>
+		<key>description</key>
+		<string>MIT App Inventor 2 Emulator</string>
+		<key>developer</key>
+		<string>MIT</string>
+		<key>display_name</key>
+		<string>MIT App Inventor 2 Emulator</string>
+		<key>installed_size</key>
+		<integer>173498</integer>
+		<key>installer_item_hash</key>
+		<string>62336df8d267105899f48e6c1cb3e9df1ad2eeb367b93770400f225bb37d6337</string>
+		<key>installer_item_location</key>
+		<string>developer/mit/MIT App Inventor 2 Emulator-2.3.pkg</string>
+		<key>installer_item_size</key>
+		<integer>90221</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>MIT App Inventor 2 Emulator</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>173498</integer>
+				<key>packageid</key>
+				<string>mitappinventor2emulator</string>
+				<key>version</key>
+				<string>2.3</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.3</string>
+	</dict>
+	<dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -10286,7 +10333,7 @@ rm /usr/local/sbin/login-banner</string>
 		<array>
 			<dict>
 				<key>path</key>
-				<string>/usr/local/munki/munkireport-2.4.3</string>
+				<string>/usr/local/munki/munkireport-2.8.5</string>
 				<key>type</key>
 				<string>file</string>
 			</dict>
@@ -10317,7 +10364,7 @@ exit 0</string>
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>2.4.3.1083</string>
+		<string>2.8.5.1826</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

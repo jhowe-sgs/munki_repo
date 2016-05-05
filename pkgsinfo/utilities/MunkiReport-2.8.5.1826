@@ -18,7 +18,7 @@
 	<array>
   	<dict>
 		<key>path</key>
-		<string>/usr/local/munki/munkireport-2.4.3</string>
+		<string>/usr/local/munki/munkireport-2.8.5</string>
 		<key>type</key>
 		<string>file</string>
   	</dict>
@@ -47,6 +47,6 @@ rm -rf /usr/local/munki/preflight \
   /usr/local/bin/filevault_2_status_check.sh
 exit 0</string>
 	<key>version</key>
-	<string>2.4.3.1083</string>
+	<string>2.8.5.1826</string>
 </dict>
 </plist>
