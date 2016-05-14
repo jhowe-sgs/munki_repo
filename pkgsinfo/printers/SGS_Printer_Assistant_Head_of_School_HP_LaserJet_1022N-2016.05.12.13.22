@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>serveradmin</string>
+		<key>creation_date</key>
+		<date>2016-05-12T20:40:20Z</date>
+		<key>munki_version</key>
+		<string>2.4.0.2561</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>category</key>
+	<string>Printers</string>
+	<key>description</key>
+	<string>SGS_Printer_Assistant_Head_of_School_HP_LaserJet_1022N</string>
+	<key>developer</key>
+	<string>SGS</string>
+	<key>display_name</key>
+	<string>SGS_Printer_Assistant_Head_of_School_HP_LaserJet_1022N</string>
+	<key>installer_item_hash</key>
+	<string>0bd98ed457f8c20ee411f8b1cc44fa7e53b80e08d1dd2427be0f36d093f1c39a</string>
+	<key>installer_item_location</key>
+	<string>printers/SGS_Printer_Assistant_Head_of_School_HP_LaserJet_1022N-2016.05.12.13.22.pkg</string>
+	<key>installer_item_size</key>
+	<integer>4</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>SGS_Printer_Assistant_Head_of_School_HP_LaserJet_1022N</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>org.seattlegirlsschool.SGS_Printer_Assistant_Head_of_School_HP_LaserJet_1022N</string>
+			<key>version</key>
+			<string>2016.05.12.13.22</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>requires</key>
+	<array>
+		<string>Apple HP Printer Drivers</string>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>version</key>
+	<string>2016.05.12.13.22</string>
+</dict>
+</plist>
