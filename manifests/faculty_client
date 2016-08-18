@@ -17,6 +17,7 @@
 		<string>Office 2011 Update</string>
 
 		<string>Adobe CC Image Tools</string>
+		<string>Update Dock for Adobe CC Image Tools</string>
 
 		<string>Google Chrome</string>
 		<string>Google Voice and Video</string>
@@ -44,6 +45,8 @@
 		<string>Caffeine</string>
 		<string>Flux</string>
 		<string>XRG</string>
+		<string>munkitools</string>
+		<string>dockutil</string>
 
 		<string>Easy Grade Pro</string>
 		<string>Logger Pro 3</string>

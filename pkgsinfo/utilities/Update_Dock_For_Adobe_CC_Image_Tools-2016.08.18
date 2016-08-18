@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+  	<string>sgs_catalog</string>
+	</array>
+	<key>name</key>
+	<string>Update Dock for Adobe CC Image Tools</string>
+	<key>display_name</key>
+	<string>Update Dock for Adobe CC Image Tools</string>
+	<key>installer_type</key>
+	<string>nopkg</string>
+	<key>installs</key>
+	<array>
+  	<dict>
+		<key>path</key>
+		<string>/usr/local/sbin/adobe-cc-imaging-dockutil</string>
+		<key>type</key>
+		<string>file</string>
+  	</dict>
+	</array>
+	<key>preinstall_script</key>
+	<string>#!/bin/bash 
+if [ -x /usr/local/bin/dockutil ]; then
+	/usr/local/bin/dockutil --add "/Applications/Adobe Illustrator CC 2015.3/Adobe Illustrator.app" --replacing "Adobe Illustrator" --allhomes
+	/usr/local/bin/dockutil --add "/Applications/Adobe InDesign CC 2015/Adobe InDesign CC 2015.app" --replacing "Adobe InDesign CS6" --allhomes
+	/usr/local/bin/dockutil --add "/Applications/Adobe Photoshop CC 2015.5/Adobe Photoshop CC 2015.5.app" --replacing "Adobe Photoshop CS6" --allhomes
+	/usr/local/bin/dockutil --add "/Applications/Adobe Lightroom/Adobe Lightroom.app" --after "Adobe Photoshop CC 2015.5" --allhomes
+fi
+if [ ! -d /usr/local/sbin ]; then
+  mkdir -p /usr/local/sbin
+fi
+touch /usr/local/sbin/adobe-cc-imaging-dockutil</string>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>unattended_install</key>
+	<false/> 
+	<key>RestartAction</key>
+	<string>RequireLogout</string>
+	<key>version</key>
+	<string>2016.08.18</string>
+	<key>requires</key>
+	<array>
+		<string>dockutil</string>
+		<string>Adobe CC Image Tools</string>
+	</array>
+</dict>
+</plist>

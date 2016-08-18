@@ -14651,6 +14651,100 @@ exit 0</string>
 		<string>2.8.5.1826</string>
 	</dict>
 	<dict>
+		<key>RestartAction</key>
+		<string>RequireRestart</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>category</key>
+		<string>Utilities</string>
+		<key>description</key>
+		<string>munkitools</string>
+		<key>developer</key>
+		<string>Munki</string>
+		<key>display_name</key>
+		<string>munkitools</string>
+		<key>installed_size</key>
+		<integer>5279</integer>
+		<key>installer_choices_xml</key>
+		<array>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>core</string>
+			</dict>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>0</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>admin</string>
+			</dict>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>1</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>app</string>
+			</dict>
+			<dict>
+				<key>attributeSetting</key>
+				<integer>0</integer>
+				<key>choiceAttribute</key>
+				<string>selected</string>
+				<key>choiceIdentifier</key>
+				<string>launchd</string>
+			</dict>
+		</array>
+		<key>installer_item_hash</key>
+		<string>f21e1c85bda04d703a1fcdc05c46a79bb32112c00ac43cfa2f50d782a85fb608</string>
+		<key>installer_item_location</key>
+		<string>utilities/munkitools-2.8.0.2810.pkg</string>
+		<key>installer_item_size</key>
+		<integer>3373</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>munkitools</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>664</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.core</string>
+				<key>version</key>
+				<string>2.8.0.2810</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>4449</integer>
+				<key>packageid</key>
+				<string>com.googlecode.munki.app</string>
+				<key>version</key>
+				<string>4.2.2759</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>unattended_uninstall</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.8.0.2810</string>
+	</dict>
+	<dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -14906,6 +15000,54 @@ exit 0</string>
 		<true/>
 		<key>version</key>
 		<string>20160128</string>
+	</dict>
+	<dict>
+		<key>RestartAction</key>
+		<string>RequireLogout</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs_catalog</string>
+		</array>
+		<key>display_name</key>
+		<string>Update Dock for Adobe CC Image Tools</string>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>path</key>
+				<string>/usr/local/sbin/adobe-cc-imaging-dockutil</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Update Dock for Adobe CC Image Tools</string>
+		<key>preinstall_script</key>
+		<string>#!/bin/bash 
+if [ -x /usr/local/bin/dockutil ]; then
+	/usr/local/bin/dockutil --add "/Applications/Adobe Illustrator CC 2015.3/Adobe Illustrator.app" --replacing "Adobe Illustrator" --allhomes
+	/usr/local/bin/dockutil --add "/Applications/Adobe InDesign CC 2015/Adobe InDesign CC 2015.app" --replacing "Adobe InDesign CS6" --allhomes
+	/usr/local/bin/dockutil --add "/Applications/Adobe Photoshop CC 2015.5/Adobe Photoshop CC 2015.5.app" --replacing "Adobe Photoshop CS6" --allhomes
+	/usr/local/bin/dockutil --add "/Applications/Adobe Lightroom/Adobe Lightroom.app" --after "Adobe Photoshop CC 2015.5" --allhomes
+fi
+if [ ! -d /usr/local/sbin ]; then
+  mkdir -p /usr/local/sbin
+fi
+touch /usr/local/sbin/adobe-cc-imaging-dockutil</string>
+		<key>requires</key>
+		<array>
+			<string>dockutil</string>
+			<string>Adobe CC Image Tools</string>
+		</array>
+		<key>unattended_install</key>
+		<false/>
+		<key>version</key>
+		<string>2016.08.18</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
