@@ -7,9 +7,9 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2016-05-04T01:45:45Z</date>
+		<date>2016-08-18T19:55:19Z</date>
 		<key>munki_version</key>
-		<string>2.4.0.2561</string>
+		<string>2.8.0.2810</string>
 		<key>os_version</key>
 		<string>10.10.5</string>
 	</dict>
@@ -20,47 +20,52 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Browsers</string>
+	<string>Utilities</string>
 	<key>description</key>
-	<string>Adobe Flash Player</string>
+	<string>dockutil</string>
 	<key>developer</key>
-	<string>Adobe</string>
+	<string>Kyle Crawford</string>
 	<key>display_name</key>
-	<string>Adobe Flash Player</string>
-	<key>icon_hash</key>
-	<string>8f353356435e69588803b436216dd6b29f819a1956b7019833e3a5e08877ed94</string>
+	<string>dockutil</string>
 	<key>installed_size</key>
-	<integer>18080</integer>
+	<integer>32</integer>
 	<key>installer_item_hash</key>
-	<string>ced5074c0cb4518b11a892a8fb9e8620974df5ac8abe123553154c121bce870d</string>
+	<string>61e65daf54f8acb68c81dae03650c4eda05c0dab029107627620fdd57e4738d3</string>
 	<key>installer_item_location</key>
-	<string>apps/adobe/Install Adobe Flash Player-21.0.0.226.pkg</string>
+	<string>utilities/dockutil-2.0.4.pkg</string>
 	<key>installer_item_size</key>
-	<integer>16730</integer>
+	<integer>12</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>Adobe Flash Player</string>
+	<string>dockutil</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>18080</integer>
+			<integer>32</integer>
 			<key>packageid</key>
-			<string>com.adobe.pkg.FlashPlayer</string>
+			<string>dockutil.cli.tool</string>
 			<key>version</key>
-			<string>21.0.0.226</string>
+			<string>2.0.4</string>
 		</dict>
 	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>unattended_uninstall</key>
+	<true/>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>21.0.0.226</string>
-	<key>force_install_after_date</key>
-	<date>2016-05-11T16:00:00Z</date>
-	<key>RestartAction</key>
-	<string>RequireLogout</string>
+	<string>2.0.4</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/bash
+# Remove legacy manual install
+if [ -f /usr/local/sbin/dockutil ]; then
+	rm -f /usr/local/sbin/dockutil
+fi
+	</string>
 </dict>
 </plist>

@@ -7,9 +7,9 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2016-02-04T02:33:46Z</date>
+		<date>2016-08-14T19:51:00Z</date>
 		<key>munki_version</key>
-		<string>2.4.0.2561</string>
+		<string>2.7.1.2764</string>
 		<key>os_version</key>
 		<string>10.10.5</string>
 	</dict>
@@ -20,38 +20,38 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Photo Apps</string>
+	<string>Mail Clients</string>
 	<key>description</key>
-	<string>Pixelmator</string>
+	<string>Thunderbird</string>
 	<key>developer</key>
-	<string>Pixelmator</string>
+	<string>Mozilla</string>
 	<key>display_name</key>
-	<string>Pixelmator</string>
+	<string>Thunderbird</string>
 	<key>icon_hash</key>
-	<string>c33d6a077c28807518f2e20c034e72f61550cabb46147555fdda43a0673aac9a</string>
+	<string>c60719061cfb37441d2c32a445e726957cf41c16b31674ec4e227045138a1383</string>
 	<key>installer_item_hash</key>
-	<string>c57b19d1630a215dd0b59fead4cae783c3275af9bb0364a4fc2923d6d236e2bd</string>
+	<string>0bb59e1756ef067c1792222d913cf17f2bf2042af6789c4a5d79915bf67577cb</string>
 	<key>installer_item_location</key>
-	<string>apps/pixelmator/Pixelmator-3.4.2.dmg</string>
+	<string>apps/mozilla/Thunderbird-45.2.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>50831</integer>
+	<integer>75669</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.pixelmatorteam.pixelmator</string>
+			<string>org.mozilla.thunderbird</string>
 			<key>CFBundleName</key>
-			<string>Pixelmator</string>
+			<string>Thunderbird</string>
 			<key>CFBundleShortVersionString</key>
-			<string>3.4.2</string>
+			<string>45.2.0</string>
 			<key>CFBundleVersion</key>
-			<string>51215</string>
+			<string>45.2.0</string>
 			<key>minosversion</key>
-			<string>10.9.5</string>
+			<string>10.6.0</string>
 			<key>path</key>
-			<string>/Applications/Pixelmator.app</string>
+			<string>/Applications/Thunderbird.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -64,18 +64,22 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Pixelmator.app</string>
+			<string>Thunderbird.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.9.5</string>
+	<string>10.6.0</string>
 	<key>name</key>
-	<string>Pixelmator</string>
+	<string>Thunderbird</string>
+	<key>unattended_install</key>
+	<false/>
+	<key>unattended_uninstall</key>
+	<false/>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>3.4.2</string>
+	<string>45.2.0</string>
 </dict>
 </plist>

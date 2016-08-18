@@ -1492,6 +1492,8 @@
 	<string>AdobeCS5AAMEEPackage</string>
 	<key>uninstallable</key>
 	<true/>
+	<key>unattended_uninstall</key>
+	<true/>
 	<key>version</key>
 	<string>6.0.0.2015.08.16.21.45</string>
 </dict>

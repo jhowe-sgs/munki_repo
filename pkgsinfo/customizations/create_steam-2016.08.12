@@ -7,9 +7,9 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2016-03-16T21:06:31Z</date>
+		<date>2016-08-15T00:23:01Z</date>
 		<key>munki_version</key>
-		<string>2.4.0.2561</string>
+		<string>2.8.0.2810</string>
 		<key>os_version</key>
 		<string>10.10.5</string>
 	</dict>
@@ -20,47 +20,45 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Browsers</string>
+	<string>SGS Customizations</string>
 	<key>description</key>
-	<string>Adobe Flash Player</string>
+	<string>create_steam</string>
 	<key>developer</key>
-	<string>Adobe</string>
+	<string>SGS</string>
 	<key>display_name</key>
-	<string>Adobe Flash Player</string>
-	<key>icon_hash</key>
-	<string>8f353356435e69588803b436216dd6b29f819a1956b7019833e3a5e08877ed94</string>
+	<string>create_steam</string>
 	<key>installed_size</key>
-	<integer>18075</integer>
+	<integer>100</integer>
 	<key>installer_item_hash</key>
-	<string>b22ddbfc357a43adc9f660cdad2e9b0d0300fb248262b2456d619c301c1ea984</string>
+	<string>eabed7d40a96180fe0830c1ee5992c2eed97ba5cb4beb557a91829fa00d7dc68</string>
 	<key>installer_item_location</key>
-	<string>apps/adobe/Install Adobe Flash Player-21.0.0.182.pkg</string>
+	<string>customizations/create_steam-2016.08.12.pkg</string>
 	<key>installer_item_size</key>
-	<integer>16724</integer>
+	<integer>72</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>Adobe Flash Player</string>
+	<string>create_steam</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>18075</integer>
+			<integer>100</integer>
 			<key>packageid</key>
-			<string>com.adobe.pkg.FlashPlayer</string>
+			<string>org.seattlegirlsschool.create_sgssteamcamp.pkg</string>
 			<key>version</key>
-			<string>21.0.0.182</string>
+			<string>2016.08.12</string>
 		</dict>
 	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>unattended_uninstall</key>
+	<false/>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>21.0.0.182</string>
-	<key>force_install_after_date</key>
-	<date>2016-03-18T13:00:00Z</date>
-	<key>RestartAction</key>
-	<string>RequireLogout</string>
+	<string>2016.08.12</string>
 </dict>
 </plist>

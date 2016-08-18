@@ -7,9 +7,9 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2015-11-12T21:10:33Z</date>
+		<date>2016-07-26T18:40:31Z</date>
 		<key>munki_version</key>
-		<string>2.2.4.2431</string>
+		<string>2.7.1.2764</string>
 		<key>os_version</key>
 		<string>10.10.5</string>
 	</dict>
@@ -20,38 +20,38 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Office Apps</string>
+	<string>Browsers</string>
 	<key>description</key>
-	<string>Keynote</string>
+	<string>Google Chrome</string>
 	<key>developer</key>
-	<string>Apple</string>
+	<string>Google</string>
 	<key>display_name</key>
-	<string>Keynote</string>
+	<string>Google Chrome</string>
 	<key>icon_hash</key>
-	<string>89518e9af7836434517083101c327c9d2477fc8df6887e49272fd8ed770b7cf9</string>
+	<string>5cbec5cdef65ede7d4a2f6899e3e9343bb7d6c2285f1b1e217e07b635e21f839</string>
 	<key>installer_item_hash</key>
-	<string>2d6ce1a5a97a449f68851750bab12ca3fec6a7dbd0f5b6820b695410bff7ea87</string>
+	<string>34924bb3ab9a9816bb8526995aef790bc2c42dd64e2a68309497ed148ebca2ac</string>
 	<key>installer_item_location</key>
-	<string>apps/apple/Keynote-6.6.1.dmg</string>
+	<string>apps/google/GoogleChrome-52.0.2743.82.dmg</string>
 	<key>installer_item_size</key>
-	<integer>484323</integer>
+	<integer>67795</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.iWork.Keynote</string>
+			<string>com.google.Chrome</string>
 			<key>CFBundleName</key>
-			<string>Keynote</string>
+			<string>Chrome</string>
 			<key>CFBundleShortVersionString</key>
-			<string>6.6.1</string>
+			<string>52.0.2743.82</string>
 			<key>CFBundleVersion</key>
-			<string>2560</string>
+			<string>2743.82</string>
 			<key>minosversion</key>
-			<string>10.10.4</string>
+			<string>10.9.0</string>
 			<key>path</key>
-			<string>/Applications/Keynote.app</string>
+			<string>/Applications/Google Chrome.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -64,18 +64,26 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Keynote.app</string>
+			<string>Google Chrome.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.10.4</string>
+	<string>10.9.0</string>
 	<key>name</key>
-	<string>Keynote</string>
+	<string>Google Chrome</string>
+	<key>unattended_install</key>
+	<false/>
+	<key>unattended_uninstall</key>
+	<false/>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>6.6.1</string>
+	<string>52.0.2743.82</string>
+	<key>force_install_after_date</key>
+	<date>2016-07-27T16:00:00Z</date>
+	<key>RestartAction</key>
+	<string>RequireLogout</string>
 </dict>
 </plist>

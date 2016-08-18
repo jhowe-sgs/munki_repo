@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdobeSetupType</key>
+	<string>ProductInstall</string>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>serveradmin</string>
+		<key>creation_date</key>
+		<date>2016-08-10T02:27:53Z</date>
+		<key>munki_version</key>
+		<string>2.7.1.2764</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs_catalog</string>
+	</array>
+	<key>category</key>
+	<string>Creative Suite</string>
+	<key>description</key>
+	<string>Adobe CC Image Tools</string>
+	<key>developer</key>
+	<string>Adobe</string>
+	<key>display_name</key>
+	<string>Adobe CC Image Tools</string>
+	<key>installed_size</key>
+	<integer>6063943</integer>
+	<key>installer_item_hash</key>
+	<string>cdf1a0f98e29bac01f5b664e7e4780c0e8a7867cc35316090cfcb8e608dee741</string>
+	<key>installer_item_location</key>
+	<string>apps/adobe/Adobe CC Image Tools_Install-2016.08.09.dmg</string>
+	<key>installer_item_size</key>
+	<integer>6043420</integer>
+	<key>installer_type</key>
+	<string>AdobeCCPInstaller</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Uninstall/{244FD30F-63F1-49B9-9D98-1150FF4FFCB1}.db</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+		<dict>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Uninstall/{135274B3-69EE-4AE8-ACCE-1718A1EBC8CC}.db</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+		<dict>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Uninstall/{76AE579A-05AC-11E5-933C-9CF835776563}.db</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+		<dict>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Uninstall/{8048A5DF-8A70-5BE1-954B-E0FDE1BD0D0D}.db</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.6.8</string>
+	<key>name</key>
+	<string>Adobe CC Image Tools</string>
+	<key>payloads</key>
+	<array>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{58481981-E8E8-4F11-87C2-C56A4DFAE0DF}</string>
+			<key>display_name</key>
+			<string>DPS Desktop Tools CC 2015</string>
+			<key>installed_size</key>
+			<integer>9505</integer>
+			<key>version</key>
+			<string>2016.5</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{C59802CE-A5DE-4011-B331-4243CA47D358}</string>
+			<key>display_name</key>
+			<string>Adobe Extension Manager CC</string>
+			<key>installed_size</key>
+			<integer>47793</integer>
+			<key>version</key>
+			<string>7.3.2</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{484CD16A-26F3-11E6-BF24-47989E214083}</string>
+			<key>display_name</key>
+			<string>Adobe InDesign CC 2015</string>
+			<key>installed_size</key>
+			<integer>1367667</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{8330DA6C-26E7-11E6-ADEF-6F679E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (cs_CZ)</string>
+			<key>installed_size</key>
+			<integer>1151</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{BC91FA7A-26E7-11E6-A27F-7A729E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (da_DK)</string>
+			<key>installed_size</key>
+			<integer>1169</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{F4EBA042-26E7-11E6-B4AC-847D9E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (de_DE)</string>
+			<key>installed_size</key>
+			<integer>1165</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{3049298E-26E8-11E6-AEA2-8E889E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (en_AE)</string>
+			<key>installed_size</key>
+			<integer>811</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{E74B6E80-26E8-11E6-B402-ADA99E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (en_GB)</string>
+			<key>installed_size</key>
+			<integer>2336</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{6B777EC0-26E8-11E6-A98E-92939E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (en_IL)</string>
+			<key>installed_size</key>
+			<integer>811</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{26313C6A-26E9-11E6-B9B6-E0B49E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (en_US)</string>
+			<key>installed_size</key>
+			<integer>811</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{5F879A22-26E9-11E6-BEFC-97D29E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (es_ES)</string>
+			<key>installed_size</key>
+			<integer>1163</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{8B25566A-26E9-11E6-9B1D-FC6F9D214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (es_MX)</string>
+			<key>installed_size</key>
+			<integer>1163</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{BB4B8F76-26E9-11E6-9BC5-2F8E9D214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (fi_FI)</string>
+			<key>installed_size</key>
+			<integer>1169</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{ECD8DBC0-26E9-11E6-A43E-65B59D214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (fr_CA)</string>
+			<key>installed_size</key>
+			<integer>1356</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{1DA46526-26EA-11E6-BD9B-6FC09D214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (fr_FR)</string>
+			<key>installed_size</key>
+			<integer>1356</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{A917DC0C-26E8-11E6-93AE-9C9E9E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (fr_MA)</string>
+			<key>installed_size</key>
+			<integer>1356</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{4ED35C42-26EA-11E6-B604-B4CB9D214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (hu_HU)</string>
+			<key>installed_size</key>
+			<integer>1151</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{811D1B5C-26EA-11E6-A7C1-D4D69D214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (it_IT)</string>
+			<key>installed_size</key>
+			<integer>1163</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{B2D9B43E-26EA-11E6-A17B-0BE29D214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (ja_JP)</string>
+			<key>installed_size</key>
+			<integer>1025</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{F0A5C276-26EA-11E6-AB36-5BED9D214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (ko_KR)</string>
+			<key>installed_size</key>
+			<integer>1179</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{25CF76CC-26EB-11E6-B099-08089E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (nb_NO)</string>
+			<key>installed_size</key>
+			<integer>1168</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{5BBDFC7C-26EB-11E6-904E-7D289E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (nl_NL)</string>
+			<key>installed_size</key>
+			<integer>1336</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{99D5EC40-26EB-11E6-83BA-204C9E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (pl_PL)</string>
+			<key>installed_size</key>
+			<integer>1151</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{E2432826-26EB-11E6-8D9B-5B579E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (pt_BR)</string>
+			<key>installed_size</key>
+			<integer>1148</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{1A826CCE-26EC-11E6-8CAB-87629E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (ru_RU)</string>
+			<key>installed_size</key>
+			<integer>1151</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{54651E0A-26EC-11E6-9456-C26D9E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (sv_SE)</string>
+			<key>installed_size</key>
+			<integer>1126</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{8DF228B6-26EC-11E6-A7F0-EB789E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (tr_TR)</string>
+			<key>installed_size</key>
+			<integer>1151</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{C9755C00-26EC-11E6-8AD5-60849E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (uk_UA)</string>
+			<key>installed_size</key>
+			<integer>1151</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{0690798A-26ED-11E6-848C-06909E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (zh_CN)</string>
+			<key>installed_size</key>
+			<integer>1179</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{41A93958-26ED-11E6-8DE4-929B9E214083}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (zh_TW)</string>
+			<key>installed_size</key>
+			<integer>1179</integer>
+			<key>version</key>
+			<string>11.4.0.090</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{2C8CD39F-7A83-5516-B0CA-71BA5E60E7EF}</string>
+			<key>display_name</key>
+			<string>Adobe Lightroom</string>
+			<key>installed_size</key>
+			<integer>2027609</integer>
+			<key>version</key>
+			<string>6.6.1</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{C4196275-B11A-40A1-8727-3C145C8F7D95}</string>
+			<key>display_name</key>
+			<string>AdobeColorCommonSetCMYK</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>5.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{C8DEBB29-3EB0-4B97-B652-4DE482B111BC}</string>
+			<key>display_name</key>
+			<string>AdobeColorCommonSetRGB</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>5.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{F6DED2DA-1D20-497E-8810-E745B45DCD28}</string>
+			<key>display_name</key>
+			<string>Adobe Color EU Extra Settings CC</string>
+			<key>installed_size</key>
+			<integer>1976</integer>
+			<key>version</key>
+			<string>5.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{9E9EB9FD-FDE8-487A-A41C-7713DA91AC89}</string>
+			<key>display_name</key>
+			<string>Adobe Color EU Recommended Settings CC</string>
+			<key>installed_size</key>
+			<integer>1976</integer>
+			<key>version</key>
+			<string>5.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{A032EB9D-B6EB-45BF-9F15-83B0755DC9AB}</string>
+			<key>display_name</key>
+			<string>Adobe Color JA Extra Settings CC</string>
+			<key>installed_size</key>
+			<integer>2799</integer>
+			<key>version</key>
+			<string>5.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{52D57F95-000A-4922-BB31-C6A936F4FD7D}</string>
+			<key>display_name</key>
+			<string>Adobe Color JA Recommended Settings CC</string>
+			<key>installed_size</key>
+			<integer>2799</integer>
+			<key>version</key>
+			<string>5.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{72405B80-A3DD-4BB2-A8C4-A90BC7BA50FF}</string>
+			<key>display_name</key>
+			<string>Adobe Color NA Extra Settings CC</string>
+			<key>installed_size</key>
+			<integer>2333</integer>
+			<key>version</key>
+			<string>5.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{AB955DCF-69CD-4840-B7FB-F318CDD0AE44}</string>
+			<key>display_name</key>
+			<string>Adobe Color NA Recommended Settings CC</string>
+			<key>installed_size</key>
+			<integer>2333</integer>
+			<key>version</key>
+			<string>5.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{7BA5F15B-50B8-48E6-AA6B-62767DBC07A9}</string>
+			<key>display_name</key>
+			<string>Adobe Publish Desktop Tools CC2015</string>
+			<key>installed_size</key>
+			<integer>175</integer>
+			<key>version</key>
+			<string>3.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{76AE579A-05AC-11E5-933C-9CF835776563}</string>
+			<key>display_name</key>
+			<string>Adobe InDesign CC 2015</string>
+			<key>installed_size</key>
+			<integer>961292</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{761D1C32-05B9-11E5-B485-EAD236776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (cs_CZ)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{4D830990-05B3-11E5-9F46-1E5936776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (da_DK)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{8A0D8D04-05B3-11E5-8607-2A6036776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (de_DE)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{3F10C582-05B8-11E5-BC83-9CBA36776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (en_AE)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{481ECC58-05AB-11E5-B8A8-E5E735776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (en_GB)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{794EB8DA-05B8-11E5-A963-B0C136776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (en_IL)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{97F8479A-05AB-11E5-8C04-17EF35776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (en_US)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{C3FB3994-05B3-11E5-B529-346736776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (es_ES)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{FAEC5C9E-05B3-11E5-9401-3E6E36776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (es_MX)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{32FD06B0-05B4-11E5-A1EE-517536776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (fi_FI)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{6B6CAB5E-05B4-11E5-96C2-577C36776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (fr_CA)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{A31F926E-05B4-11E5-BAA0-668336776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (fr_FR)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{B3E55760-05B8-11E5-998E-BAC836776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (fr_MA)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{B241A764-05B9-11E5-B9BB-F2D936776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (hu_HU)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{DA906F0C-05B4-11E5-B7BA-738A36776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (it_IT)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{B4E5CF68-05AA-11E5-8955-57DF35776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (ja_JP)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{082D48F2-05B2-11E5-B50C-024036776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (ko_KR)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{130011A8-05B5-11E5-990E-829136776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (nb_NO)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{516CA190-05B5-11E5-9392-8D9836776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (nl_NL)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{ED01217C-05B9-11E5-B689-01E136776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (pl_PL)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{8A7DE2E6-05B5-11E5-A049-A29F36776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (pt_BR)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{28121CB2-05BA-11E5-8ADC-09E836776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (ru_RU)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{C3656E12-05B5-11E5-8317-ADA636776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (sv_SE)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{638C3E1C-05BA-11E5-AF9B-0FEF36776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (tr_TR)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{9DF5FE44-05BA-11E5-BB33-317035776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (uk_UA)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{460B2A9A-05B2-11E5-9A5C-354736776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (zh_CN)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{855C2F8C-05B2-11E5-B3FD-694E36776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 AppLang (zh_TW)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{D64C7FE2-05B1-11E5-B8F3-5B3E36776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CBase</string>
+			<key>installed_size</key>
+			<integer>44</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{CF1E8662-05BA-11E5-9CE7-3A7735776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (cs_CZ)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{FDABEDEE-05B5-11E5-907F-B7AD36776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (da_DK)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{2AA0C70C-05B6-11E5-883F-C2AE36776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (de_DE)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{EE0D7C42-05B8-11E5-801C-CACF36776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (en_AE)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{E6B81536-05AB-11E5-A83A-30F635776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (en_GB)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{1C368D20-05B9-11E5-99FE-D3D036776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (en_IL)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{2C3D478E-05AC-11E5-8B57-43F735776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (en_US)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{57E5DA40-05B6-11E5-9315-CDAF36776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (es_ES)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{854FE282-05B6-11E5-8FE9-D7B036776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (es_MX)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{CF82B500-05B6-11E5-8D38-E6B136776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (fi_FI)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{FD529086-05B6-11E5-8DAD-F8B236776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (fr_CA)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{2A986804-05B7-11E5-87AD-04B436776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (fr_FR)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{48EFBC2E-05B9-11E5-A617-DED136776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (fr_MA)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{FF2A1010-05BA-11E5-8350-447835776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (hu_HU)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{5905270E-05B7-11E5-8D8E-49B536776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (it_IT)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{042AC948-05AB-11E5-8D46-D2E635776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (ja_JP)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{C337EAA8-05B2-11E5-98BC-A85536776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (ko_KR)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{870898A2-05B7-11E5-9F8C-53B636776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (nb_NO)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{B507E91A-05B7-11E5-B55E-5EB736776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (nl_NL)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{2DAB483C-05BB-11E5-90B8-587935776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (pl_PL)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{E26A4394-05B7-11E5-A6BE-6AB836776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (pt_BR)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{5A77C408-05BB-11E5-97A9-647A35776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (ru_RU)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{0F182050-05B8-11E5-8A0C-75B936776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (sv_SE)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{86AA36D2-05BB-11E5-AEF3-A47B35776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (tr_TR)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{B44753C2-05BB-11E5-8718-E87C35776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (uk_UA)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{F117C9F2-05B2-11E5-838A-B35636776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (zh_CN)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{1E8BF516-05B3-11E5-8B6F-BE5736776563}</string>
+			<key>display_name</key>
+			<string>Adobe ID CC2015 CLang (zh_TW)</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>11.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{6E6ECFC9-FE3D-4314-B937-7E25A7862899}</string>
+			<key>display_name</key>
+			<string>Adobe Player for Embedding 3.4</string>
+			<key>installed_size</key>
+			<integer>64008</integer>
+			<key>version</key>
+			<string>3.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{244FD30F-63F1-49B9-9D98-1150FF4FFCB1}</string>
+			<key>display_name</key>
+			<string>Adobe Extension Manager CC</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>7.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{6E6ECFC9-FE3D-4314-B937-7E25A7862899}</string>
+			<key>display_name</key>
+			<string>Adobe Player for Embedding 3.4</string>
+			<key>installed_size</key>
+			<integer>64008</integer>
+			<key>version</key>
+			<string>3.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{135274B3-69EE-4AE8-ACCE-1718A1EBC8CC}</string>
+			<key>display_name</key>
+			<string>Adobe ExtendScript Toolkit CC</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>4.0.0</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{8048A5DF-8A70-5BE1-954B-E0FDE1BD0D0D}</string>
+			<key>display_name</key>
+			<string>Adobe Lightroom</string>
+			<key>installed_size</key>
+			<integer>1475551</integer>
+			<key>version</key>
+			<string>6.0</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>unattended_uninstall</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>AdobeCCPUninstaller</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>uninstaller_item_hash</key>
+	<string>1518d16d48084dc48664d797643887e620ff840f52395826cb6d29c01622ab3a</string>
+	<key>uninstaller_item_location</key>
+	<string>apps/adobe/Adobe CC Image Tools_Uninstall-2016.08.09.dmg</string>
+	<key>uninstaller_item_size</key>
+	<integer>1997</integer>
+	<key>version</key>
+	<string>2016.08.09</string>
+</dict>
+</plist>

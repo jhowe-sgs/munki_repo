@@ -7,9 +7,9 @@
 		<key>created_by</key>
 		<string>serveradmin</string>
 		<key>creation_date</key>
-		<date>2016-02-20T02:51:14Z</date>
+		<date>2016-08-14T19:47:34Z</date>
 		<key>munki_version</key>
-		<string>2.4.0.2561</string>
+		<string>2.7.1.2764</string>
 		<key>os_version</key>
 		<string>10.10.5</string>
 	</dict>
@@ -20,38 +20,38 @@
 		<string>sgs_catalog</string>
 	</array>
 	<key>category</key>
-	<string>Mail Clients</string>
+	<string>Browsers</string>
 	<key>description</key>
-	<string>Thunderbird</string>
+	<string>Google Chrome</string>
 	<key>developer</key>
-	<string>Mozilla</string>
+	<string>Google</string>
 	<key>display_name</key>
-	<string>Thunderbird</string>
+	<string>Google Chrome</string>
 	<key>icon_hash</key>
-	<string>c60719061cfb37441d2c32a445e726957cf41c16b31674ec4e227045138a1383</string>
+	<string>5cbec5cdef65ede7d4a2f6899e3e9343bb7d6c2285f1b1e217e07b635e21f839</string>
 	<key>installer_item_hash</key>
-	<string>ad6f9a2727c97b9435584eb1588715fde075c92f3ede559685d955a1212f9bf1</string>
+	<string>9dd5d3b48c5863e44c01f7f06697386294b9c5886ae3dc3aed1b155587020fa4</string>
 	<key>installer_item_location</key>
-	<string>apps/mozilla/Thunderbird 38.6.0.dmg</string>
+	<string>apps/google/GoogleChrome-52.0.2743.116.dmg</string>
 	<key>installer_item_size</key>
-	<integer>68416</integer>
+	<integer>67793</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>org.mozilla.thunderbird</string>
+			<string>com.google.Chrome</string>
 			<key>CFBundleName</key>
-			<string>Thunderbird</string>
+			<string>Chrome</string>
 			<key>CFBundleShortVersionString</key>
-			<string>38.6.0</string>
+			<string>52.0.2743.116</string>
 			<key>CFBundleVersion</key>
-			<string>38.6.0</string>
+			<string>2743.116</string>
 			<key>minosversion</key>
-			<string>10.6.0</string>
+			<string>10.9.0</string>
 			<key>path</key>
-			<string>/Applications/Thunderbird.app</string>
+			<string>/Applications/Google Chrome.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -64,18 +64,26 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Thunderbird.app</string>
+			<string>Google Chrome.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6.0</string>
+	<string>10.9.0</string>
 	<key>name</key>
-	<string>Thunderbird</string>
+	<string>Google Chrome</string>
+	<key>unattended_install</key>
+	<false/>
+	<key>unattended_uninstall</key>
+	<false/>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>38.6.0</string>
+	<string>52.0.2743.116</string>
+	<key>force_install_after_date</key>
+	<date>2016-08-13T16:00:00Z</date>
+	<key>RestartAction</key>
+	<string>RequireLogout</string>
 </dict>
 </plist>

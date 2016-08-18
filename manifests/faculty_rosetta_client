@@ -15,7 +15,8 @@
 
 		<string>Microsoft Office for Mac 2011</string>
 		<string>Office 2011 Update</string>
-		<string>CS6 Design and Web Premium</string>
+
+		<string>Adobe CC Image Tools</string>
 
 		<string>Google Chrome</string>
 		<string>Google Voice and Video</string>
@@ -87,6 +88,7 @@
 	<array>
 		<string>SGS Faculty Share</string>
 		<string>SGS Public Share</string>
+		<string>CS6 Design and Web Premium</string>
 	</array>
 </dict>
 </plist>

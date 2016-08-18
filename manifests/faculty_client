@@ -15,7 +15,8 @@
 
 		<string>Microsoft Office for Mac 2011</string>
 		<string>Office 2011 Update</string>
-		<string>CS6 Design and Web Premium</string>
+
+		<string>Adobe CC Image Tools</string>
 
 		<string>Google Chrome</string>
 		<string>Google Voice and Video</string>
@@ -99,6 +100,7 @@
 	<key>managed_uninstalls</key>
 	<array>
 		<string>CH34X USB Serial Driver</string>
+		<string>CS6 Design and Web Premium</string>
 	</array>
 </dict>
 </plist>

@@ -13,27 +13,39 @@
 	<array>
 		<string>munkireport</string>
 
+		<string>Microsoft Office for Mac 2011</string>
+		<string>Office 2011 Update</string>
+
+		<string>Adobe CC Image Tools</string>
+
 		<string>Google Chrome</string>
+		<string>Google Voice and Video</string>
 		<string>Firefox</string>
 		<string>Adobe Flash Player</string>
 		<string>Silverlight</string>
 
 		<string>Aperture</string>
+
 		<string>Final Cut Pro</string>
+		<string>Motion</string>
+
 		<string>iMovie</string>
 		<string>iPhoto</string>
+
 		<string>Keynote</string>
-		<string>Motion</string>
 		<string>Numbers</string>
 		<string>Pages</string>
+
 		<string>GarageBand</string>
 
 		<string>Pixelmator</string>
 		<string>VLC media player</string>
 		<string>HandBrake</string>
 
+		<string>Alfred 2</string>
 		<string>Caffeine</string>
 		<string>Flux</string>
+		<string>XRG</string>
 
 		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
 		<string>SGS_Printer_Advancement_Office_Xerox_Phaser_6180DN_PS</string>
@@ -50,10 +62,17 @@
 
 		<string>Disable System iCloud</string>
 		<string>Set Login Banner</string>
+		<string>HideSGSAdmin</string>
 		<string>SetNTPServers</string>
+	</array>
+	<key>optional_installs</key>
+	<array>
+		<string>Xcode</string>
+		<string>Xcode Command Line Tools OS X 10.10</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
+		<string>CS6 Design and Web Premium</string>
 	</array>
 </dict>
 </plist>
